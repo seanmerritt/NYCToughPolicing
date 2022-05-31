@@ -13,4 +13,4 @@ To determine the effect of Byrnes tough policing on crime, I decided to use a sy
 ## Results
 I found that the overall trend in arrests was the same for the synthetic NYC and the observed NYC. This suggests that Byrnes tough policing had no effect on the number of arrests made in New York City. Implying that tough policing is not an effective way to reduce crime and may actually do more harm than good.
 
-**Not a Peer-reviewed paper**
+**Not Peer-reviewed research**
