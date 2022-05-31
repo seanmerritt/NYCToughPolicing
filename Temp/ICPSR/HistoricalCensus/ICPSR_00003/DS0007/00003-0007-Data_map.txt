@@ -1,0 +1,1880 @@
+DATA MAP FOR 1850 CENSUS DATA  (COUNTY AND STATE)   [ICPSR 0003, DATASET 0007]  
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS   
+            WILL FIND TAPE LOCATION INFORMATION HERE.                           
+                                                                                
+    #D    = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                     
+                                                                                
+    MD1   = FIRST MISSING DATA CODE.                                            
+                                                                                
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                 
+                                                                                
+    VAR # = VARIABLE NUMBER.                                                    
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1850:  THE SEVENTH CENSUS              
+                          OF THE UNITED STATES:  1850.                          
+                          (WASHINGTON, D.C.:  1853).                            
+          DUBESTER 0033:  SEVENTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1850:  STATISTICAL VIEW OF             
+                          THE UNITED STATES.  (WASHINGTON, D.C.:                
+                          1854).                                                
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                                                                                
+                                                                                
+VAR # 0001 DATA TYPE                 WIDTH =0001                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          DATA TYPE                                                             
+              C.  COUNTY DATA                                                   
+              S.  STATE DATA                                                    
+                                                                                
+                                                                                
+VAR # 0002 YEAR                      WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          YEAR TO WHICH DATA ARE RELEVANT                                       
+              850.  1850                                                        
+                                                                                
+                                                                                
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0004 CNGSL DIST NUMBER         WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CONGRESSIONAL DISTRICT NUMBER                                         
+                                                                                
+                                                                                
+VAR # 0261 IDENTIFICATION NUMBER     WIDTH =0004                                
+                        #D  =          MD1 =   9999        MD2 =                
+                                                                                
+          COUNTY OR STATE IDENTIFICATION NUMBER                                 
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                  
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                   
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                  
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                    
+          UNIT OF ANALYSIS IN THE DATA FILE.                                    
+                                                                                
+                                                                                
+VAR # 0005 COUNTY NAME               WIDTH =0017                                
+                        #D  =          MD1 =               MD 2=                
+                                                                                
+                                                                                
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CATALOG ENTRY NUMBER                                                  
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                
+          1790-1945", PREPARED BY HENRY J. DUBESTER                             
+                                                                                
+                                                                                
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          TABLE NUMBER                                                          
+                                                                                
+                                                                                
+VAR # 0008 850WHITE MALES UNDER 1    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES UNDER ONE YEAR OF AGE                           
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0009 850WHITE F UNDER 1        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES UNDER ONE YEAR OF AGE                         
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0010 850WHITE MALES 1-4        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 1-4 YEARS OF AGE                                
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0011 850WHITE FEMALES 1-4      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 1-4 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0012 850WHITE MALES 5-9        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 5-9 YEARS OF AGE                                
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0013 850WHITE FEMALES 5-9      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 5-9 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0014 850WHITE MALES 10-14      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 10-14 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0015 850WHITE FEMALES 10-14    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 10-14 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0016 850WHITE MALES 15-19      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 15-19 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0017 850WHITE FEMALES 15-19    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 15-19 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0018 850WHITE MALES 20-29      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 20-29 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0019 850WHITE FEMALES 20-29    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 20-29 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0020 850WHITE MALES 30-39      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 30-39 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0021 850WHITE FEMALES 30-39    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 30-39 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0022 850WHITE MALES 40-49      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 40-49 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0023 850WHITE FEMALES 40-49    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 40-49 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0024 850WHITE MALES 50-59      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 50-59 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0025 850WHITE FEMALES 50-59    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 50-59 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0026 850WHITE MALES 60-69      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 60-69 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0027 850WHITE FEMALES 60-69    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 60-69 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0028 850WHITE MALES 70-79      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 70-79 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0029 850WHITE FEMALES 70-79    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 70-79 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0030 850WHITE MALES 80-89      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 80-89 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0031 850WHITE FEMALES 80-89    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 80-89 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0032 850WHITE MALES 90-99      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 90-99 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0033 850WHITE FEMALES 90-99    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 90-99 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0034 850WHITE M 100 & OVER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES 100 YEARS OF AGE AND OVER                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0035 850WHITE F 100 & OVER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES 100 YEARS OF AGE AND OVER                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0036 850WHITE MALES AGE UKWN   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES OF UNKNOWN AGE                                  
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0037 850WHITE F AGE UKWN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES OF UNKNOWN AGE                                
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0038 850F.C MALES UNDER 1      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES UNDER ONE YEAR OF AGE                    
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0039 850F.C FEMALES UNDER 1    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES UNDER ONE YEAR OF AGE                  
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0040 850F.C MALES 1-4          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 1-4 YEARS OF AGE                         
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0041 850F.C FEMALES 1-4        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 1-4 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0042 850F.C MALES 5-9          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 5-9 YEARS OF AGE                         
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0043 850F.C FEMALES 5-9        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 5-9 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0044 850F.C MALES 10-14        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 10-14 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0045 850F.C FEMALES 10-14      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 10-14 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0046 850F.C MALES 15-19        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 15-19 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0047 850F.C FEMALES 15-19      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 15-19 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0048 850F.C MALES 20-29        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 20-29 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0049 850F.C FEMALES 20-29      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 20-29 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0050 850F.C MALES 30-39        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 30-39 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0051 850F.C FEMALES 30-39      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 30-39 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0052 850F.C MALES 40-49        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 40-49 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0053 850F.C FEMALES 40-49      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 40-49 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0054 850F.C MALES 50-59        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 50-59 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0055 850F.C FEMALES 50-59      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 50-59 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0056 850F.C MALES 60-69        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 60-69 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0057 850F.C FEMALES 60-69      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 60-69 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0058 850F.C MALES 70-79        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 70-79 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0059 850F.C FEMALES 70-79      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 70-79 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0060 850F.C MALES 80-89        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 80-89 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0061 850F.C FEMALES 80-89      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 80-89 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0062 850F.C MALES 90-99        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 90-99 YEARS OF AGE                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0063 850F.C FEMALES 90-99      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 90-99 YEARS OF AGE                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0064 850F.C MALES 100 & OVER   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 100 YEARS OF AGE AND OVER                
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0065 850F.C F 100 & OVER       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OFFREE COLORED FEMALES 100 YEARS OF AGE AND OVER               
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0066 850F.C MALES AGE UKWN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES OF UNKNOWN AGE                           
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0067 850F.C F AGE UKWN         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES OF UNKNOWN AGE                         
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0068 850SLAVE MALES UNDER 1    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES UNDER ONE YEAR OF AGE                           
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0069 850SLAVE FEMALES UNDER 1  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES UNDER ONE YEAR OF AGE                         
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0070 850SLAVE MALES 1-4        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 1-4 YEARS OF AGE                                
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0071 850SLAVE FEMALES 1-4      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 1-4 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0072 850SLAVE MALES 5-9        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 5-9 YEARS OF AGE                                
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0073 850SLAVE FEMALES 5-9      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 5-9 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0074 850SLAVE MALES 10-14      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 10-14 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0075 850SLAVE FEMALES 10-14    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 10-14 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0076 850SLAVE MALES 15-19      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 15-19 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0077 850SLAVE FEMALES 15-19    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 15-19 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0078 850SLAVE MALES 20-29      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 20-29 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0079 850SLAVE FEMALES 20-29    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 20-29 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0080 850SLAVE MALES 30-39      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 30-39 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0081 850SLAVE FEMALES 30-39    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 30-39 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0082 850SLAVE MALES 40-49      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 40-49 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0083 850SLAVE FEMALES 40-49    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 40-49 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0084 850SLAVE MALES 50-59      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 50-59 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0085 850SLAVE FEMALES 50-59    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 50-59 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0086 850SLAVE MALES 60-69      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 60-69 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0087 850SLAVE FEMALES 60-69    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 60-69 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0088 850SLAVE MALES 70-79      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 70-79 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0089 850SLAVE FEMALES 70-79    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 70-79 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0090 850SLAVE MALES 80-89      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 80-89 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0091 850SLAVE FEMALES 80-89    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 80-89 YEARS OF AGE                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0092 850SLAVE MALES 90-99      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 90-99 YEARS OF AGE                              
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0093 850SLAVE FEMALES 90-99    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES SLAVES 90-99 YEARS OF AGE                           
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0094 850SLAVE M 100 & OVER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 100 YEARS OF AGE AND OVER                       
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0095 850SLAVE F 100 & OVER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 100 YEARS OF AGE AND OVER                     
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0096 850SLAVE MALES AGE UKWN   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES OF UNKNOWN AGE                                  
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0097 850SLAVE F AGE UKWN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES OF UNKNOWN AGE                                
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0098 850TOTAL WHITE MALES      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF WHITE MALES                                           
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0099 850TOTAL WHITE FEMALES    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF WHITE FEMALES                                         
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0100 850TTL WHITE POPULATION   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL WHITE POPULATION                                                
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0101 850TOTAL F.C.MALES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FREE COLORED MALES                                    
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0102 850TOTAL F.C. FEMALES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FREE COLORED FEMALES                                  
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0103 850TOTAL F.C. POPULATION  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL FREE COLORED POPULATION                                         
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0104 850TOTAL SLAVE MALES      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF MALE SLAVES                                           
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0105 850TOTAL SLAVE FEMALES    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FEMALE SLAVES                                         
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0106 850TTL SLAVE POPULATION   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF SLAVES                                                
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0107 850TOTAL POPULATION       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL AGGREGATE POPULATION                                            
+          (1850) SOURCE: DUB. 30, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0108 850WHITE & F.C. BIRTHS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE AND FREE COLORED BIRTHS DURING THE YEAR               
+              ENDING JUNE 1, 1850                                               
+          SOURCE: DUB. 30, TABLE 4                                              
+                                                                                
+                                                                                
+VAR # 0109 850SLAVE BIRTHS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SLAVE BIRTHS DURING THE YEAR ENDING JUNE 1, 1850            
+          SOURCE: DUB. 30, TABLE 4                                              
+                                                                                
+                                                                                
+VAR # 0110 850TOTAL BIRTHS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF BIRTHS DURING THE YEAR ENDING JUNE 1, 1850            
+          SOURCE: DUB. 30, TABLE 4                                              
+                                                                                
+                                                                                
+VAR # 0111 850WHITE MARRIAGES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS MARRIED DURING THE YEAR ENDING                
+              JUNE 1, 1850                                                      
+          SOURCE: DUB. 30, TABLE 4                                              
+                                                                                
+                                                                                
+VAR # 0112 850MARRIAGES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS MARRIED DURING THE YEAR ENDING                      
+              JUNE 1, 1850                                                      
+          SOURCE: DUB. 30, TABLE 4                                              
+                                                                                
+                                                                                
+VAR # 0113 850WHITE & F.C DEATHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE AND FREE COLORED DEATHS DURING THE YEAR               
+              ENDING JUNE 1, 1850                                               
+          SOURCE: DUB. 30, TABLE 4                                              
+                                                                                
+                                                                                
+VAR # 0114 850SLAVE DEATHS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SLAVE DEATHS DURING THE YEAR ENDING JUNE 1, 1850            
+          SOURCE: DUB. 30, TABLE 4                                              
+                                                                                
+                                                                                
+VAR # 0115 850TOTAL DEATHS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF DEATHS DURING THE YEAR ENDING JUNE 1, 1850            
+          SOURCE: DUB. 30, TABLE 4                                              
+                                                                                
+                                                                                
+VAR # 0116 850WHT & F.C DWELLINGS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF DWELLINGS OF WHITE AND FREE COLORED PERSONS                 
+          (1850) SOURCE: DUB. 30, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0117 850WHT & F.C FAMILIES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE AND FREE COLORED FAMILIES                             
+          (1850) SOURCE: DUB. 30, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0118 850COLLEGES               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF COLLEGES                                                    
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0119 850TEACHERS IN COLLEGES   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF TEACHERS IN COLLEGES                                        
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0120 850STUDENTS IN COLLEGES   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PUPILS IN COLLEGES                                          
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0121 850ANL CLG INC BY NDWT    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ANNUAL COLLEGE INCOME FROM ENDOWMENT                                  
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0122 850ANL CLG INC BY TXN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ANNUAL COLLEGE INCOME FROM TAXATION                                   
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0123 850ANL CLG INC PUB FND    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ANNUAL COLLEGE INCOME FROM PUBLIC FUNDS                               
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0124 850ANL CLG INC OTR SRCS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ANNUAL COLLEGE INCOME FROM OTHER SOURCES                              
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0125 850TOTAL ANL CLG INC      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL ANNUAL COLLEGE INCOME                                           
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0126 850PUBLIC SCHOOLS         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PUBLIC SCHOOLS                                              
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0127 850P.S TEACHERS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF TEACHERS IN PUBLIC SCHOOLS                                  
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0128 850P.S STUDENTS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PUPILS IN PUBLIC SCHOOLS                                    
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0129 850ANL P.S INC BY NDWT    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ANNUAL PUBLIC SCHOOLS INCOME FROM ENDOWMENT                           
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0130 850ANL P.S INC BY TXN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ANNUAL PUBLIC SCHOOLS INCOME FROM TAXATION                            
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0131 850ANL P.S INC PUB FND    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ANNUAL PUBLIC SCHOOLS INCOME FROM PUBLIC FUNDS                        
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0132 850ANL P.S INC OTR SRCS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ANNUAL PUBLIC SCHOOLS INCOME FROM OTHER SOURCES                       
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0133 850TOTAL ANL P.S INC      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL ANNUAL PUBLIC SCHOOLS INCOME                                    
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0134 850ACADEMIES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACADEMIES AND OTHER SCHOOLS                                 
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0135 850TEACHERS IN ACADEMIES  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF TEACHERS AT ACADEMIES AND OTHER SCHOOLS                     
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0136 850STUDENTS IN ACADEMIES  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PUPILS AT ACADEMIES AND OTHER SCHOOLS                       
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0137 850ANL ACDM INC NDWT      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ACADEMIES AND OTHER SCHOOLS ANNUAL INCOME FROM ENDOWMENT              
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0138 850ANL ACDM INC BY TXN    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ACADEMIES AND OTHER SCHOOLS ANNUAL INCOME FROM TAXATION               
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0139 850ANL ACDM INC PUB FND   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ACADEMIES AND OTHER SCHOOLS ANNUAL INCOME FROM PUBLIC FUNDS           
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0140 850ANL ACDM INC OTR SRCS  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ACADEMIES AND OTHER SCHOOLS ANNUAL INCOME FROM OTHER SOURCES          
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0141 850TOTAL ACDM ANL INC     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ACADEMIES AND OTHER SCHOOLS TOTAL ANNUAL INCOME                       
+          (1850) SOURCE: DUB. 30, TABLE 6                                       
+                                                                                
+                                                                                
+VAR # 0142 850WHT M ATNDG SCHOOL     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES ATTENDING SCHOOL                                
+          (1850) SOURCE: DUB. 30, TABLE 8                                       
+                                                                                
+                                                                                
+VAR # 0143 850WHT F ATNDG SCHOOL     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES ATTENDING SCHOOL                              
+          (1850) SOURCE: DUB. 30, TABLE 8                                       
+                                                                                
+                                                                                
+VAR # 0144 850TTL WHTS ATNDG SCHOOL  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF WHITE PERSONS ATTENDING SCHOOL                        
+          (1850) SOURCE: DUB. 30, TABLE 8                                       
+                                                                                
+                                                                                
+VAR # 0145 850F.C M ATNDG SCHOOL     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES ATTENDING SCHOOL                         
+          (1850) SOURCE: DUB. 30, TABLE 8                                       
+                                                                                
+                                                                                
+VAR # 0146 850F.C F ATNDG SCHOOL     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES ATTENDING SCHOOL                       
+          (1850) SOURCE: DUB. 30, TABLE 8                                       
+                                                                                
+                                                                                
+VAR # 0147 850TTL F.C ATNDG SCHOOL   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FREE COLORED PERSONS ATTENDING SCHOOL                 
+          (1850) SOURCE: DUB. 30, TABLE 8                                       
+                                                                                
+                                                                                
+VAR # 0148 850N.B ATTENDING SCHOOL   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE-BORN PERSONS ATTENDING SCHOOL                        
+          (1850) SOURCE: DUB. 30, TABLE 8                                       
+                                                                                
+                                                                                
+VAR # 0149 850F.B ATTENDING SCHOOL   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN PERSONS ATTENDING SCHOOL                       
+          (1850) SOURCE: DUB. 30, TABLE 8                                       
+                                                                                
+                                                                                
+VAR # 0150 850TOTAL ATNDG SCHOOL     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE NUMBER OF PERSONS ATTENDING SCHOOL                          
+          (1850) SOURCE: DUB. 30, TABLE 8                                       
+                                                                                
+                                                                                
+VAR # 0151 850WHT M ADTS CNT R&W     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALE ADULTS WHO CANNOT READ AND WRITE                 
+          (1850) SOURCE: DUB. 30, TABLE 9                                       
+                                                                                
+                                                                                
+VAR # 0152 850WHT F ADTS CNT R&W     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALE ADULTS WHO CANNOT READ AND WRITE               
+          (1850) SOURCE: DUB. 30, TABLE 9                                       
+                                                                                
+                                                                                
+VAR # 0153 850TTL WHT ADTS CNT R&W   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF WHITE ADULTS WHO CANNOT READ AND WRITE                
+          (1850) SOURCE: DUB. 30, TABLE 9                                       
+                                                                                
+                                                                                
+VAR # 0154 850F.C M ADTS CNT R&W     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALE ADULTS WHO CANNOT READ AND WRITE          
+          (1850) SOURCE: DUB. 30, TABLE 9                                       
+                                                                                
+                                                                                
+VAR # 0155 850F.C F ADTS CNT R&W     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALE ADULTS WHO CANNOT READ                  
+              AND WRITE                                                         
+          (1850) SOURCE: DUB. 30, TABLE 9                                       
+                                                                                
+                                                                                
+VAR # 0156 850TTL F.C ADTS CNT R&W   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FREE COLORED ADULTS WHO CANNOT READ                   
+              AND WRITE                                                         
+          (1850) SOURCE: DUB. 30, TABLE 9                                       
+                                                                                
+                                                                                
+VAR # 0157 850N.B ADTS CNT R&W       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE-BORN ADULTS WHO CANNOT READ AND WRITE                
+          (1850) SOURCE: DUB. 30, TABLE 9                                       
+                                                                                
+                                                                                
+VAR # 0158 850F.B ADTS CNT R&W       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN ADULTS WHO CANNOT READ AND WRITE               
+          (1850) SOURCE: DUB. 30, TABLE 9                                       
+                                                                                
+                                                                                
+VAR # 0159 850TTL ADTS CNT R&W       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE NUMBER OF ADULTS WHO CANNOT READ AND WRITE                  
+          (1850) SOURCE: DUB. 30, TABLE 9                                       
+                                                                                
+                                                                                
+VAR # 0160 850IMPROVED FARMLAND      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED LAND IN FARMS                             
+          (1850) SOURCE: DUB. 30, TABLE 11                                      
+                                                                                
+                                                                                
+VAR # 0161 850UNIMPROVED FARMLAND    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF UNIMPROVED LAND IN FARMS                           
+          (1850) SOURCE: DUB. 30, TABLE 11                                      
+                                                                                
+                                                                                
+VAR # 0162 850CASH VALUE OF FARMS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          CASH VALUE OF FARMS                                                   
+          (1850) SOURCE: DUB. 30, TABLE 11                                      
+                                                                                
+                                                                                
+VAR # 0163 850VALUE FARM MCHNRY      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FARMING IMPLEMENTS AND MACHINERY                             
+          (1850) SOURCE: DUB. 30, TABLE 11                                      
+                                                                                
+                                                                                
+VAR # 0164 850LIVESTOCK VALUE        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LIVESTOCK                                                    
+          (1850) SOURCE: DUB. 30, TABLE 11                                      
+                                                                                
+                                                                                
+VAR # 0165 850VALUE SLGHTRD ANMLS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF ANIMALS SLAUGHTERED                                          
+          (1850) SOURCE: DUB. 30, TABLE 11                                      
+                                                                                
+                                                                                
+VAR # 0166 850VALUE ORCHARD PRDTS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF ORCHARD PRODUCTS                                             
+          (1850) SOURCE: DUB. 30, TABLE 11                                      
+                                                                                
+                                                                                
+VAR # 0167 850VALUE MKT GRDN PRDTS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF PRODUCE OF MARKET GARDENS                                    
+          (1850) SOURCE: DUB. 30, TABLE 11                                      
+                                                                                
+                                                                                
+VAR # 0168 850VALUE HOME MFGS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF HOMEMADE MANUFACTURES                                        
+          (1850) SOURCE: DUB. 30, TABLE 11                                      
+                                                                                
+                                                                                
+VAR # 0169 850PUBLIC LIBRARIES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PUBLIC LIBRARIES                                            
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0170 850VOLS PUB LIBRARIES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF VOLUMES IN PUBLIC LIBRARIES                                 
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0171 850SCHOOL LIBRARIES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SCHOOL LIBRARIES                                            
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0172 850VOLS SCHOOL LIBRARIES  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF VOLUMES IN SCHOOL LIBRARIES                                 
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0173 850SUNDAY SCHL LIBRARIES  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SUNDAY SCHOOL LIBRARIES                                     
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0174 850VOLS SNDY SCHL LBRYS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF VOLUMES IN SUNDAY SCHOOL LIBRARIES                          
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0175 850COLLEGE LIBRARIES      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF COLLEGE LIBRARIES                                           
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0176 850VOLS COLLEGE LBRYS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF VOLUMES IN COLLEGE LIBRARIES                                
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0177 850CHURCH LIBRARIES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF CHURCH LIBRARIES                                            
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0178 850VOLS CHURCH LIBRARIES  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF VOLUMES IN CHURCH LIBRARIES                                 
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0179 850TOTAL LIBRARIES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF LIBRARIES                                             
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0180 850TOTAL VOLS IN LBRYS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF VOLUMES IN LIBRARIES                                  
+          (1850) SOURCE: DUB. 30, TABLE 13                                      
+                                                                                
+                                                                                
+VAR # 0181 850TTL BORN OUT OF STATE  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN OUT OF STATE, BUT IN THE                       
+              UNITED STATES                                                     
+          (1850) SOURCE: DUB. 33, (UNNUM. TABLE, P. 194-337)                    
+                                                                                
+                                                                                
+VAR # 0182 850TOTAL FOREIGN-BORN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN OUT OF THE UNITED STATES                       
+          (1850) SOURCE: DUB. 33, (UNNUM. TABLE, P. 194-337)                    
+                                                                                
+                                                                                
+VAR # 0183 850EDUCATIONAL INCOME     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL EDUCATIONAL INCOME                                              
+          (1850) SOURCE: DUB. 33, (UNNUM. TABLE, P. 194-337)                    
+                                                                                
+                                                                                
+VAR # 0184 850TOTAL WHITES 5-19      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS 5-19 YEARS OF AGE                             
+          (1850) SOURCE: DUB. 33, (UNNUM. TABLE, P. 194-337)                    
+                                                                                
+                                                                                
+VAR # 0185 850TOTAL FARMS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS                                                 
+          (1850) SOURCE: DUB. 33, (UNNUM. TABLE, P. 194-337)                    
+                                                                                
+                                                                                
+VAR # 0186 850MANUFACTURING CAPITAL  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          CAPITAL INVESTED IN  MANUFACTURING ESTABLISHMENTS                     
+          (1850) SOURCE: DUB. 33, (UNNUM. TABLE, P. 194-337)                    
+                                                                                
+                                                                                
+VAR # 0187 850EMPLD MANUFACTURING    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS EMPLOYED IN MANUFACTURING ESTABLISHMENTS            
+          (1850) SOURCE: DUB. 33, (UNNUM. TABLE, P. 194-337)                    
+                                                                                
+                                                                                
+VAR # 0188 850VALUE MFGN PRDTS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF ANNUAL PRODUCT IN MANUFACTURING ESTABLISHMENTS               
+          (1850) SOURCE: DUB. 33, (UNNUM. TABLE, P. 194-337)                    
+                                                                                
+                                                                                
+VAR # 0189 850NO BAPTIST CHURCHES    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF BAPTIST CHURCHES, 1850                                      
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0190 850AGT ACMDS BPT CHS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF BAPTIST CHURCHES, 1850                    
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0191 850TTL VL OF BPT CH PTY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF BAPTIST CHURCH PROPERTY, 1850                          
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0192 850NO CHRN CHURCHES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF CHRISTIAN CHURCHES, 1850                                    
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0193 850AGT ACMDS CHRN CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF CHRISTIAN CHURCHES, 1850                  
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0194 850TTL VL F CHRN CH PTY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF CHRISTIAN CHURCH PROPERTY, 1850                        
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0195 850NO CONG CHS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF CONGREGATIONAL CHURCHES, 1850                               
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0196 850AGT ACMDS CONG CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF CONGREGATIONAL CHURCHES, 1850             
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0197 850TTL VL CONG CH PTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF CONGREGATIONAL CHURCH PROPERTY, 1850                   
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0198 850NO CONGOX CHS          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF CONGREGATIONAL-ORTHODOX CHURCHES, 1850                      
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0199 850AGT ACMDS CONGOX CHS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF CONGREGATIONAL-ORTHODOX                   
+          CHURCHES, 1850                                                        
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0200 850TTL VL CONGOX CH PTY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF CONGREGATIONAL-ORTHODOX CHURCH PROPERTY, 1850          
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0201 850NO DCH REF CHS         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF DUTCH REFORMED CHURCHES, 1850                               
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0202 850AGT ACMDS DCH RF CHE   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF DUTCH REFORMED CHURCHES, 1850             
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0203 850TTL VL DCH RF CH PTY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF DUTCH REFORMED CHURCH PROPERTY, 1850                   
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0204 850NO EPSL CHS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF EPISCOPAL CHURCHES, 1850                                    
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0205 850AGT ACMDS EPSL CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF EPISCOPAL CHURCHES, 1850                  
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0206 850TTL VL EPSL CH PTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF EPISCOPAL CHURCH PROPERTY, 1850                        
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0207 850NO FREE CHS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE CHURCHES, 1850                                         
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0208 850AGT ACMDS FREE CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF FREE CHURCHES, 1850                       
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0209 850TTL VL FREE CH PTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF FREE CHURCH PROPERTY, 1850                             
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0210 850NO FND&QUAKER CHS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FRIENDS OR QUAKER CHURCHES, 1850                            
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0211 850AGT ACMDS FD&QUAK CHS  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF FRIENDS OR QUAKER CHURCHES, 1850          
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0212 850TTL VLFD&QUAKCH PTY    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF FRIENDS OR QUAKER CHURCH PROPERTY, 1850                
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0213 850NO GERREF CHS          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF GERMAN REFORMED CHURCHES, 1850                              
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0214 850AGT ACMDS GERREF CHS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF GERMAN REFORMED CHURCHES, 1850            
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0215 850TTL VL GERREF CH PTY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF GERMAN REFORMED CHURCH PROPERTY, 1850                  
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0216 850NO JEW CHS             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF JEWISH CHURCHES, 1850                                       
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0217 850AGT ACMDS JEW CHS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF JEWISH CHURCHES, 1850                     
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0218 850TTL VL JEW CH PTY      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF JEWISH CHURCH PROPERTY, 1850                           
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0219 850NO LUTH CHS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF LUTHERAN CHURCHES, 1850                                     
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0220 850AGT ACMDS LUTH CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF LUTHERAN CHURCHES, 1850                   
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0221 850TTL VL LUTH CH PTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF LUTHERAN CHURCH PROPERTY, 1850                         
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0222 850NO MEN CHS             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MENNONITE CHURCHES, 1850                                    
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0223 850AGT ACMDS MEN CHS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF MENNONITE CHURCHES, 1850                  
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0224 850TTL VL MEN CH PTY      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF MENNONITE CHURCH PROPERTY, 1850                        
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0225 850NO METH CHS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF METHODIST CHURCHES, 1850                                    
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0226 850AGT ACMDS METH CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF METHODIST CHURCHES, 1850                  
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0227 850TTL VL METH CH PTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF METHODIST CHURCH PROPERTY, 1850                        
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0228 850NO MRV CHS             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MORAVIAN CHURCHES, 1850                                     
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0229 850AGT ACMDS MRV CHS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF MORAVIAN CHURCHES, 1850                   
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0230 850TTL VL MRV CH PTY      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF MORAVIAN CHURCH PROPERTY, 1850                         
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0231 850NO PRES CHS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PRESBYTERIAN CHURCHES, 1850                                 
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0232 850AGT ACMDS PRES CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF PRESBYTERIAN CHURCHES, 1850               
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0233 850TTL VL PRES CH PTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF PRESBYTERIAN CHURCH PROPERTY, 1850                     
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0234 850NO PROS CHS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PROTESTANT CHURCHES, 1850                                   
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0235 850AGT ACMDS PROS CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF PROTESTANT CHURCHES, 1850                 
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0236 850TTL VL PROS CH PTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF PROTESTANT CHURCH PROPERTY, 1850                       
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0237 850NO RMCAC CHS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ROMAN CATHOLIC CHURCHES, 1850                               
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0238 850AGT ACMDS RMCAC CHS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF ROMAN CATHOLIC CHURCHES, 1850             
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0239 850TTL VL RMCAC CH PTY    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF ROMAN CATHOLIC CHURCH PROPERTY, 1850                   
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0240 850NO SBG CHS             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SWEDENBORGIAN CHURCHES, 1850                                
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0241 850AGT ACMDS SBG CHS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF SWEDENBORGIAN CHURCHES,1850               
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0242 850TTL VL SBG CH PTY      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF SWEDENBORGIAN CHURCH PROPERTY, 1850                    
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0243 850NO TUNK CHS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF TUNKER CHURCHES, 1850                                       
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0244 850AGT ACMDS TUNK CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF TUNKER CHURCHES, 1850                     
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0245 850TTL VL TUNK CH PTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF TUNKER CHURCH PROPERTY, 1850                           
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0246 850NO UNION CHS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF UNION CHURCHES, 1850                                        
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0247 850AGT ACMDS UNION CHS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF UNION CHURCHES, 1850                      
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0248 850TTL VL UNION CH PTY    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF UNION CHURCH PROPERTY, 1850                            
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0249 850NO UNT CHS             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF UNITARIAN CHURCHES, 1850                                    
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0250 850AGT ACMDS UNT CHS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF UNITARIAN CHURCHES, 1850                  
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0251 850TTL VL UNT CH PTY      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF UNITARIAN CHURCH PROPERTY, 1850                        
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0252 850NO UNV CHS             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF UNIVERSALIST CHURCHES, 1850                                 
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0253 850AGT ACMDS UNV CHS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF UNIVERSALIST CHURCHES, 1850               
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0254 850TTL VL UNV CH PTY      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF UNIVERSALIST CHURCH PROPERTY, 1850                     
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0255 850NO MINOR SECTS CHS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MINOR SECTS CHURCHES, 1850                                  
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0256 850AGT ACMDS MIN SCTCHS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AGGREGATE ACCOMMODATIONS OF MINOR SECTS CHURCHES, 1850                
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0257 850TTL VL MIN SCTCH PTY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF MINOR SECTS CHURCH PROPERTY, 1850                      
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0258 850TTL NO CHS             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF CHURCHES, 1850                                        
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0259 850TTL AGT ACMDS CHS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL AGGREGATE ACCOMMODATIONS OF CHURCHES, 1850                      
+          SOURCE: DUB. 30, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0260 850TTL VL CH PTY          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF CHURCH PROPERTY, 1850                                  
+          SOURCE: DUB. 30, TABLE 14                                             

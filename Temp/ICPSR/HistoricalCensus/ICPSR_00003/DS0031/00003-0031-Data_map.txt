@@ -1,0 +1,1467 @@
+DATA MAP FOR HISTORICAL, DEMOGRAPHIC...UNITED STATES, 1920 DATASET S01 (STATE)  
+                     [ICPSR 0003, DATASET 0031]                                 
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.                                
+                                                                                
+    LOC   = LOCATION FOR OSIRIS OR LOGICAL RECORD LENGTH DATA.                  
+                                                                                
+    NDEC  = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS OMITTED IF THERE ARE NO DECIMAL DIGITS.)                   
+                                                                                
+    MD    = MISSING DATA CODE.                                                  
+                                                                                
+    VAR   = VARIABLE NUMBER.                                                    
+                                                                                
+    REF   = REFERENCE NUMBER; NORMALLY THE SAME AS VARIABLE NUMBER.             
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                 DUBESTER 0471:  FOURTEENTH DECENNIAL CENSUS OF THE             
+                                 UNITED STATES, 1920:  VOL. IV, POPULATION.     
+                                 "OCCUPATIONS".  (WASHINGTON, D.C.:  1922)      
+                                                                                
+                 DUBESTER 0497-  FOURTEENTH DECENNIAL CENSUS OF THE             
+                          0499:  UNITED STATES, 1920:  VOL. VI, PARTS 1, 2,     
+                                 AND 3, AGRICULTURE.  (WASHINGTON, D.C.:        
+                                 1922).                                         
+                                                                                
+                                                                                
+                 ----                                                           
+                                                                                
+              VAR 0001      DATA TYPE                   NO MISSING DATA CODES   
+              REF 0001         LOC    1 WIDTH  1                                
+                                                                                
+                                                                                
+                 DATA TYPE                                                      
+                 ---------                                                      
+                                                                                
+                     C. COUNTY DATA                                             
+                     S. STATE DATA                                              
+              ...............................................................   
+              VAR 0002      YEAR                        NO MISSING DATA CODES   
+              REF 0002         LOC    2 WIDTH  3                                
+                                                                                
+                                                                                
+                 YEAR TO WHICH DATA ARE RELEVANT                                
+                 -------------------------------                                
+                                                                                
+                     910. 1910                                                  
+              ...............................................................   
+              VAR 0003      ICPR STATE CODE             NO MISSING DATA CODES   
+              REF 0003         LOC    5 WIDTH  2                                
+                                                                                
+              ...............................................................   
+              VAR 0004      CNGSL DIST NUMBER           NO MISSING DATA CODES   
+              REF 0004         LOC    7 WIDTH  2                                
+                                                                                
+                                                                                
+                 CONGRESSIONAL DISTRICT NUMBER                                  
+                 -----------------------------                                  
+              ...............................................................   
+              VAR 0005      COUNTY NAME                 NO MISSING DATA CODES   
+              REF 0005         LOC    9 WIDTH 17                                
+                                                                                
+              ...............................................................   
+              VAR 0006      CTLG ENTRY NMBR             NO MISSING DATA CODES   
+              REF 0006         LOC   26 WIDTH  4                                
+                                                                                
+                                                                                
+                 CATALOG ENTRY NUMBER                                           
+                     "CATALOG OF UNITED STATES CENSUS PUBLICATIONS,             
+                 1790-1945", PREPARED BY HENRY J. DUBESTER                      
+                 --------------------------------------------------             
+              ...............................................................   
+              VAR 0007      TABLE NMBR                  NO MISSING DATA CODES   
+              REF 0007         LOC   30 WIDTH  3                                
+                                                                                
+                                                                                
+                 TABLE NUMBER                                                   
+                 ------------                                                   
+              ...............................................................   
+              VAR 0008      920% OCC AGRIC 1920                MD=-1 OR LE -2   
+              REF 0008         LOC   33 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN AGRICULTURE FORESTRY AND ANIMAL        
+                 HUSBANDRY, 1920                                                
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0009      920% OCC AGRIC 1910                MD=-1 OR LE -2   
+              REF 0009         LOC   42 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE TO ONE DECIMAL PLACE OF PERSONS TEN YEARS OF AGE    
+                 AND OVER ENGAGED IN AGRICULTURE FORESTRY AND ANIMAL            
+                 FORESTRY AND ANIMAL HUSBANDRY, 1910                            
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0010      920% OCC MINERALS 1920             MD=-1 OR LE -2   
+              REF 0010         LOC   51 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN EXTRACTION OF MINERALS, 1920           
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0011      920% OCC MINERALS 1910             MD=-1 OR LE -2   
+              REF 0011         LOC   60 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN EXTRACTION OF MINERALS, 1910           
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0012      920% OCC MFGN 1920                 MD=-1 OR LE -2   
+              REF 0012         LOC   69 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN MANUFACTURING AND MECHANICAL           
+                 INDUSTRIES, 1920                                               
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+               ...............................................................  
+              VAR 0013      920% OCC MFGN 1910                 MD=-1 OR LE -2   
+              REF 0013         LOC   78 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN MANUFACTURING AND MECHANICAL           
+                 INDUSTRIES, 1910                                               
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0014      920% OCC TRNSPRTN 1920             MD=-1 OR LE -2   
+              REF 0014         LOC   87 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN TRANSPORTATION, 1920                   
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0015      920% OCC TRNSPRTN 1910             MD=-1 OR LE -2   
+              REF 0015         LOC   96 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN TRANSPORTATION, 1910                   
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0016      920% OCC TRADE 1920                MD=-1 OR LE -2   
+              REF 0016         LOC  105 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN TRADE, 1920                            
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0017      920% OCC TRADE 1910                MD=-1 OR LE -2   
+              REF 0017         LOC  114 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN TRADE, 1910                            
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0018      920% OCC PUBLIC 1920               MD=-1 OR LE -2   
+              REF 0018         LOC  123 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN PUBLIC SERVICE (NOT ELSEWHERE          
+                 CLASSIFIED), 1920                                              
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0019      920% OCC PUBLIC 1910               MD=-1 OR LE -2   
+              REF 0019         LOC  132 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 OF AGE AND OVER ENGAGED IN PUBLIC SERVICE (NOT ELSEWHERE       
+                 CLASSIFIED), 1910                                              
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0020      920% OCC PRFNL 1920                MD=-1 OR LE -2   
+              REF 0020         LOC  141 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN PROFESSIONAL SERVICE, 1920             
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0021      920% OCC PRFNL 1910                MD=-1 OR LE -2   
+              REF 0021         LOC  150 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN PROFESSIONAL SERVICE, 1910             
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0022      920% OCC PSNL 1920                 MD=-1 OR LE -2   
+              REF 0022         LOC  159 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN DOMESTIC AND PERSONAL SERVICE, 1920    
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0023      920% OCC PSNL 1910                 MD=-1 OR LE -2   
+              REF 0023         LOC  168 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN DOMESTIC AND PERSONAL SERVICE, 1910    
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0024      920% OCC CLERICAL 1920             MD=-1 OR LE -2   
+              REF 0024         LOC  177 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN CLERICAL OCCUPATIONS, 1920             
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0025      920% OCC CLERICAL 1910             MD=-1 OR LE -2   
+              REF 0025         LOC  186 WIDTH  9                                
+                                                    IMP DEC=  4                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS TEN YEARS OF      
+                 AGE AND OVER ENGAGED IN CLERICAL OCCUPATIONS, 1910             
+                 SOURCE: DUB. 0471, TABLE 9                                     
+                 ---------------------------------------------------------      
+              ................................................................  
+              VAR 0026      920TTL ALL OCCS                    MD=-1 OR LE -2   
+              REF 0026         LOC  195 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED      
+                 IN ALL OCCUPATIONS                                             
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0027      920NMBR EMPLD AGRIC                MD=-1 OR LE -2   
+              REF 0027         LOC  204 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 AGRICULTURE, FORESTRY AND ANIMAL HUSBANDRY                     
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0028      920NMBR EMPLD MINERALS             MD=-1 OR LE -2   
+              REF 0028         LOC  213 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 EXTRACTION OF MINERALS                                         
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0029      920NMBR EMPLD MFGN                 MD=-1 OR LE -2   
+              REF 0029         LOC  222 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 MANUFACTURING AND MECHANICAL INDUSTRIES                        
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0030      920NMBR EMPLD TRNSPRTN             MD=-1 OR LE -2   
+              REF 0030         LOC  231 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 TRANSPORTATION                                                 
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0031      920NMBR EMPLD TRADE                MD=-1 OR LE -2   
+              REF 0031         LOC  240 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN TRADE   
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0032      920NMBR EMPLD PUB SRVC             MD=-1 OR LE -2   
+              REF 0032         LOC  249 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 PUBLIC SERVICE (NOT ELSEWHERE CLASSIFIED)                      
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0033      920NMBR EMPLD PRFNL                MD=-1 OR LE -2   
+              REF 0033         LOC  258 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 PROFESSIONAL SERVICE                                           
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0034      920NMBR EMPLD PSNL                 MD=-1 OR LE -2   
+              REF 0034         LOC  267 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 DOMESTIC AND PERSONAL SERVICE                                  
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0035      920NMBR EMPLD CLERICAL             MD=-1 OR LE -2   
+              REF 0035         LOC  276 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 CLERICAL OCCUPATIONS                                           
+                 (1920) SOURCE: DUB. 0471, TABLE 11                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0036      920TTL NMBR FM                     MD=-1 OR LE -2   
+              REF 0036         LOC  285 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS                                          
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------                              
+              ...............................................................   
+              VAR 0037      920NMBR FM WHT                     MD=-1 OR LE -2   
+              REF 0037         LOC  294 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS                               
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------                              
+              ...............................................................   
+              VAR 0038      920NMBR FM CLRD                    MD=-1 OR LE -2   
+              REF 0038         LOC  303 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS                             
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------                             
+              ...............................................................   
+              VAR 0039      920TTL NMBR FM MALE                MD=-1 OR LE -2   
+              REF 0039         LOC  312 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF MALE FARMERS                          
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------                          
+              ...............................................................   
+              VAR 0040      920FM WHT MALE                     MD=-1 OR LE -2   
+              REF 0040         LOC  321 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF WHITE MALE FARMERS                    
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------                    
+              ...............................................................   
+              VAR 0041      920FM CLRD MALE                    MD=-1 OR LE -2   
+              REF 0041         LOC  330 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED MALE FARMERS                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------                        
+              ...............................................................   
+              VAR 0042      920TTL FM FEMALE                   MD=-1 OR LE -2   
+              REF 0042         LOC  339 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF FEMALE FARMERS                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------                        
+              ...............................................................   
+              VAR 0043      920FM WHT FEMALE                   MD=-1 OR LE -2   
+              REF 0043         LOC  348 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FEMALE FARMERS                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------                        
+              ...............................................................   
+              VAR 0044      920FM CLRD FEMALE                  MD=-1 OR LE -2   
+              REF 0044         LOC  357 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FEMALE FARMERS                      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------                      
+              ...............................................................   
+              VAR 0045      920TTL FM NTV WHT                  MD=-1 OR LE -2   
+              REF 0045         LOC  366 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF NATIVE WHITE FARMERS                  
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------                  
+              ...............................................................   
+              VAR 0046      920FM F.B WHT                      MD=-1 OR LE -2   
+              REF 0046         LOC  375 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF FOREIGN-BORN WHITE FARMERS            
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------            
+              ...............................................................   
+              VAR 0047      920FM NG NNWHT                     MD=-1 OR LE -2   
+              REF 0047         LOC  384 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF NEGROES AND OTHER NON-WHITE FARMERS   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0048      920TTL FM UNR 3 ACR                MD=-1 OR LE -2   
+              REF 0048         LOC  393 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF UNDER THREE ACRES                     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0049      920FM WHT UNR 3 ACR                MD=-1 OR LE -2   
+              REF 0049         LOC  402 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF UNDER THREE ACRES          
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0050      920FM CLRD UNR 3 ACR               MD=-1 OR LE -2   
+              REF 0050         LOC  411 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS OF UNDER 3 ACRES            
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------            
+              ...............................................................   
+              VAR 0051      920TTL FM 3-9 ACR                  MD=-1 OR LE -2   
+              REF 0051         LOC  420 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 3-9 ACRES                             
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------                             
+              ...............................................................   
+              VAR 0052      920FM WHT 3-9 ACR                  MD=-1 OR LE -2   
+              REF 0052         LOC  429 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF 3-9 ACRES                  
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------                  
+              ...............................................................   
+              VAR 0053      920FM CLRD 3-9 ACR                 MD=-1 OR LE -2   
+              REF 0053         LOC  438 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS OF 3-9 ACRES                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0054      920TTL FM 10-19 ACR                MD=-1 OR LE -2   
+              REF 0054         LOC  447 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 10-19 ACRES                           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------                           
+              ...............................................................   
+              VAR 0055      920FM WHT 10-19 ACR                MD=-1 OR LE -2   
+              REF 0055         LOC  456 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF 10-19 ACRES                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0056      920FM CLRD 10-19 ACR               MD=-1 OR LE -2   
+              REF 0056         LOC  465 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS OF 10-19 ACRES              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0057      920TTL FM 20-49 ACR                MD=-1 OR LE -2   
+              REF 0057         LOC  474 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 20-49 ACRES                           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------                           
+              ...............................................................   
+              VAR 0058      920FM WHT 20-49 ACR                MD=-1 OR LE -2   
+              REF 0058         LOC  483 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF 20-49 ACRES                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0059      920FM CLRD 20-49 ACR               MD=-1 OR LE -2   
+              REF 0059         LOC  492 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS OF 20-49 ACRES              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0060      920TTL FM 50-99 ACR                MD=-1 OR LE -2   
+              REF 0060         LOC  501 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 50-99 ACRES                           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------                           
+              ...............................................................   
+              VAR 0061      920FM WHT 50-99 ACR                MD=-1 OR LE -2   
+              REF 0061         LOC  510 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF 50-99 ACRES                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0062      920FM CLRD 50-99 ACR               MD=-1 OR LE -2   
+              REF 0062         LOC  519 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS OF 50-99 ACRES              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0063      920TTL FM 100-174 ACR              MD=-1 OR LE -2   
+              REF 0063         LOC  528 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 100-174 ACRES                         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------                         
+              ...............................................................   
+              VAR 0064      920FM WHT 100-174 ACR              MD=-1 OR LE -2   
+              REF 0064         LOC  537 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF 100-174 ACRES              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0065      920FM CLRD 100-174 ACR             MD=-1 OR LE -2   
+              REF 0065         LOC  546 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS OF 100-174 ACRES            
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------            
+              ...............................................................   
+              VAR 0066      920TTL FM 175-259 ACR              MD=-1 OR LE -2   
+              REF 0066         LOC  555 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 175-259 ACRES                         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------                         
+              ...............................................................   
+              VAR 0067      920FM WHT 175-259 ACR              MD=-1 OR LE -2   
+              REF 0067         LOC  564 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF 175-259 ACRES              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0068      920FM CLRD 175-259 ACR             MD=-1 OR LE -2   
+              REF 0068         LOC  573 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS OF 175-259 ACRES            
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------            
+              ...............................................................   
+              VAR 0069      920TTL FM 260-499 ACR              MD=-1 OR LE -2   
+              REF 0069         LOC  582 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 260-499 ACRES                         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------                         
+              ...............................................................   
+              VAR 0070      920FM WHT 260-499 ACR              MD=-1 OR LE -2   
+              REF 0070         LOC  591 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF 260-499 ACRES              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0071      920FM CLRD 260-499 ACR             MD=-1 OR LE -2   
+              REF 0071         LOC  600 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS 260-499 ACRES               
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------               
+              ...............................................................   
+              VAR 0072      920TTL FM 500-999 ACR              MD=-1 OR LE -2   
+              REF 0072         LOC  609 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 500-999 ACRES                         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------                         
+              ...............................................................   
+              VAR 0073      920FM WHT 500-999 ACR              MD=-1 OR LE -2   
+              REF 0073         LOC  618 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF 500-999 ACRES              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0074      920FM CLRD 500-999 ACR             MD=-1 OR LE -2   
+              REF 0074         LOC  627 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS OF 500-999 ACRES            
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------            
+              ...............................................................   
+              VAR 0075      920TTL FM 1000 ACR OVR             MD=-1 OR LE -2   
+              REF 0075         LOC  636 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 1000 ACRES AND OVER                   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------                   
+              ...............................................................   
+              VAR 0076      920FM WHT 1000 ACR OVR             MD=-1 OR LE -2   
+              REF 0076         LOC  645 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS OF 1000 ACRES AND OVER        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------------        
+              ...............................................................   
+              VAR 0077      920FM CLRD 1000 ACR OVR            MD=-1 OR LE -2   
+              REF 0077         LOC  654 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS OF 1000 ACRES AND OVER      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0078      920STATE LD AREA BY ACR            MD=-1 OR LE -2   
+              REF 0078         LOC  663 WIDTH  9                                
+                                                                                
+                                                                                
+                 APPROXIMATE LAND AREA OF STATE IN ACRES                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------                        
+              ...............................................................   
+              VAR 0079      920TTL ACR LD IN FM                MD=-1 OR LE -2   
+              REF 0079         LOC  672 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF LAND IN FARMS                         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------                         
+              ...............................................................   
+              VAR 0080      920ACR LD IN FM WHT                MD=-1 OR LE -2   
+              REF 0080         LOC  681 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OF WHITE FARMERS              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0081      920ACR LD IN FM CLRD               MD=-1 OR LE -2   
+              REF 0081         LOC  690 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OF COLORED FARMERS            
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------            
+              ...............................................................   
+              VAR 0082      920TTL ACR I.L IN FM               MD=-1 OR LE -2   
+              REF 0082         LOC  699 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF IMPROVED LAND IN FARMS                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0083      920ACR I.L FM WHT                  MD=-1 OR LE -2   
+              REF 0083         LOC  708 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OF WHITE FARMERS     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0084      920ACR I.L FM CLRD                 MD=-1 OR LE -2   
+              REF 0084         LOC  717 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OF COLORED FARMERS   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0085      920TTL ACR WOODLAND FM             MD=-1 OR LE -2   
+              REF 0085         LOC  726 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF WOODLAND IN FARMS                     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0086      920ACR WOODLAND FM WHT             MD=-1 OR LE -2   
+              REF 0086         LOC  735 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF WOODLAND IN FARMS OF WHITE FARMERS          
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0087      920ACR WOODLAND FM CLRD            MD=-1 OR LE -2   
+              REF 0087         LOC  744 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF WOODLAND IN FARMS OF COLORED FARMERS        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------------        
+              ...............................................................   
+              VAR 0088      920TTL ACR OTR UI.L FM             MD=-1 OR LE -2   
+              REF 0088         LOC  753 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF OTHER UNIMPROVED LAND IN FARMS        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------------        
+              ...............................................................   
+              VAR 0089      920ACR OTR UI.L FM WHT             MD=-1 OR LE -2   
+              REF 0089         LOC  762 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF OTHER UNIMPROVED LAND IN FARMS OF WHITE     
+                 FARMERS                                                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0090      920ACR OTR UI.L FM CLRD            MD=-1 OR LE -2   
+              REF 0090         LOC  771 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF OTHER UNIMPROVED LAND IN FARMS OF COLORED   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0091      920TTL VAL FM PROPERTY             MD=-1 OR LE -2   
+              REF 0091         LOC  780 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF ALL FARM PROPERTY                                     
+                 (IN THOUSANDS OF DOLLARS)                                      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------                              
+              ...............................................................   
+              VAR 0092      920VAL FM PROPERTY WHT             MD=-1 OR LE -2   
+              REF 0092         LOC  789 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF FARM PROPERTY IN FARMS OF WHITE FARMERS               
+                 (IN THOUSANDS OF DOLLARS)                                      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------               
+              ...............................................................   
+              VAR 0093      920VAL FM PROPERTY CLRD            MD=-1 OR LE -2   
+              REF 0093         LOC  798 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF FARM PROPERTY IN FARMS OF COLORED FARMERS             
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------             
+              ...............................................................   
+              VAR 0094      920TTL VAL LD FM                   MD=-1 OR LE -2   
+              REF 0094         LOC  807 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL VALUE OF LAND IN FARMS                                   
+                 (IN THOUSANDS OF DOLLARS)                                      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------                              
+              ...............................................................   
+              VAR 0095      920VAL LD FM WHT                   MD=-1 OR LE -2   
+              REF 0095         LOC  816 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND IN FARMS OF WHITE FARMERS                        
+                 (IN THOUSANDS OF DOLLARS)                                      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------                        
+              ...............................................................   
+              VAR 0096      920VAL LD FM CLRD                  MD=-1 OR LE -2   
+              REF 0096         LOC  825 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND IN FARMS OF COLORED FARMERS                      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------                      
+              ...............................................................   
+              VAR 0097      920TTL VAL FM BLDG                 MD=-1 OR LE -2   
+              REF 0097         LOC  834 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL VALUE OF FARM BUILDINGS                                  
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------                              
+              ...............................................................   
+              VAR 0098      920VAL FM BLDG WHT                 MD=-1 OR LE -2   
+              REF 0098         LOC  843 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF FARM BUILDINGS ON FARMS OF WHITE FARMERS              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0099      920VAL FM BLDG CLRD                MD=-1 OR LE -2   
+              REF 0099         LOC  852 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF FARM BUILDINGS ON FARMS OF COLORED FARMERS            
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------            
+              ...............................................................   
+              VAR 0100      920TTL VAL FM MCHNRY               MD=-1 OR LE -2   
+              REF 0100         LOC  861 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL VALUE OF FARM IMPLEMENTS AND MACHINERY                   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------                   
+              ...............................................................   
+              VAR 0101      920VAL FM MCHNRY WHT               MD=-1 OR LE -2   
+              REF 0101         LOC  870 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF FARM IMPLEMENTS AND MACHINERY ON FARMS OF WHITE       
+                 FARMERS                                                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0102      920VAL FM MCHNRY CLRD              MD=-1 OR LE -2   
+              REF 0102         LOC  879 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF FARM IMPLEMENTS AND MACHINERY ON FARMS OF COLORED     
+                 FARMERS                                                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0103      920TTL VAL LIVESTOCK               MD=-1 OR LE -2   
+              REF 0103         LOC  888 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL VALUE OF LIVESTOCK ON FARMS                              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------                              
+              ...............................................................   
+              VAR 0104      920VAL LIVESTOCK WHT               MD=-1 OR LE -2   
+              REF 0104         LOC  897 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LIVESTOCK ON FARMS OF WHITE FARMERS                   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------                   
+              ...............................................................   
+              VAR 0105      920VAL LIVESTOCK CLRD              MD=-1 OR LE -2   
+              REF 0105         LOC  906 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LIVESTOCK ON FARMS OF COLORED FARMERS                 
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------                 
+              ...............................................................   
+              VAR 0106      920TTL NMBR FM ONR                 MD=-1 OR LE -2   
+              REF 0106         LOC  915 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY OWNERS                       
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------                       
+              ...............................................................   
+              VAR 0107      920FM WHT ONR                      MD=-1 OR LE -2   
+              REF 0107         LOC  924 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE OWNERS                       
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------                       
+              ...............................................................   
+              VAR 0108      920FM CLRD ONR                     MD=-1 OR LE -2   
+              REF 0108         LOC  933 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED OWNERS                     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0109      920TTL ACR LD FM ONR               MD=-1 OR LE -2   
+              REF 0109         LOC  942 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF LAND IN FARMS OPERATED BY OWNERS      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0110      920ACR LD FM WHT ONR               MD=-1 OR LE -2   
+              REF 0110         LOC  951 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY WHITE OWNERS      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0111      920ACR LD FM CLRD ONR              MD=-1 OR LE -2   
+              REF 0111         LOC  960 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY COLORED OWNERS    
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0112      920TTL ACR I.L FM ONR              MD=-1 OR LE -2   
+              REF 0112         LOC  969 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED       
+                 BY OWNERS                                                      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0113      920ACR I.L FM WHT ONR              MD=-1 OR LE -2   
+              REF 0113         LOC  978 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED             
+                 BY WHITE OWNERS                                                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------             
+              ...............................................................   
+              VAR 0114      920ACR I.L FM CLRD ONR             MD=-1 OR LE -2   
+              REF 0114         LOC  987 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 COLORED OWNERS                                                 
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0115      920TTL VAL LD BLDG ONR             MD=-1 OR LE -2   
+              REF 0115         LOC  996 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY         
+                 OWNERS (IN THOUSANDS OF DOLLARS)                               
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0116      920VAL LD BLDG WHT ONR             MD=-1 OR LE -2   
+              REF 0116         LOC 1005 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY WHITE         
+                 OWNERS (IN THOUSANDS OF DOLLARS)                               
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0117      920VAL LD BLDG CLRD ONR            MD=-1 OR LE -2   
+              REF 0117         LOC 1014 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY COLORED       
+                 OWNERS                                                         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0118      920TTL FM OWNED LD ONLY            MD=-1 OR LE -2   
+              REF 0118         LOC 1023 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY FARMER OWNING ENTIRE FARM    
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0119      920FM WHT OWNED LD ONLY            MD=-1 OR LE -2   
+              REF 0119         LOC 1032 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE FARMER OWNING ENTIRE FARM    
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0120      920FM CLRD OWNED LD ONLY           MD=-1 OR LE -2   
+              REF 0120         LOC 1041 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED FARMER OWNING ENTIRE       
+                 FARM                                                           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0121      920TTL FM OWNED HIRED LD           MD=-1 OR LE -2   
+              REF 0121         LOC 1050 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY OWNER HIRING ADDITIONAL      
+                 LAND                                                           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0122      920FM WHT OWNED HIRED LD           MD=-1 OR LE -2   
+              REF 0122         LOC 1059 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE OWNER HIRING ADDITIONAL      
+                 LAND                                                           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0123      920FM CLRD OND HIRED LD            MD=-1 OR LE -2   
+              REF 0123         LOC 1068 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED OWNER HIRING ADDITIONAL    
+                 LAND                                                           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0124      920TTL FM NTV WHT ONR              MD=-1 OR LE -2   
+              REF 0124         LOC 1077 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY NATIVE WHITE OWNERS          
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0125      920FM F.B WHT ONR                  MD=-1 OR LE -2   
+              REF 0125         LOC 1086 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY FOREIGN-BORN WHITE OWNERS    
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0126      920FM NG NNWHT ONR                 MD=-1 OR LE -2   
+              REF 0126         LOC 1095 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY NEGRO AND OTHER NON-WHITE    
+                 OWNERS                                                         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0127      920TTL FM OF MGR                   MD=-1 OR LE -2   
+              REF 0127         LOC 1104 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY MANAGERS                     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0128      920FM WHT MGR                      MD=-1 OR LE -2   
+              REF 0128         LOC 1113 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE MANAGERS                     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------                     
+              ..............................................................    
+              VAR 0129      920FM CLRD MGR                     MD=-1 OR LE -2   
+              REF 0129         LOC 1122 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED MANAGERS                   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------                   
+              ...............................................................   
+              VAR 0130      920TTL ACR LD FM MGR               MD=-1 OR LE -2   
+              REF 0130         LOC 1131 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF LAND IN FARMS OPERATED BY MANAGERS    
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0131      920ACR LD FM WHT MGR               MD=-1 OR LE -2   
+              REF 0131         LOC 1140 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY WHITE MANAGERS    
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0132      920ACR LD FM CLRD MGR              MD=-1 OR LE -2   
+              REF 0132         LOC 1149 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY COLORED           
+                 MANAGERS                                                       
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0133      920TTL ACR I.L FM MGR              MD=-1 OR LE -2   
+              REF 0133         LOC 1158 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY    
+                 MANAGERS                                                       
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0134      920ACR I.L FM WHT MGR              MD=-1 OR LE -2   
+              REF 0134         LOC 1167 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY WHITE    
+                 MANAGERS                                                       
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0135      920ACR I.L FM CLRD MGR             MD=-1 OR LE -2   
+              REF 0135         LOC 1176 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 COLORED MANAGERS                                               
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0136      920TTL VAL LD BLDG MGR             MD=-1 OR LE -2   
+              REF 0136         LOC 1185 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY         
+                 MANAGERS                                                       
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0137      920VAL LD BLDG WHT MGR             MD=-1 OR LE -2   
+              REF 0137         LOC 1194 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY WHITE         
+                 MANAGERS                                                       
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0138      920VAL LD BLDG CLRD MGR            MD=-1 OR LE -2   
+              REF 0138         LOC 1203 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY COLORED       
+                 MANAGERS                                                       
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0139      920TTL FM TNT                      MD=-1 OR LE -2   
+              REF 0139         LOC 1212 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY TENANTS                      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------                      
+              ...............................................................   
+              VAR 0140      920FM WHT TNT                      MD=-1 OR LE -2   
+              REF 0140         LOC 1221 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE TENANTS                      
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------                      
+              ...............................................................   
+              VAR 0141      920FM CLRD TNT                     MD=-1 OR LE -2   
+              REF 0141         LOC 1230 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED TENANTS                    
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------                    
+              ...............................................................   
+              VAR 0142      920TTL ACR LD FM TNT               MD=-1 OR LE -2   
+              REF 0142         LOC 1239 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF LAND IN FARMS OPERATED BY TENANTS     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0143      920ACR LD FM WHT TNT               MD=-1 OR LE -2   
+              REF 0143         LOC 1248 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY WHITE TENANTS     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0144      920ACR LD FM CLRD TNT              MD=-1 OR LE -2   
+              REF 0144         LOC 1257 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY COLORED TENANTS   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0145      920TTL ACR I.L TNT                 MD=-1 OR LE -2   
+              REF 0145         LOC 1266 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY    
+                 TENANTS                                                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0146      920ACR I.L FM WHT TNT              MD=-1 OR LE -2   
+              REF 0146         LOC 1275 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY WHITE    
+                 TENANTS                                                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0147      920ACR I.L FM CLRD TNT             MD=-1 OR LE -2   
+              REF 0147         LOC 1284 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 COLORED TENANTS                                                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0148      920TTL VAL LD BLDG TNT             MD=-1 OR LE -2   
+              REF 0148         LOC 1293 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY         
+                 TENANTS (IN THOUSANDS OF DOLLARS)                              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0149      920VAL LD BLDG WHT TNT             MD=-1 OR LE -2   
+              REF 0149         LOC 1302 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY WHITE         
+                 TENANTS                                                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0150      920VAL LD BLDG CLRD TNT            MD=-1 OR LE -2   
+              REF 0150         LOC 1311 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY COLORED       
+                 TENANTS                                                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0151      920TTL FM SHARE TNT                MD=-1 OR LE -2   
+              REF 0151         LOC 1320 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY SHARE TENANTS                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0152      920FM WHT SHARE TNT                MD=-1 OR LE -2   
+              REF 0152         LOC 1329 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE SHARE TENANTS                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------                
+              ................................................................  
+              VAR 0153      920FM CLRD SHARE TNT               MD=-1 OR LE -2   
+              REF 0153         LOC 1338 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED SHARE TENANTS              
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0154      920TTL FM CROPPER                  MD=-1 OR LE -2   
+              REF 0154         LOC 1347 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY CROPPERS                     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0155      920FM WHT CROPPER                  MD=-1 OR LE -2   
+              REF 0155         LOC 1356 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE CROPPERS                     
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0156      920FM CLRD CROPPER                 MD=-1 OR LE -2   
+              REF 0156         LOC 1365 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED CROPPERS                   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------                   
+              ...............................................................   
+              VAR 0157      920TTL FM SHARE-CASH TNT           MD=-1 OR LE -2   
+              REF 0157         LOC 1374 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY SHARE-CASH TENANTS           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0158      920FM WHT SHARE-CASH TNT           MD=-1 OR LE -2   
+              REF 0158         LOC 1383 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE SHARE-CASH TENANTS           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0159      920FM CLRD SHR-CASH TNT            MD=-1 OR LE -2   
+              REF 0159         LOC 1392 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED SHARE-CASH TENANTS         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0160      920TTL FM CASH TNT                 MD=-1 OR LE -2   
+              REF 0160         LOC 1401 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY CASH TENANTS                 
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------                 
+              ...............................................................   
+              VAR 0161      920FM WHT CASH TNT                 MD=-1 OR LE -2   
+              REF 0161         LOC 1410 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE CASH TENANTS                 
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------                 
+              ...............................................................   
+              VAR 0162      920FM CLRD CASH TNT                MD=-1 OR LE -2   
+              REF 0162         LOC 1419 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBEROF FARMS OPERATED BY COLORED CASH TENANTS                
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0163      920FM STANDING RENTER              MD=-1 OR LE -2   
+              REF 0163         LOC 1428 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY STANDING RENTERS             
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------             
+              ...............................................................   
+              VAR 0164      920WHT STANDING RENTER             MD=-1 OR LE -2   
+              REF 0164         LOC 1437 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE STANDING RENTERS             
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 --------------------------------------------------             
+              ...............................................................   
+              VAR 0165      920CLRD STANDING RENTER            MD=-1 OR LE -2   
+              REF 0165         LOC 1446 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED STANDING RENTERS           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0166      920TTL FM USPEC TNT                MD=-1 OR LE -2   
+              REF 0166         LOC 1455 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY UNSPECIFIED TENANT           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0167      920FM USPEC WHT TNT                MD=-1 OR LE -2   
+              REF 0167         LOC 1464 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY UNSPECIFIED WHITE TENANT           
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0168      920FM USPEC CLRD TNT               MD=-1 OR LE -2   
+              REF 0168         LOC 1473 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY UNSPECIFIED COLORED TENANT         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0169      920TTL FM NTV WHT TNT              MD=-1 OR LE -2   
+              REF 0169         LOC 1482 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY NATIVE WHITE TENANTS         
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0170      920FM F.B WHT TNT                  MD=-1 OR LE -2   
+              REF 0170         LOC 1491 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY FOREIGN-BORN WHITE TENANTS   
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0171      920FM NG NNWHT TNT                 MD=-1 OR LE -2   
+              REF 0171         LOC 1500 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY NEGRO AND OTHER NON-WHITE    
+                 TENANTS                                                        
+                 (1920) SOURCE: DUB. 0498, TABLE 1                              
+                 -----------------------------------------------------------    
+    TERMINATION OF CODEBOOK LIST.                                               

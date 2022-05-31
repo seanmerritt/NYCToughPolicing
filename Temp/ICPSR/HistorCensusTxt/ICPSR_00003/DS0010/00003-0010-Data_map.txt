@@ -1,0 +1,1302 @@
+DATA MAP FOR 1880 CENSUS DATA  (COUNTY AND STATE)   [ICPSR 0003, DATASET 0010]  
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS   
+            WILL FIND TAPE LOCATION INFORMATION HERE.                           
+                                                                                
+    #D    = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                     
+                                                                                
+    MD1   = FIRST MISSING DATA CODE.                                            
+                                                                                
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                 
+                                                                                
+    VAR # = VARIABLE NUMBER.                                                    
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME I, STATISTICS OF THE                    
+                          POPULATION.  (WASHINGTON, D.C.:  1883-1888).          
+          DUBESTER 0063:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME II, REPORT ON THE MANUFACTURES          
+                          OF THE UNITED STATES... (WASHINGTON, D.C.:            
+                          1883).                                                
+          DUBESTER 0069:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME II, IRON AND STEEL PRODUCTION           
+                          ... (WASHINGTON, D.C.:  1883).                        
+          DUBESTER 0075:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME III, REPORT ON THE PRODUCTION           
+                          OF AGRICULTURE... (WASHINGTON, D.C.:  1883).          
+          DUBESTER 0111:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME VIII, SHIP-BUILDING OF THE              
+                          UNITED STATES.  (WASHINGTON, D.C.:  1884).            
+          DUBESTER 0153:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  COMPENDIUM, PART ONE.                          
+                          (WASHINGTON, D.C.:  1883).                            
+          DUBESTER 0154:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  COMPENDIUM, PART TWO.                          
+                          (WASHINGTON, D.C.:  1885-1888).                       
+          DUBESTER 0162:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  THE AREA OF THE UNITED STATES.                 
+                          (WASHINGTON, D.C.:  1881).                            
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                                                                                
+                                                                                
+VAR # 0001 DATA TYPE                 WIDTH =0001                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          DATA TYPE                                                             
+              C.  COUNTY DATA                                                   
+              S.  STATE DATA                                                    
+                                                                                
+                                                                                
+VAR # 0002 YEAR                      WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          YEAR TO WHICH DATA ARE RELEVANT                                       
+              880.  1880                                                        
+                                                                                
+                                                                                
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0004 CNGSL DIST NUMBER         WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CONGRESSIONAL DISTRICT NUMBER                                         
+                                                                                
+                                                                                
+VAR # 0172 IDENTIFICATION NUMBER     WIDTH =0004                                
+                        #D  =          MD1 =   9999        MD2 =                
+                                                                                
+          COUNTY OR STATE IDENTIFICATION NUMBER                                 
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                  
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                   
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                  
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                    
+          UNIT OF ANALYSIS IN THE DATA FILE.                                    
+                                                                                
+                                                                                
+VAR # 0005 COUNTY NAME               WIDTH =0017                                
+                        #D  =          MD1 =               MD 2=                
+                                                                                
+                                                                                
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CATALOG ENTRY NUMBER                                                  
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                
+          1790-1945", PREPARED BY HENRY J. DUBESTER                             
+                                                                                
+                                                                                
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          TABLE NUMBER                                                          
+                                                                                
+                                                                                
+VAR # 0008 880TTL NMBR WHT           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS                                               
+          (1880) SOURCE: DUB. 61, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0009 880TTL NMBR CLRD          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF COLORED PERSONS                                             
+          (1880) SOURCE: DUB. 61, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0010 880TTL NMBR CHN           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF CHINESE PERSONS                                             
+          (1880) SOURCE: DUB. 61, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0011 880TTL NMBR INDN          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF INDIANS                                                     
+          (1880) SOURCE: DUB. 61, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0012 880TTL NMBR M             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF MALES                                                 
+          (1880) SOURCE: DUB. 61, TABLE 23                                      
+                                                                                
+                                                                                
+VAR # 0013 880TTL NMBR F             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+           TOTAL NUMBER OF FEMALES                                              
+          (1880) SOURCE: DUB. 61, TABLE 23                                      
+                                                                                
+                                                                                
+VAR # 0014 880M 5-17 YR              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES 5-17 YEARS OF AGE                                     
+          (1880) SOURCE: DUB. 61, TABLE 23                                      
+                                                                                
+                                                                                
+VAR # 0015 880F 5-17 YR              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES 5-17 YEARS OF AGE                                   
+          (1880) SOURCE: DUB. 61, TABLE 23                                      
+                                                                                
+                                                                                
+VAR # 0016 880M 18-44 YR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES 18-44 YEARS OF AGE                                    
+          (1880) SOURCE: DUB. 61, TABLE 23                                      
+                                                                                
+                                                                                
+VAR # 0017 880M 21 & OVR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES 21 YEARS OF AGE AND OVER                              
+          (1880) SOURCE: DUB. 61, TABLE 23                                      
+                                                                                
+                                                                                
+VAR # 0018 880 NMBR MFGN NDSTY       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER MANUFACTURING ESTABLISHMENTS                                   
+          (1880) SOURCE: DUB. 63, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0019 880CPTL INVSTD MFGN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          CAPITAL INVESTED IN MANUFACTURING (IN DOLLARS)                        
+          (1880) SOURCE: DUB. 63, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0020 880AV M 16 OVR IN MFGN    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF MALES 16 YEARS OF AGE AND OVER EMPLOYED             
+              IN MANUFACTURING                                                  
+          (1880) SOURCE: DUB. 63, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0021 880AV F 15 OVR IN MFGN    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF FEMALES 15 YEARS OF AGE AND OVER EMPLOYED           
+              IN MANUFACTURING                                                  
+          (1880) SOURCE: DUB. 63, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0022 880AV UTH CHLDN IN MFGN   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF YOUTHS AND CHILDREN EMPLOYED IN                     
+              MANUFACTURING                                                     
+          (1880) SOURCE: DUB. 63, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0023 880TTL ANL WG PAID MFGN   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL ANNUAL WAGES PAID IN MANUFACTURING                              
+          (1880) SOURCE: DUB. 63, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0024 880VAL RAW MTRL IN MFGN   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF RAW MATERIALS IN MANUFACTURING                               
+          (1880) SOURCE: DUB. 63, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0025 880VAL MFGRD PRDTS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF MANUFACTURED PRODUCTS                                        
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1880) SOURCE: DUB. 63, TABLE 4                                       
+                                                                                
+                                                                                
+VAR # 0026 880NMBR I&S MFG NDSTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF IRON AND STEEL MANUFACTURING ESTABLISHMENTS                 
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0027 880CPTL INVSTD I&S        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AMOUNT OF CAPITAL (REAL AND PERSONAL) INVESTED IN IRON                
+              AND STEEL MANUFACTURING                                           
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0028 880NMBR PSN EMPLD I&S     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS EMPLOYED IN IRON AND STEEL                    
+              MANUFACTURING                                                     
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0029 880M 16 OVR EMPLD I&S     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES 16 YEARS OF AGE AND OVER EMPLOYED IN IRON             
+              AND STEEL MANUFACTURING                                           
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0030 880M UNR 16 EMPLD I&S     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES UNDER 16 YEARS OF AGE EMPLOYED IN IRON                
+              AND STEEL MANUFACTURING                                           
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0031 880F 15 OVR EMPLD I&S     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES 15 YEARS OF AGE AND OVER EMPLOYED IN IRON           
+              AND STEEL MANUFACTURING                                           
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0032 880F UNR 15 EMPLD I&S     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES UNDER 15 YEARS OF AGE EMPLOYED IN IRON              
+              AND STEEL MANUFACTURING                                           
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0033 880AV HR LBR/WK I&S       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF HOURS OF LABOR PER WEEK IN IRON AND                 
+              STEEL MANUFACTURING                                               
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0034 880AV DAY WG SKLD MCHNC   WIDTH =0009                                
+                        #D  =  2       MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE DAY'S WAGES FOR A SKILLED MECHANIC IN IRON                    
+              AND STEEL MANUFACTURING                                           
+          (IN DOLLARS AND CENTS)                                                
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0035 880AV DAY WG LBRER I&S    WIDTH =0009                                
+                        #D  =  2       MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE DAY'S WAGES FOR AN ORDINARY LABORER IN IRON AND               
+              STEEL MANUFACTURING                                               
+          (IN DOLLARS AND CENTS)                                                
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0036 880TTL ANL WG PAID I&S    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL ANNUAL WAGES PAID IN IRON AND STEEL MANUFACTURING               
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0037 880VAL MTRL I&S           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF ALL MATERIALS IN IRON AND STEEL MANUFACTURING                
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0038 880VAL PRDTS I&S          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF ALL PRODUCTS IN IRON AND STEEL MANUFACTURING                 
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0039 880TTL TONS PRDTS I&S     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL WEIGHT (IN TONS) OF PRODUCTS IN IRON AND STEEL                  
+              MANUFACTURING                                                     
+          (1880) SOURCE: DUB. 69, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0040 880TTL NMBR FM            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS                                                 
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0041 880FM UNR 3 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF UNDER THREE ACRES                                  
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0042 880FM 3-9 ACR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 3-9 ACRES                                          
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0043 880FM 10-19 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 10-19 ACRES                                        
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0044 880FM 20-49 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 20-49 ACRES                                        
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0045 880FM 50-99 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 50-99 ACRES                                        
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0046 880FM 100-499 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 100-499 ACRES                                      
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0047 880FM 500-999 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 500-999 ACRES                                      
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0048 880FM 1000 ACR & OVR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 1000 OR MORE ACRES                                 
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0049 880AV SIZE FM BY ACR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE SIZE OF FARMS (IN ACRES)                                      
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0050 880TTL FM ONR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS CULTIVATED BY OWNERS                            
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0051 880FM UNR 3 ACR ONR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF UNDER THREE ACRES CULTIVATED BY OWNERS             
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0052 880FM 3-9 ACR ONR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 3-9 ACRES CULTIVATED BY OWNERS                     
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0053 880FM 10-19 ACR ONR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 10-19 ACRES CULTIVATED BY OWNERS                   
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0054 880FM 20-49 ACR ONR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 20-49 ACRES CULTIVATED BY OWNERS                   
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0055 880FM 50-99 ACR ONR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 50-99 ACRES CULTIVATED BY OWNERS                   
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0056 880FM 100-499 ACR ONR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 100-499 ACRES CULTIVATED BY OWNERS                 
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0057 880FM 500-999 ACR ONR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 500-999 ACRES CULTIVATED BY OWNERS                 
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0058 880FM 1000 ACR OVR ONR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 1000 OR MORE ACRES CULTIVATED BY OWNERS            
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0059 880TTL FM RNTD MNY        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS RENTED FOR FIXED MONEY RENTAL                   
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0060 880UNR 3 ACR RNTD MNY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF UNDER THREE ACRES RENTED FOR FIXED MONEY           
+              RENTAL                                                            
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0061 8803-9 ACR RNTD MNY       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 3-9 ACRES RENTED FOR FIXED MONEY RENTAL            
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0062 88010-19 ACR RNTD MNY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 10-19 ACRES RENTED FOR FIXED MONEY                 
+              RENTAL                                                            
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0063 88020-49 ACR RNTD MNY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 20-49 ACRES RENTED FOR FIXED MONEY                 
+              RENTAL                                                            
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0064 88050-99 ACR RNTD MNY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 50-99 ACRES RENTED FOR FIXED MONEY                 
+              RENTAL                                                            
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0065 880100-499 ACR RNTD MNY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 100-499 ACRES RENTED FOR FIXED                     
+              MONEY RENTAL                                                      
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0066 880500-999 ACR RNTD MNY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 500-999 ACRES RENTED FOR FIXED                     
+              MONEY RENTAL                                                      
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0067 8801000 ACR OVR MNY       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 1000 OR MORE ACRES RENTED FOR FIXED                
+              MONEY RENTAL                                                      
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0068 880TTL RNTD SHR PRDTS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS RENTED FOR SHARES OF PRODUCTS                   
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0069 880FM UNR 3 ACR SHR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF UNDER THREE ACRES RENTED FOR SHARES                
+              OF PRODUCTS                                                       
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0070 8803-9 ACR RNTD SHR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 3-9 ACRES RENTED FOR SHARES OF PRODUCTS            
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0071 88010-19 ACR RNTD SHR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 10-19 ACRES RENTED FOR SHARES OF PRODUCTS          
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0072 88020-49 ACR RNTD SHR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 20-49 ACRES RENTED FOR SHARES OF PRODUCTS          
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0073 88050-99 ACR RNTD SHR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 50-99 ACRES RENTED FOR SHARES OF PRODUCTS          
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0074 880100-499 RNTD SHR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS 100-499 ACRES RENTED FOR SHARES                       
+              OF PRODUCTS                                                       
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0075 880500-999 RNTD SHR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 500-999 ACRES RENTED FOR SHARES                    
+              OF PRODUCTS                                                       
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0076 8801000 OVR RNTD SHR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 1000 OR MORE ACRES RENTED FOR SHARES               
+              OF PRODUCTS                                                       
+          (1880) SOURCE: DUB. 75, TABLE 5                                       
+                                                                                
+                                                                                
+VAR # 0077 880TTL NMBR FM            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS                                                 
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0078 880TTL ACR LD FM          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF ACRES OF LAND IN FARMS                                
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0079 880TTL ACR I.L FM         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF ACRES OF IMPROVED LAND IN FARMS                       
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0080 880ACR TILLED I.L         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF TILLED IMPROVED LAND IN FARMS                      
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0081 880ACR IMPRVD PSTR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED MEADOWS, PASTURES, ETC.,                  
+              IN FARMS                                                          
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0082 880TTL ACR UI.L FM        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL ACRES OF UNIMPROVED LAND IN FARMS                               
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0083 880ACR UIMPRVD WDLD       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF UNIMPROVED WOODLAND AND FORESTS IN FARMS           
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0084 880ACR OTR UI.L           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF OTHER UNIMPROVED LAND IN FARMS                     
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0085 880VAL FM LD FENCE BLDG   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FARM LAND, FENCES AND BUILDINGS                              
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0086 880VAL MCHNRY             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FARM IMPLEMENTS AND MACHINERY                                
+          (1880) SOURCE: DUB. 75, TABLE 7                                       
+                                                                                
+                                                                                
+VAR # 0087 880VAL LVSTCK             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LIVESTOCK ON FARMS, JUNE 1, 1880                             
+          SOURCE: DUB. 75, TABLE 7                                              
+                                                                                
+                                                                                
+VAR # 0088 880COST OF FENCES 1879    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          COST OF BUILDING AND REPAIRING FENCES, 1879                           
+          SOURCE: DUB. 75, TABLE 7                                              
+                                                                                
+                                                                                
+VAR # 0089 880FERTILIZER 1879        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          COST OF FARM FERTILIZERS PURCHASED, 1879                              
+          SOURCE: DUB. 75, TABLE 7                                              
+                                                                                
+                                                                                
+VAR # 0090 880VAL ALL FM PRDTS 1879  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ESTIMATED VALUE OF ALL FARM PRODUCTS, 1879                            
+          SOURCE: DUB. 75, TABLE 7                                              
+                                                                                
+                                                                                
+VAR # 0091 880NEW VESSELS BUILT      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEW VESSELS BUILT                                           
+          (1880) SOURCE: DUB. 111, (UNNUM. TABLE, P. 254-259)                   
+                                                                                
+                                                                                
+VAR # 0092 880TONNAGE NEW VESSELS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TONNAGE OF NEW VESSELS BUILT                                          
+          (1880) SOURCE: DUB. 111, (UNNUM. TABLE, P. 254-259)                   
+                                                                                
+                                                                                
+VAR # 0093 880VAL NEW VESSELS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF NEW VESSELS BUILT                                            
+          (1880) SOURCE: DUB. 111, (UNNUM. TABLE, P. 254-259)                   
+                                                                                
+                                                                                
+VAR # 0094 880VAL RPRNG VESSELS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF REPAIRING VESSELS                                            
+          (1880) SOURCE: DUB. 111, (UNNUM. TABLE, P. 254-259)                   
+                                                                                
+                                                                                
+VAR # 0095 880VAL SHPBLDNG PRDTS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF ALL SHIPBUILDING PRODUCTS                              
+          (1880) SOURCE: DUB. 111, (UNNUM. TABLE, P. 254-259)                   
+                                                                                
+                                                                                
+VAR # 0096 880BSHL BRLY PRDCD        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF BUSHELS OF BARLEY PRODUCED                                  
+          (1880) SOURCE: DUB. 153, TABLE 47                                     
+                                                                                
+                                                                                
+VAR # 0097 880BSHL BCKWHT PRDCD      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF BUSHELS OF BUCKWHEAT PRODUCED                               
+          (1880) SOURCE: DUB. 153, TABLE 47                                     
+                                                                                
+                                                                                
+VAR # 0098 880BSHL INDN CRN PRDCD    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF BUSHELS OF INDIAN CORN PRODUCED                             
+          (1880) SOURCE: DUB. 153, TABLE 47                                     
+                                                                                
+                                                                                
+VAR # 0099 880BSHL OAT PRDCD         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF BUSHELS OF OATS PRODUCED                                    
+          (1880) SOURCE: DUB. 153, TABLE 47                                     
+                                                                                
+                                                                                
+VAR # 0100 880BSHL RYE PRDCD         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF BUSHELS OF RYE PRODUCED                                     
+          (1880) SOURCE: DUB. 153, TABLE 47                                     
+                                                                                
+                                                                                
+VAR # 0101 880BSHL WHEAT PRDCD       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF BUSHELS OF WHEAT PRODUCED                                   
+          (1880) SOURCE: DUB. 153, TABLE 47                                     
+                                                                                
+                                                                                
+VAR # 0102 880ASSD VAL R.E           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ASSESSED VALUATION OF REAL ESTATE (IN DOLLARS)                        
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1880) SOURCE: DUB. 154, TABLE 125                                    
+                                                                                
+                                                                                
+VAR # 0103 880ASSD VAL PSNL PRPTY    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ASSESSED VALUATION OF PERSONAL PROPERTY (IN DOLLARS)                  
+          (1880) SOURCE: DUB. 154, TABLE 125                                    
+                                                                                
+                                                                                
+VAR # 0104 880TAXATION BY STATE      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TAXATION BY STATE                                                     
+          (1880) SOURCE: DUB. 154, TABLE 125                                    
+                                                                                
+                                                                                
+VAR # 0105 880TAXATION BY COUNTY     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TAXATION BY COUNTY                                                    
+          (1880) SOURCE: DUB. 154, TABLE 125                                    
+                                                                                
+                                                                                
+VAR # 0106 880TAXATION BY LOCAL      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TAXATION BY CITY, TOWN, ETC.                                          
+          (1880) SOURCE: DUB. 154, TABLE 125                                    
+                                                                                
+                                                                                
+VAR # 0107 880AREA IN SQUARE ML      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AREA, IN SQUARE MILES                                                 
+          (1880) SOURCE: DUB. 162, (UNNUM. TABLE, P. 11-20)                     
+                                                                                
+                                                                                
+VAR # 0108 880AFRICA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN AFRICA (COUNTRY NOT SPECIFIED),             
+          1880                                                                  
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0109 880ATLANTIC ISLANDS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN THE ATLANTIC ISLANDS, 1880                  
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0110 880AUSTRIA (PROPER)       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN AUSTRIA, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0111 880BOHEMIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN BOHEMIA, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0112 880BRITISH AMERICA        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN BRITISH AMERICA, 1880                       
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0113 880CENTRAL AMERICA        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN CENTRAL AMERICA, 1880                       
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0114 880CHINA                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN CHINA, 1880                                 
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0115 880CUBA                   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN CUBA, 1880                                  
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0116 880DENMARK                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN DENMARK, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0117 880ENGLAND & WALES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN ENGLAND AND WALES, 1880                     
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0118 880FRANCE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN FRANCE, 1880                                
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0119 880GERMAN EMPIRE          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN THE GERMAN EMPIRE, 1880                     
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0120 880GREAT BRITAIN          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN GREAT BRITAIN (COUNTRY NOT                  
+          SPECIFIED), 1880                                                      
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0121 880HOLLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN HOLLAND, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0122 880IRELAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN IRELAND, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0123 880ITALY                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN ITALY, 1880                                 
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0124 880MEXICO                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN MEXICO, 1880                                
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0125 880POLAND                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN POLAND, 1880                                
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0126 880PORTUGAL               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN PORTUGAL, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0127 880RUSSIA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN RUSSIA, 1880                                
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0128 880SCOTLAND               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN SCOTLAND, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0129 880SPAIN                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN SPAIN, 1880                                 
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0130 880SWEDEN AND NORWAY      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN SWEDEN AND NORWAY, 1880                     
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0131 880SWITZERLAND            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN SWITZERLAND, 1880                           
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0132 880WEST INDIES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN THE WEST INDIES, 1880                       
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0133 880TOTAL - FOREIGN BORN   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FOREIGN-BORN PERSONS, 1880                            
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0134 880BORN IN STATE          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN THE STATE (SEE VARIABLE 3,                  
+          STATE CODE, FOR RELEVANT STATE), 1880                                 
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0135 880ALABAMA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN ALABAMA, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0136 880ARKANSAS               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN ARKANSAS, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0137 880CALIFORNIA             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN CALIFORNIA, 1880                            
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0138 880CONNECTICUT            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN CONNECTICUT, 1880                           
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0139 880DELAWARE               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN DELAWARE, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0140 880DISTRICT OF COLUMBIA   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN THE DISTRICT OF COLUMBIA, 1880              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0141 880FLORIDA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN FLORIDA, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0142 880GEORGIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN GEORGIA, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0143 880ILLINOIS               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN ILLINOIS, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0144 880INDIANA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN INDIANA, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0145 880IOWA                   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN IOWA, 1880                                  
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0146 880KANSAS                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN KANSAS, 1880                                
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0147 880KENTUCKY               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN KENTUCKY, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0148 880LOUISIANA              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN LOUISIANA, 1880                             
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0149 880MAINE                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN MAINE, 1880                                 
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0150 880MARYLAND               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN MARYLAND, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0151 880MASSACHUSETTS          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN MASSACHUSETTS, 1880                         
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0152 880MICHIGAN               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN MICHIGAN, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0153 880MISSISSIPPI            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN MISSISSIPPI, 1880                           
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0154 880MISSOURI               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN MISSOURI, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0155 880NEW HAMPSHIRE          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN NEW HAMPSHIRE, 1880                         
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0156 880NEW JERSEY             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN NEW JERSEY, 1880                            
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0157 880NEW MEXICO             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN NEW MEXICO, 1880                            
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0158 880NEW YORK               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN NEW YORK, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0159 880NORTH CAROLINA         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN NORTH CAROLINA, 1880                        
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0160 880OHIO                   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN OHIO, 1880                                  
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0161 880PENNSYLVANIA           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN PENNSYLVANIA, 1880                          
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0162 880RHODE ISLAND           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN RHODE ISLAND, 1880                          
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0163 880SOUTH CAROLINA         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN SOUTH CAROLINA, 1880                        
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0164 880TENNESSEE              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN TENNESSEE, 1880                             
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0165 880TEXAS                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN TEXAS, 1880                                 
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0166 880UTAH                   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN UTAH, 1880                                  
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0167 880VERMONT                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN VERMONT, 1880                               
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0168 880VIRGINIA               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN VIRGINIA, 1880                              
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0169 880WEST VIRGINIA          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN WEST VIRGINIA, 1880                         
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0170 880WISCONSIN              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS BORN IN WISCONSIN, 1880                             
+          SOURCE: DUB. 61, TABLE 14                                             
+                                                                                
+                                                                                
+VAR # 0171 880TOTAL - NATIVE         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF NATIVE-BORN PERSONS, 1880                             
+          SOURCE: DUB. 61, TABLE 14                                             

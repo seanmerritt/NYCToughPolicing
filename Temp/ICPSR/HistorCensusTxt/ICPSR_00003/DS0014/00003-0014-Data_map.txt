@@ -1,0 +1,1344 @@
+DATA MAP FOR 1910 U.S. CENSUS -- COUNTY AND STATE   [ICPSR 0003, DATASET 0014]  
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS   
+            WILL FIND TAPE LOCATION INFORMATION HERE.                           
+                                                                                
+    #D    = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                     
+                                                                                
+    MD1   = FIRST MISSING DATA CODE.                                            
+                                                                                
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                 
+                                                                                
+    VAR # = VARIABLE NUMBER.                                                    
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+                   0314:  UNITED STATES, 1910:  VOLUMES II AND III,             
+                          REPORT ON THE POPULATION OF THE                       
+                          UNITED STATES.  (WASHINGTON, D.C.:  1915).            
+          DUBESTER 0333-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+                   0334:  UNITED STATES, 1910:  VOLUMES VI AND VII,             
+                          REPORT ON THE STATISTICS OF AGRICULTURE IN            
+                          THE UNITED STATES.  (WASHINGTON, D.C.:                
+                          1915).                                                
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                                                                                
+                                                                                
+VAR # 0001 DATA TYPE                 WIDTH =0001                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          DATA TYPE                                                             
+              C.  COUNTY DATA                                                   
+              S.  STATE DATA                                                    
+                                                                                
+                                                                                
+VAR # 0002 YEAR                      WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          YEAR TO WHICH DATA ARE RELEVANT                                       
+              910.  1910                                                        
+                                                                                
+                                                                                
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0004 CNGSL DIST NUMBER         WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CONGRESSIONAL DISTRICT NUMBER                                         
+                                                                                
+                                                                                
+VAR # 0178 IDENTIFICATION NUMBER     WIDTH =0004                                
+                        #D  =          MD1 =   9999        MD2 =                
+                                                                                
+          COUNTY OR STATE IDENTIFICATION NUMBER                                 
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                  
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                   
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                  
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                    
+          UNIT OF ANALYSIS IN THE DATA FILE.                                    
+                                                                                
+                                                                                
+VAR # 0005 COUNTY NAME               WIDTH =0017                                
+                        #D  =          MD1 =               MD 2=                
+                                                                                
+                                                                                
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CATALOG ENTRY NUMBER                                                  
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                
+          1790-1945", PREPARED BY HENRY J. DUBESTER                             
+                                                                                
+                                                                                
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          TABLE NUMBER                                                          
+                                                                                
+                                                                                
+VAR # 0008 910LAND AREA SQ MILES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          LAND AREA (IN SQUARE MILES)                                           
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0009 910URBAN POP 1910         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          URBAN POPULATION, 1910 (2,500 OR MORE PERSONS IN 1910)                
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0010 910URBAN POP 1900(1910)   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          URBAN POPULATION, 1900 (2,500 OR MORE PERSONS IN 1910)                
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0011 910RURAL POP 1910         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          RURAL POPULATION, 1910 (REMAINDER OF COUNTY/STATE IN 1910)            
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0012 910RURAL POP 1900(1910)   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          RURAL POPULATION, 1900 (REMAINDER OF COUNTY/STATE IN 1910)            
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0013 910URBAN POP 1900(1900)   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          URBAN POPULATION, 1900 (2,500 OR MORE PERSONS IN 1900)                
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0014 910RURAL POP 1900(1900)   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          RURAL POPULATION, 1900 (REMAINDER OF COUNTY/STATE IN 1900)            
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0015 910IND CHN JAP OTR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF INDIANS, CHINESE, JAPANESE AND PERSONS OF ALL               
+              OTHER RACES                                                       
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0016 910NTV WHT NTV PNTS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS OF NATIVE PARENTAGE                    
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0017 910NTV WHT F.B PNTS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS OF FOREIGN PARENTAGE                   
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0018 910NTV WHT MXD PNTS       WIDTH =-0009                               
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS OF MIXED PARENTAGE                     
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0019 910F.B. WHITES            WIDTH =-0009                               
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE PERSONS                                  
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0020 910TTL MALES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF MALES                                                 
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0021 910TTL FEMALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FEMALES                                               
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0022 910WHT MALES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES                                                 
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0023 910WHT FEMALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES                                               
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0024 910NEGRO MALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES                                                 
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0025 910NEGRO FEMALES          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO FEMALES                                               
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0026 910TTL M VTG AGE          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF MALES OF VOTING AGE                                   
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0027 910NTV WHT M NTV PNT VTG  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES OF VOTING AGE OF NATIVE                  
+              PARENTAGE                                                         
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0028 910NTV WHT M F.B PNT VTG  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES OF VOTING AGE OF FOREIGN                 
+              PARENTAGE                                                         
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0029 910NTV WHT M MXD PNT VTG  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES OF VOTING AGE OF MIXED                   
+              PARENTAGE                                                         
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0030 910F.B WHT M VTG AGE      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES OF VOTING AGE                      
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0031 910NG M VTG AGE           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES OF VOTING AGE                                   
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0032 910OTR RACES M VTG AGE    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF INDIAN, CHINESE, JAPANESE AND MALES OF ALL OTHER            
+              RACES OF VOTING AGE                                               
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0033 910NTRLZD F.B WHT M VTG   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATURALIZED FOREIGN-BORN WHITE MALES OF VOTING              
+              AGE                                                               
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0034 910F.B WHT M VTG 1ST PPR  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES OF VOTING AGE WITH FIRST           
+              PAPERS                                                            
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0035 910ALIEN F.B WHT M VTG    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ALIEN FOREIGN-BORN WHITE MALES OF VOTING AGE                
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0036 910F.B WHT M UKWN VTG     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES OF VOTING AGE OF UNKNOWN           
+              CITIZENSHIP STATUS                                                
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0037 910TTL ILLTRT M VTG AGE   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF ILLITERATE MALES OF VOTING AGE                        
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0038 910ILLTRT NTV WHT M VTG   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NATIVE WHITE MALES OF VOTING AGE                 
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0039 910ILLTRT F.B WHT M VTG   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FOREIGN-BORN WHITE MALES OF VOTING AGE           
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0040 910ILLTRT NG M VTG AGE    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NEGRO MALES OF VOTING AGE                        
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0041 910TTL PSNS 10 YRS & OVR  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS TEN YEARS OF AGE AND OVER                     
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0042 910ILLTRT PSNS 10 & OVR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE PERSONS TEN YEARS OF AGE AND OVER                
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0043 910TTL NTV WHT 10 & OVR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF NATIVE WHITE PERSONS TEN YEARS OF AGE AND             
+              OVER                                                              
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0044 910ILLTRT NTV WHT 10      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NATIVE WHITE PERSONS TEN YEARS OF AGE            
+              AND OVER                                                          
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0045 910TTL F.B WHT 10 & OVR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FOREIGN-BORN WHITE PERSONS TEN YEARS OF AGE           
+              AND OVER                                                          
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0046 910ILLTRT F.B WHT 10      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FOREIGN-BORN WHITE PERSONS TEN YEARS OF          
+              AGE AND OVER                                                      
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0047 910TTL NG 10 & OVR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF NEGROES, TEN YEARS OF AGE AND OVER                    
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0048 910ILLTRT NG 10 & OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NEGROES TEN YEARS OF AGE AND OVER                
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0049 910TTL PSNS 10-20 YRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 10-20 YEARS OF AGE                            
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0050 910ILLTRT PSNS 10-20 YRS  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE PERSONS 10-20 YEARS OF AGE                       
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0051 910TTL PSNS 6-20 YRS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 6-20 YEARS OF AGE                             
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0052 910PSNS 6-20 ATTNDG SCH   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 6-20 YEARS OF AGE ATTENDING SCHOOL                  
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0053 910TTL PSNS 6-9 YRS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 6-9 YEARS OF AGE                              
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0054 910PSNS 6-9 ATTNDG SCH    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 6-9 YEARS OF AGE ATTENDING SCHOOL                   
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0055 910TTL PSNS 10-14 YRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 10-14 YEARS OF AGE                            
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0056 910PSNS 10-14 ATTNDG SCH  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 10-14 YEARS OF AGE ATTENDING SCHOOL                 
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0057 910TTL PSNS 15-17 YRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 15-17 YEARS OF AGE                            
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0058 910PSNS 15-17 ATTNDG SCH  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 15-17 YEARS OF AGE ATTENDING SCHOOL                 
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0059 910TTL PSNS 18-20 YRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 18-20 YEARS OF AGE                            
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0060 910PSNS 18-20 ATTNDG SCH  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 18-20 YEARS OF AGE ATTENDING SCHOOL                 
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0061 910TTL PSNS 6-14 YRS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 6-14 YEARS OF AGE                             
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0062 910PSNS 6-14 ATTNDG SCH   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 6-14 YEARS OF AGE ATTENDING SCHOOL                  
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0063 910NTV WHT NTV PNT 6-14   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF NATIVE WHITE PERSONS 6-14 YEARS OF AGE, OF            
+              NATIVE PARENTAGE                                                  
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0064 910WHT NTV PNT 6-14 SCH   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS 6-14 YEARS OF AGE, OF NATIVE           
+              PARENTAGE, ATTENDING SCHOOL                                       
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0065 910NTV WHT MXD PNT 6-14   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF NATIVE WHITE PERSONS 6-14 YEARS OF AGE OF             
+              FOREIGN OR MIXED PARENTAGE                                        
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0066 910WHT MXD PNT 6-14 SCH   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS 6-14 YEARS OF AGE OF FOREIGN           
+              OR MIXED PARENTAGE, ATTENDING SCHOOL                              
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0067 910F.B WHT 6-14 YRS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FOREIGN-BORN WHITE PERSONS 6-14 YEARS OF AGE          
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0068 910F.B WHT 6-14 SCH       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE PERSONS 6-14 YEARS OF AGE                
+              ATTENDING SCHOOL                                                  
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0069 910NG 6-14 YRS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF NEGROES 6-14 YEARS OF AGE                             
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0070 910NG 6-14 ATTNDG SCH     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGROES 6-14 YEARS OF AGE ATTENDING SCHOOL                  
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0071 910DWELLINGS              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF DWELLINGS                                                   
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0072 910FAMILIES               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FAMILIES                                                    
+          (1910) SOURCE: DUB. 313-314, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0073 910AFRICA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN AFRICA (COUNTRY                
+          UNSPECIFIED                                                           
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0074 910ATLANTIC ISLANDS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN THE ATLANTIC ISLANDS           
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0075 910AUSTRALIA              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN AUSTRALIA                      
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0076 910AUSTRIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN AUSTRIA                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0077 910BELGIUM                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN BELGIUM                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0078 910BULGARIA               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN BULGARIA                       
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0079 910CANADA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN CANADA                         
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0080 910CANADA (FRENCH)        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN CANADA (FRENCH)                
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0081 910CANADA (OTHER)         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN CANADA (OTHER)                 
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0082 910CENTRAL AMERICA        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN CENTRAL AMERICA                
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0083 910CUBA                   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN CUBA                           
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0084 910CUBA&OTHER W. INDIES   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN CUBA AND THE OTHER             
+          WEST INDIES                                                           
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0085 910DENMARK                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN DENMARK                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0086 910ENGLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN ENGLAND                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0087 910FINLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN FINLAND                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0088 910FRANCE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN FRANCE                         
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0089 910GERMANY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN GERMANY                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0090 910GREECE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN GREECE                         
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0091 910HOLLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN HOLLAND                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0092 910HUNGARY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN HUNGARY                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0093 910IRELAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN IRELAND                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0094 910ITALY                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN ITALY                          
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0095 910MEXICO                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN MEXICO                         
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0096 910MONTENEGRO             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN MONTENEGRO                     
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0097 910NEWFOUNDLAND           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN NEWFOUNDLAND                   
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0098 910NORWAY                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN NORWAY                         
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0099 910PORTUGAL               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN PORTUGAL                       
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0100 910RUMANIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN RUMANIA                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0101 910RUSSIA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN RUSSIA                         
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0102 910SCOTLAND               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN SCOTLAND                       
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0103 910234VIA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN SERVIA                         
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+VAR # 0104 910SPAIN                  WIDTH =0009                                
+                        #D  =          MD1 =-00001         MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN SPAIN                          
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0105 910SWEDEN                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN SWEDEN                         
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0106 910SWITZERLAND            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN SWITZERLAND                    
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0107 910TURKEY                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN TURKEY                         
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0108 910TURKEY IN ASIA         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN ASIAN TURKEY                   
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0109 910TURKEY IN EUROPE       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN EUROPEAN TURKEY                
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0110 910WALES                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN WALES                          
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0111 910WEST INDIES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN THE WEST INDIES                
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0112 910OTHER COUNTRIES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1910) BORN IN OTHER FOREIGN                  
+          COUNTRIES                                                             
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0113 910AUSTRIA-N              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN AUSTRIA                                                            
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0114 910CANADA-N               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN CANADA                                                             
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0115 910CANADA-N (FRENCH)      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN CANADA (FRENCH)                                                    
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0116 910CANADA-N (OTHER)       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN CANADA (OTHER)                                                     
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0117 910DENMARK-N              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN DENMARK                                                            
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0118 910ENGLAND-N              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN ENGLAND                                                            
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0119 910FRANCE-N               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN FRANCE                                                             
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0120 910GERMANY-N              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN GERMANY                                                            
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0121 910GREECE-N               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN GREECE                                                             
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0122 910HOLLAND-N              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN HOLLAND                                                            
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0123 910HUNGARY-N              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN HUNGARY                                                            
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0124 910IRELAND-N              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN IRELAND                                                            
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0125 910ITALY-N                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN ITALY                                                              
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0126 910NORWAY-N               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN NORWAY                                                             
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0127 910RUSSIA-N               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN RUSSIA                                                             
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0128 910SCOTLAND-N             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN SCOTLAND                                                           
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0129 910SWEDEN-N               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN SWEDEN                                                             
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0130 910SWITZERLAND-N          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN SWITZERLAND                                                        
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0131 910WALES-N                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS (1910) WITH BOTH PARENTS BORN          
+          IN WALES                                                              
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0132 910OTR FRN PARENTAGE-N    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ALL OTHER PERSONS OF FOREIGN PARENTAGE INCLUDING PERSONS              
+          WITH PARENTS BORN IN UNSPECIFIED FOREIGN COUNTRIES, AND               
+          PERSONS WHOSE PARENTS WERE BORN IN DIFFERENT FOREIGN                  
+          COUNTRIES                                                             
+          SOURCE: DUB. 313-314, TABLE 1                                         
+                                                                                
+                                                                                
+VAR # 0133 910TTL VALUE ALL CROPS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF ALL CROPS                                              
+          (1910) SOURCE: DUB. 333-334, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0134 910VAL OF CEREALS         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF CEREALS                                                      
+          (1910) SOURCE: DUB. 333-334, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0135 910VAL OF OTR GRAINS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF OTHER GRAINS AND SEEDS                                       
+          (1910) SOURCE: DUB. 333-334, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0136 910VAL OF HAY             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF HAY AND FORAGE                                               
+          (1910) SOURCE: DUB. 333-334, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0137 910VAL OF VEGETABLES      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF VEGETABLES                                                   
+          (1910) SOURCE: DUB. 333-334, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0138 910VAL OF FRUITS & NUTS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FRUITS AND NUTS                                              
+          (1910) SOURCE: DUB. 333-334, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0139 910VAL OF ALL OTR CROPS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF ALL OTHER CROPS                                              
+          (1910) SOURCE: DUB. 333-334, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0140 910TTL NMBR FM            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS                                                 
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0141 910FM NTV WHT             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF NATIVE WHITES                                      
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0142 910FM FB WHT              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF FOREIGN-BORN WHITES                                
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0143 910FM NG &NNWHT           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF NEGROES AND OTHER NON-WHITES                       
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0144 910FM UNR 3 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF UNDER THREE ACRES                                  
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0145 910FM 3-9 ACR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 3-9 ACRES                                          
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0146 910FM 10-19 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 10-19 ACRES                                        
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0147 910FM 20-49 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 20-49 ACRES                                        
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0148 910FM 50-99 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 50-99 ACRES                                        
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0149 910FM 100-174 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 100-174 ACRES                                      
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0150 910FM 175-259 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 175-259 ACRES                                      
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0151 910FM 260-499 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 260-499 ACRES                                      
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0152 910FM 500-999 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 500-999 ACRES                                      
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0153 910FM OVR 1000 ACR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 1,000 OR MORE ACRES                                
+          (1910) SOURCE: DUB. 333-334, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0154 910TTL FM OWNER           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY OWNERS                              
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0155 910TTL ACR FM OWNER       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OPERATED BY OWNERS                   
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0156 910TTL ACR I.L FM ONR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY OWNERS          
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0157 910VAL LD & BLDG OWNER    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY OWNERS               
+          1                                                                     
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0158 910TTL FM OWNED LD ONLY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS CONSISTING OF OWNED LAND ONLY OPERATED BY             
+          OWNERS                                                                
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0159 910FM OWNED & HIRED LD    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS CONSISTING OF OWNED AND HIRED LAND IN FARMS           
+          OPERATED BY OWNERS                                                    
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0160 910NMBR NTV WHT OWNER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE FARM OWNERS                                    
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0161 910NMBR F.B WHT OWNER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FARM OWNERS                              
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0162 910NMBR NG & NNWHT ONR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO AND OTHER NON-WHITE FARM OWNERS                       
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0163 910NMBR TNT FM            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY TENANTS                             
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0164 910ACR LD TNT FM          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OPERATED BY TENANTS                  
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0165 910ACR I.L TNT FM         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY                 
+          TENANTS                                                               
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0166 910VAL LD & BLDG FM TNT   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY TENANTS              
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0167 910TTL FM SHARE TNT       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY SHARE TENANTS                       
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0168 910FM SHARE-CASH TNT      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY SHARE-CASH TENANTS                  
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0169 910TTL FM CASH TNT        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY CASH TENANTS                        
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0170 910TTL FM USPEC TNT       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY TENANTS, TENURE NOT                 
+          SPECIFIED                                                             
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0171 910TTL FM NTV WHT TNT     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY NATIVE WHITE TENANTS                
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0172 910TTL FM F.B WHT TNT     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY FOREIGN-BORN WHITE TENANTS          
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0173 910TTL FM NG NNWHT TNT    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY NEGRO AND OTHER NON-WHITE           
+          TENANTS                                                               
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0174 910TTL FM MGR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY MANAGERS                            
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0175 910ACR LD FM MGR          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OPERATED BY MANAGERS                 
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0176 910ACR I.L FM MGR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY                 
+          MANAGERS                                                              
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0177 910VAL LD BLDG FM MGR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY MANAGERS             
+          (1910) SOURCE: DUB. 333-334, TABLE 2                                  

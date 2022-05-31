@@ -1,0 +1,327 @@
+DATA MAP FOR 1820 CENSUS DATA  (COUNTY AND STATE)  [ICPSR 0003, DATASET 0004]   
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS   
+            WILL FIND TAPE LOCATION INFORMATION HERE.                           
+                                                                                
+    #D    = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                     
+                                                                                
+    MD1   = FIRST MISSING DATA CODE.                                            
+                                                                                
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                 
+                                                                                
+    VAR # = VARIABLE NUMBER.                                                    
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1820:  CENSUS FOR 1820.                
+                          (WASHINGTON, D.C.:  1821).                            
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                                                                                
+                                                                                
+VAR # 0001 DATA TYPE                 WIDTH =0001                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          DATA TYPE                                                             
+              C.  COUNTY DATA                                                   
+              S.  STATE DATA                                                    
+                                                                                
+                                                                                
+VAR # 0002 YEAR                      WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          YEAR TO WHICH DATA ARE RELEVANT                                       
+              820.  1820                                                        
+                                                                                
+                                                                                
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0004 CNGSL DIST NUMBER         WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CONGRESSIONAL DISTRICT NUMBER                                         
+                                                                                
+                                                                                
+VAR # 0041 IDENTIFICATION NUMBER     WIDTH =0004                                
+                        #D  =          MD1 =   9999        MD2 =                
+                                                                                
+          COUNTY OR STATE IDENTIFICATION NUMBER                                 
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                  
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                   
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                  
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                    
+          UNIT OF ANALYSIS IN THE DATA FILE.                                    
+                                                                                
+                                                                                
+VAR # 0005 COUNTY NAME               WIDTH =0017                                
+                        #D  =          MD1 =               MD 2=                
+                                                                                
+                                                                                
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CATALOG ENTRY NUMBER                                                  
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                
+          1790-1945", PREPARED BY HENRY J. DUBESTER                             
+                                                                                
+                                                                                
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          TABLE NUMBER                                                          
+                                                                                
+                                                                                
+VAR # 0008 820WHITE MALES UNDER 10   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES UNDER TEN YEARS OF AGE                     
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0009 820WHITE MALES 10-15      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 10-15 YEARS OF AGE                         
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0010 820WHITE MALES 16-18      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 16-18 YEARS OF AGE                         
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0011 820WHITE MALES 16-25      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 16-25 YEARS OF AGE                         
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0012 820WHITE MALES 26-44      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 26-44 YEARS OF AGE                         
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0013 820WHT MALES 45 & OVER    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 45 YEARS OF AGE AND OVER                   
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0014 820WHT FEMALES UNDER 10   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES UNDER TEN YEARS OF AGE                   
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0015 820WHT FEMALES 10-15      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 10-15 YEARS OF AGE                       
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0016 820WHT FEMALES 16-25      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 16-25 YEARS OF AGE                       
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0017 820WHT FEMALES 26-44      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 26-44 YEARS OF AGE                       
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0018 820WHT F 45 & OVER        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 45 YEARS OF AGE AND OVER                 
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0019 820TOTAL ALIENS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN PERSONS NOT NATURALIZED                             
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0020 820EMPLD IN AGRIC         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS ENGAGED IN AGRICULTURE                              
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0021 820EMPLD IN COMMERCE      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS ENGAGED IN COMMERCE                                 
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0022 820EMPLD IN MFGS          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS ENGAGED IN MANUFACTURING                            
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0023 820SLAVE MALES UNDER 14   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES UNDER 14 YEARS OF AGE                           
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0024 820SLAVE MALES 14-25      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 14-25 YEARS OF AGE                              
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0025 820SLAVE MALES 26-44      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 26-44 YEARS OF AGE                              
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0026 820SLAVE MALES 45 & OVER  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 45 YEARS OF AGE AND OVER                        
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0027 820SLAVE F UNDER 14       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES UNDER 14 YEARS OF AGE                         
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0028 820SLAVE FEMALES 14-25    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 14-25 YEARS OF AGE                            
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0029 820SLAVE FEMALES 26-44    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 26-44 YEARS OF AGE                            
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0030 820SLAVE F 45 & OVER      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 45 YEARS OF AGE AND OVER                      
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0031 820F.C MALES UNDER 14     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES UNDER 14 YEARS OF AGE                    
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0032 820F.C MALES 14-25        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 14-25 YEARS OF AGE                       
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0033 820F.C MALES 26-44        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 26-44 YEARS OF AGE                       
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0034 820F.C MALES 45 & OVER    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 45 YEARS OF AGE AND OVER                 
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0035 820F.C FEMALES UNDER 14   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES UNDER 14 YEARS OF AGE                  
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0036 820F.C FEMALES 14-25      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 14-25 YEARS OF AGE                     
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0037 820F.C FEMALES 26-44      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 26-44 YEARS OF AGE                     
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0038 820F.C FEMALES 45 & OVER  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 45 YEARS OF AGE AND OVER               
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0039 820OTHER PERSONS          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ALL OTHER PERSONS, EXCEPT INDIANS NOT TAXED                 
+          (1820) SOURCE: DUB. 15, TABLE 1                                       
+                                                                                
+                                                                                
+VAR # 0040 820TOTAL POPULATION       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL POPULATION                                                      
+          (1820) SOURCE: DUB. 15, TABLE 1                                       

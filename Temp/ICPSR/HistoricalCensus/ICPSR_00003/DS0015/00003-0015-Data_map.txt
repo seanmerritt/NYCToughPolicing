@@ -1,0 +1,1368 @@
+DATA MAP FOR 1920 CENSUS -- COUNTY AND STATE   [ICPSR 0003, DATASET 0015]       
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS   
+            WILL FIND TAPE LOCATION INFORMATION HERE.                           
+                                                                                
+    #D    = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                     
+                                                                                
+    MD1   = FIRST MISSING DATA CODE.                                            
+                                                                                
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                 
+                                                                                
+    VAR # = VARIABLE NUMBER.                                                    
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1920:  VOL. I, POPULATION.             
+                          (WASHINGTON, D.C.:  1921).                            
+          DUBESTER 0470:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1920:  VOL. III, POPULATION.           
+                          (WASHINGTON, D.C.:  1922).                            
+          DUBESTER 0497-  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                   0499:  UNITED STATES, 1920:  VOL. VI, PARTS 1, 2,            
+                          AND 3, AGRICULTURE.  (WASHINGTON, D.C.:               
+                          1922).                                                
+          DUBESTER 0504:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1920:  VOL. VIII,                      
+                          MANUFACTURES.  (WASHINGTON, D.C.:  1923).             
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                                                                                
+                                                                                
+VAR # 0001 DATA TYPE                 WIDTH =0001                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0002 YEAR                      WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0004 CNGSL DIST NUMBER         WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0183 IDENTIFICATION NUMBER     WIDTH =0004                                
+                        #D  =          MD1 =   9999        MD2 =                
+                                                                                
+          COUNTY OR STATE IDENTIFICATION NUMBER                                 
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                  
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                   
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                  
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                    
+          UNIT OF ANALYSIS IN THE DATA FILE.                                    
+                                                                                
+                                                                                
+VAR # 0005 COUNTY NAME               WIDTH =0017                                
+                        #D  =          MD1 =               MD 2=                
+                                                                                
+                                                                                
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CATALOG ENTRY NUMBER                                                  
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                
+          1790-1945", PREPARED BY HENRY J. DUBESTER                             
+                                                                                
+                                                                                
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          TABLE NUMBER                                                          
+                                                                                
+                                                                                
+VAR # 0008 920TTL MALES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF MALES                                                 
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0009 920TTL FEMALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FEMALES                                               
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0010 920NTV WHT MALES          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES                                          
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0011 920NTV WHT FEMALES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE FEMALES                                        
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0012 920NTV WHT NTV PNTS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITES OF NATIVE PARENTAGE                           
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0013 920NTV WHT F.B PNTS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITES OF FOREIGN PARENTAGE                          
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0014 920NTV WHT MXD PNTS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITES OF MIXED PARENTAGE                            
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0015 920F.B MALES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES                                    
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0016 920F.B FEMALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES                                  
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0017 920NEGRO MALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE NEGROES                                                
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0018 920NEGRO FEMALES          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE NEGROES                                              
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0019 920OTR RACES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF INDIANS, CHINESE, JAPANESE, AND ALL OTHER RACES             
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0020 920PSNS UNDER 7 YRS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS UNDER SEVEN YEARS OF AGE                      
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0021 920PSNS AGED 7-13 YRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 7-13 YEARS OF AGE                             
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0022 920PSNS 7-13 ATTNDG SCH   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 7-13 YEARS OF AGE ATTENDING SCHOOL                  
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0023 920PSNS AGED 14-15 YRS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 14 AND 15 YEARS OF AGE                        
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0024 920PSNS 14-15 ATTNDG SCH  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 14 AND 15 YEARS OF AGE ATTENDING              
+          SCHOOL                                                                
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0025 920PSNS AGED 16-17 YRS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 16 AND 17 YEARS OF AGE                        
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0026 920PSNS 16-17 ATTNDG SCH  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 16 AND 17 YEARS OF AGE ATTENDING              
+          SCHOOL                                                                
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0027 920PSNS AGED 18-20 YRS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 18-20 YEARS OF AGE                            
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0028 920PSNS 18-20 ATTNDG SCH  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 18-20 YEARS OF AGE ATTENDING SCHOOL                 
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0029 920MALES 21 YRS & OVER    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES 21 YEARS OF AGE AND OVER                              
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0030 920NTV WHT M NTV PNTS 21  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES 21 YEARS OF AGE AND OVER OF              
+          NATIVE PARENTAGE                                                      
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0031 920NTV WHT M F.B PNTS 21  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES 21 YEARS OF AGE AND OVER OF              
+          FOREIGN OR MIXED PARENTAGE                                            
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0032 920F.B WHT M 21 & OVER    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES 21 YEARS OF AGE AND OVER           
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0033 920NTRLZD F.B WHT M 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATURALIZED FOREIGN-BORN WHITE MALES 21 YEARS OF            
+          AGE AND OVER                                                          
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0034 920F.B WHT M 21 1ST PPR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES 21 YEARS OF AGE AND OVER           
+          WITH FIRST PAPERS                                                     
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0035 920ALIEN F.B WHT M 21     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ALIEN FOREIGN-BORN WHITE MALES 21 YEARS OF AGE AND          
+          OVER                                                                  
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0036 920F.B WHT M 21 UKWN      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES 21 YEARS OF AGE AND                
+          OVER OF UNKNOWN CITIZENSHIP STATUS                                    
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0037 920NG M 21 YRS & OVER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES 21 YEARS OF AGE AND OVER                        
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0038 920M 21 & OVER OTR RACES  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE INDIANS, CHINESE, JAPANESE AND MALES OF ALL            
+          OTHER RACES 21 YEARS OF AGE AND OVER                                  
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0039 920FEMALES 21 YRS & OVER  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FEMALES 21 YEARS OF AGE AND OVER                      
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0040 920NTV WHT F NTV PNTS 21  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE FEMALES 21 YEARS OF AGE AND OVER OF            
+          NATIVE PARENTAGE                                                      
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0041 920NTV WHT F F.B PNTS 21  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE FEMALES 21 YEARS OF AGE AND OVER OF            
+          FOREIGN OR MIXED PARENTAGE                                            
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0042 920F.B WHT F 21 & OVER    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES 21 YEARS OF AGE AND OVER         
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0043 920NTRLZD F.B WHT F 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATURALIZED FOREIGN-BORN WHITE FEMALES 21 YEARS OF          
+          AGE AND OVER                                                          
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0044 920F.B WHT F 21 1ST PPR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATURALIZED FOREIGN-BORN WHITE FEMALES 21 YEARS OF          
+          AGE AND OVER WITH FIRST PAPERS                                        
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0045 920ALIEN F.B WHT F 21     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ALIEN FOREIGN-BORN WHITE FEMALES 21 YEARS OF AGE            
+          AND OVER                                                              
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0046 920F.B WHT F 21 UKWN      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES 21 YEARS OF AGE AND              
+          OVER OF UNKNOWN CITIZENSHIP STATUS                                    
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0047 920NG F 21 YRS & OVER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATURALIZED NEGRO FEMALES 21 YEARS OF AGE AND OVER          
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0048 920F 21 & OVER OTR RACES  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE INDIANS, CHINESE, JAPANESE, AND FEMALES OF           
+          ALL OTHER RACES 21 YEARS OF AGE AND OVER                              
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0049 920MALES 18-44            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES 18-44 YEARS OF AGE                                    
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0050 920FEMALES 18-44          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES 18-44 YEARS OF AGE                                  
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0051 920TTL PSNS 10 YRS & OVR  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS TEN YEARS OF AGE AND OVER                     
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0052 920ILLTRT PSNS 10 OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE PERSONS TEN YEARS OF AGE AND OVER                
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0053 920NTV WHT PSNS 10 OVR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS TEN YEARS OF AGE AND OVER              
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0054 920ILLTRT NTV WHT 10 OVR  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NATIVE WHITE PERSONS TEN YEARS OF AGE            
+          AND OVER                                                              
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0055 920F.B WHT PSNS 10 OVR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE PERSONS TEN YEARS OF AGE AND             
+          OVER                                                                  
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0056 920ILLTRT F.B WHT 10 OVR  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FORIEGN-BORN WHITE PERSONS TEN                   
+          YEARS OF AGE AND OVER                                                 
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0057 920NG PSNS 10 & OVR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGROES TEN YEARS OF AGE AND OVER                           
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0058 920ILLTRT NG PSNS 10 OVR  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NEGROES TEN YEARS OF AGE AND OVER                
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0059 920TTL PSNS 16-20 YRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 16-20 YEARS OF AGE                                  
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0060 920ILLTRT PSNS 16-20      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE PERSONS 16-20 YEARS OF AGE                       
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0061 920ILLTRT M 21 & OVR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE MALES 21 YEARS OF AGE AND OVER                   
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0062 920ILLTRT NTV WHT M 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NATIVE-WHITE MALES 21 YEARS OF AGE AND           
+          OVER                                                                  
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0063 920ILLTRT F.B WHT M 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FOREIGN-BORN WHITE MALES 21 YEARS OF             
+          AGE AND OVER                                                          
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0064 920ILLTRT NG M 21         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NEGRO MALES 21 YEARS OF AGE AND OVER             
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0065 920ILLTRT F 21 & OVR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FEMALES 21 YEARS OF AGE AND OVER                 
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0066 920ILLTRT NTV WHT F 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NATIVE WHITE FEMALES 21 YEARS OF AGE             
+          AND OVER                                                              
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0067 920ILLTRT F.B WHT F 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FOREIGN-BORN WHITE FEMALES 21 YEARS OF           
+          AGE AND OVER                                                          
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0068 920ILLTRT NG F 21         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NEGRO  FEMALES 21 YEARS OF AGE AND OVER          
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0069 920DWELLINGS              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF DWELLINGS                                                   
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0070 920FAMILIES               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FAMILIES                                                    
+          (1920) SOURCE: DUB. 470, TABLE 9                                      
+                                                                                
+                                                                                
+VAR # 0071 920ALBANIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN ALBANIA                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0072 920ARMENIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN ARMENIA                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0073 920ATLANTIC ISLANDS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN THE ATLANTIC ISLANDS           
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0074 920AUSTRALIA              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN AUSTRALIA                      
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0075 920AUSTRIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN AUSTRIA                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0076 920BELGIUM                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN BELGIUM                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0077 920BULGARIA               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN BULGARIA                       
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0078 920CANADA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN CANADA                         
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0079 920CANADA (FRENCH)        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN CANADA (FRENCH)                
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0080 920CANADA (OTHER)         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN CANADA (OTHER)                 
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0081 920CENTRAL AMERICA        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN CENTRAL AMERICA                
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0082 920CUBA                   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN CUBA                           
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0083 920CZECHOSLOVAKIA         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN CZECHOSLOVAKIA                 
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0084 920DENMARK                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN DENMARK                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0085 920ENGLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN ENGLAND                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0086 920FINLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN FINLAND                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0087 920FRANCE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN FRANCE                         
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0088 920GERMANY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN GERMANY                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0089 920GREECE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN GREECE                         
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0090 920HOLLAND & NETHERLANDS  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN HOLLAND AND                    
+          NETHERLANDS                                                           
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0091 920HUNGARY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN HUNGARY                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0092 920IRELAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN IRELAND                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0093 920ITALY                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN ITALY                          
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0094 920LITHUANIA              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN LITHUANIA                      
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0095 920LUXEMBURG              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN LUXEMBURG                      
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0096 920MEXICO                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN MEXICO                         
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0097 920NEWFOUNDLAND           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN NEWFOUNDLAND                   
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0098 920NORWAY                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN NORWAY                         
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0099 920PACIFIC ISLANDS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN THE PACIFIC ISLANDS            
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0100 920POLAND                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN POLAND                         
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0101 920PORTUGAL               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN PORTUGAL                       
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0102 920RUMANIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN RUMANIA                        
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0103 920RUSSIA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN RUSSIA                         
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0104 920SCOTLAND               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN SCOTLAND                       
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0105 920SOUTH AMERICA          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN SOUTH AMERICA                  
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0106 920SPAIN                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN SPAIN                          
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0107 920SWEDEN                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN SWEDEN                         
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0108 920SWITZERLAND            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN SWITZERLAND                    
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0109 920SYRIA                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN SYRIA                          
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0110 920WALES                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN WALES                          
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0111 920WEST INDIES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN WEST INDIES                    
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0112 920YUGOSLAVIA             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN YUGOSLAVIA                     
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0113 920OTHER COUNTRIES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1920) BORN IN OTHER COUNTRIES                
+          SOURCE: DUB. 470, TABLE 12                                            
+                                                                                
+                                                                                
+VAR # 0114 920NMBR STBLSHTS MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MANUFACTURING ESTABLISHMENTS                                
+          (1920) SOURCE: DUB. 504, TABLE 51                                     
+                                                                                
+                                                                                
+VAR # 0115 920AV NMBR WG ERNR MFGN   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF WAGE EARNERS IN MANUFACTURING                       
+          (1920) SOURCE: DUB. 504, TABLE 51                                     
+                                                                                
+                                                                                
+VAR # 0116 920WGS WG ERNR MFGN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL WAGES OF WAGE EARNERS IN MANUFACTURING                          
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1920) SOURCE: DUB. 504, TABLE 51                                     
+                                                                                
+                                                                                
+VAR # 0117 920RENT & TAXES MFGN      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          COST OF RENT AND TAXES FOR MANUFACTURING ESTABLISHMENTS               
+          (1920) SOURCE: DUB. 504, TABLE 51                                     
+                                                                                
+                                                                                
+VAR # 0118 920CST MTRLS MFGNS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          COST OF MATERIALS FOR MANUFACTURING ESTABLISHMENTS                    
+          IN THOUSANDS OF DOLLARS                                               
+          (1920) SOURCE: DUB. 504, TABLE 51                                     
+                                                                                
+                                                                                
+VAR # 0119 920VAL PRDTS MFGN         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF PRODUCTS OF MANUFACTURING ESTABLISHMENTS IN                  
+          THOUSANDS OF DOLLARS                                                  
+          (1920) SOURCE: DUB. 504, TABLE 51                                     
+                                                                                
+                                                                                
+VAR # 0120 920VAL ADDED BY MFGN      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE ADDED BY MANUFACTURE (IN THOUSANDS OF DOLLARS)                  
+          (1920) SOURCE: DUB. 504, TABLE 51                                     
+                                                                                
+                                                                                
+VAR # 0121 920PMRY HRSPWR MFGN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          PRIMARY HORSEPOWER IN MANUFACTURING ESTABLISHMENTS - RATED            
+          CAPACITY OF ENGINES, MOTORS, ETC.                                     
+          (1920) SOURCE: DUB. 504, TABLE 51                                     
+                                                                                
+                                                                                
+VAR # 0122 920TTL VAL OF ALL CROPS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF ALL CROPS                                              
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1920) SOURCE: DUB. 497-499, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0123 920VAL OF CEREALS         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF CEREALS                                                      
+          (1920) SOURCE: DUB. 497-499, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0124 920VAL OTR GRAINS&SEEDS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF OTHER GRAINS AND SEEDS                                       
+          (1920) SOURCE: DUB. 497-499, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0125 920VAL HAY & FORAGE       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF HAY AND FORAGE                                               
+          (1920) SOURCE: DUB. 497-499, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0126 920VAL VEGETABLES         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF VEGETABLES                                                   
+          (1920) SOURCE: DUB. 497-499, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0127 920VAL FRUITS             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FRUITS AND NUTS                                              
+          (1920) SOURCE: DUB. 497-499, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0128 920VAL ALL OTR CROPS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF ALL OTHER CROPS                                              
+          (1920) SOURCE: DUB. 497-499, TABLE 4                                  
+                                                                                
+                                                                                
+VAR # 0129 920TTL NMBR FM            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS                                                 
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0130 920TTL NMBR FM MALE       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF MALES                                              
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0131 920TTL NMBR FM FEMALE     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF FEMALES                                            
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0132 920TTL FM NTV WHT         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF NATIVE WHITES                                      
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0133 920TTL FM F.B WHT         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF FOREIGN-BORN WHITES                                
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0134 920TTL FM NG & NNWHT      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF NEGROS AND OTHER NON-WHITES                        
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0135 920TTL FM UNR 3 ACR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF UNDER THREE ACRES                                  
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0136 920FM 3-9 ACR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 3-9 ACRES                                          
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0137 920FM 10-19 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 10-19 ACRES                                        
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0138 920FM 20-49 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 20-49 ACRES                                        
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0139 920FM 50-99 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 50-99 ACRES                                        
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0140 920FM 100-174 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 100-174 ACRES                                      
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0141 920FM 175-259 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 175-259 ACRES                                      
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0142 920FM 260-499 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 260-499 ACRES                                      
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0143 920FM 500-999 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 500-999 ACRES                                      
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0144 920FM 1000 ACR & OVR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS 1000 ACRES AND OVER                                   
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0145 920LD AREA BY ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          APPROXIMATE LAND AREA IN ACRES                                        
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0146 920TTL ACR LD IN FM       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF ACRES OF LAND IN FARMS                                
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0147 920ACR I.L IN FM          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED LAND IN FARMS                             
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0148 920ACR WDLD IN FM         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF WOODLAND IN FARMS                                  
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0149 920ACR OTR UI.L IN FM     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF OTHER UNIMPROVED LAND IN FARMS                     
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0150 920VAL FM PROPERTY        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF ALL FARM PROPERTY                                            
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS                  
+          DOLLARS)                                                              
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0151 920VAL LD IN FM           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND IN FARMS                                                
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS                  
+          DOLLARS)                                                              
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0152 920VAL FM BLDG            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FARM BUILDINGS                                               
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0153 920VAL FM MCHNRY          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF IMPLEMENTS AND MACHINERY                                     
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0154 920VAL LIVESTOCK ON FM    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LIVESTOCK ON FARMS                                           
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0155 920TTL FM ONR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY OWNERS                              
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0156 920ACR LD FM ONR          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF ACRES OF LAND IN FARMS OPERATED BY OWNERS             
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0157 920ACR I.L FM ONR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY OWNERS          
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0158 920VAL LD BLDG FM ONR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY OWNERS               
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS                  
+          DOLLARS)                                                              
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0159 920FM ONR OWNED LD ONLY   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY OWNER OWNING ENTIRE FARM                  
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0160 920FM OWNED & HIRED LD    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY OWNER HIRING ADDITIONAL LAND              
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0161 920FM NTV WHT ONR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY NATIVE WHITE OWNERS                       
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0162 920FM F.B WHT ONR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY FOREIGN-BORN WHITE OWNERS                 
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0163 920FM NG NNWHT ONR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY NEGRO AND OTHER NON-WHITE OWNERS          
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0164 920TTL FM MGR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY MANAGERS                            
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0165 920ACR LD FM MGR          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OPERATED BY MANAGERS                 
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0166 920ACR I.L FM MGR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY                 
+          MANAGERS                                                              
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0167 920VAL LD BLDG FM MGR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY MANAGERS             
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0168 920TTL FM TNT             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OPERATED BY TENANTS                             
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0169 920ACR LD FM TNT          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OPERATED BY TENANTS                  
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0170 920ACR I.L FM TNT         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY                 
+          TENANTS                                                               
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0171 920VAL LD BLDG FM TNT     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY TENANTS              
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS                  
+          DOLLARS)                                                              
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0172 920FM SHARE TNT           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY SHARE-TENANTS                             
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0173 920FM CROPPER             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY CROPPERS                                  
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0174 920FM SHARE-CASH TNT      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY SHARE-CASH TENANTS                        
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0175 920FM CASH TNT            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY CASH TENANTS                              
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0176 920FM STANDING RENTER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY STANDING RENTERS                          
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0177 920FM USPEC TNT           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY UNSPECIFIED TENANTS                       
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0178 920FM NTV WHT TNT         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY NATIVE WHITE TENANTS                      
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0179 920FM F.B WHT TNT         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY FOREIGN-BORN WHITE TENANT                 
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0180 920FM NG NNWHT TNT        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OPERATED BY NEGRO AND OTHER NON-WHITE                 
+          TENANTS                                                               
+          (1920) SOURCE: DUB. 497-499, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0181 920LAND AREA SQ MI 1920   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          LAND AREA IN SQUARE MILES, 1920                                       
+          SOURCE: DUB. 448, TABLE 49                                            
+                                                                                
+                                                                                
+VAR # 0182 920POP PER SQ MI 1920     WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          POPULATION PER SQUARE MILE, 1920                                      
+          (TO ONE DECIMAL PLACE)                                                
+          SOURCE: DUB. 448, TABLE 49                                            

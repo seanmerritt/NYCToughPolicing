@@ -1,0 +1,1887 @@
+DATA MAP FOR 1930 CENSUS -- COUNTY AND STATE   [ICPSR 0003, DATASET 0016]       
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS   
+            WILL FIND TAPE LOCATION INFORMATION HERE.                           
+                                                                                
+    #D    = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                     
+                                                                                
+    MD1   = FIRST MISSING DATA CODE.                                            
+                                                                                
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                 
+                                                                                
+    VAR # = VARIABLE NUMBER.                                                    
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:  POPULATION,                     
+                          VOLUME I.  (WASHINGTON, D.C.:  1931)                  
+          DUBESTER 0669-  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                   0670:  UNITED STATES, 1930:  POPULATION,                     
+                          VOLUME III, PARTS I & II.                             
+                          (WASHINGTON, D.C.:  1932)                             
+          DUBESTER 0719:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:  MANUFACTURES:                   
+                          1929, VOLUME III.                                     
+                          (WASHINGTON, D.C.:  1933)                             
+          DUBESTER 0684:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:  UNEMPLOYMENT,                   
+                          VOLUME I.  (WASHINGTON, D.C.: 1932)                   
+          DUBESTER 0727:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:                                  
+                          WHOLESALE DISTRIBUTION, VOLUME II.                    
+                          (WASHINGTON, D.C.:  1933)                             
+          DUBESTER 0724:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:                                  
+                          RETAIL DISTRIBUTION, VOLUME I, PART I.                
+                          (WASHINGTON, D.C.:  1933)                             
+          DUBESTER 0689-  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                   0691:  UNITED STATES, 1930:  AGRICULTURE,                    
+                          VOLUME II, PARTS 1-3.                                 
+                          (WASHINGTON, D.C.: 1932)                              
+          DUBESTER 3601-  CENSUS OF PARTIAL EMPLOYMENT,                         
+                   3603:  UNEMPLOYMENT AND OCCUPATIONS, 1937:                   
+                          VOLUMES I-III.  (WASHINGTON, D.C.:  1938)             
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                                                                                
+                                                                                
+VAR # 0001 DATA TYPE                 WIDTH =0001                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          DATA TYPE                                                             
+              C.  COUNTY DATA                                                   
+              S.  STATE DATA                                                    
+                                                                                
+                                                                                
+VAR # 0002 YEAR                      WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          YEAR TO WHICH DATA ARE RELEVANT                                       
+              930.  1930                                                        
+                                                                                
+                                                                                
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0004 CNGSL DIST NUMBER         WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CONGRESSIONAL DISTRICT NUMBER                                         
+                                                                                
+                                                                                
+VAR # 0250 IDENTIFICATION NUMBER     WIDTH =0004                                
+                        #D  =          MD1 =   9999        MD2 =                
+                                                                                
+          COUNTY OR STATE IDENTIFICATION NUMBER                                 
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                  
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                   
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                  
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                    
+          UNIT OF ANALYSIS IN THE DATA FILE.                                    
+                                                                                
+                                                                                
+VAR # 0005 COUNTY NAME               WIDTH =0017                                
+                        #D  =          MD1 =               MD 2=                
+                                                                                
+                                                                                
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CATALOG ENTRY NUMBER                                                  
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                
+          1790-1945", PREPARED BY HENRY J. DUBESTER                             
+                                                                                
+                                                                                
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          TABLE NUMBER                                                          
+                                                                                
+                                                                                
+VAR # 0008 930TTL MALES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF MALES                                                 
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0009 930TTL FEMALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FEMALES                                               
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0010 930NTV WHT MALES          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF NATIVE WHITE MALES                                    
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0011 930NTV WHT FEMALES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NATIVE WHITE FEMALES                                            
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0012 930NTV WHT NTV PNT        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PEOPLE OF NATIVE PARENTAGE                     
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0013 930NTV WHT FRN PNT        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NATIVE WHITE PEOPLE OF FOREIGN PARENTAGE                              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0014 930NTV WHT MXD PNT        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PEOPLE OF MIXED PARENTAGE                      
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0015 930F.B WHT MALES          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUBER OF FOREIGN-BORN WHITE MALES                                     
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0016 930F.B WHT FEMALES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES                                  
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0017 930NEGRO MALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES                                                 
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0018 930NEGRO FEMALES          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO FEMALES                                               
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0019 930TTL OTR RACES          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PEOPLE OF OTHER RACES                                       
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0020 930TTL M 21 & OVR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES 21 YEARS OF AGE AND OVER                              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0021 930NTV WHT M 21 NTV PNT   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES 21 YEARS OF AGE AND OVER OF              
+          NATIVE PARENTAGE                                                      
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0022 930NTV WHT M 21 FRN PNT   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES 21 YEARS OF AGE AND OVER OF              
+          FOREIGN OR MIXED PARENTAGE                                            
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0023 930F.B WHT M 21 & OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES 21 YEARS OF AGE AND OVER           
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0024 930NTRLZD F.B WHT M 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATURALIZED FOREIGN-BORN WHITE MALES 21 YEARS OF            
+          AGE AND OVER                                                          
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0025 930F.B WHT M 21 1ST PPR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES 21 YEARS OF AGE AND OVER           
+          WHO HAVE FIRST PAPERS                                                 
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0026 930ALIEN F.B WHT M 21     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ALIEN FOREIGN-BORN WHITE MALES 21 YEARS OF AGE              
+          AND OVER                                                              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0027 930F.B WHT M 21 UKWN      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES 21 YEARS OF AGE AND OVER           
+          WHOSE CITIZENSHIP STATUS IS UNKNOWN                                   
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0028 930NG M 21 & OVER         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES 21 YEARS OF AGE AND OVER                        
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0029 930M 21 & OVR OTR RACES   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES 21 YEARS OF AGE AND OVER OF OTHER RACES               
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0030 930TTL F 21 & OVER        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES 21 YEARS OF AGE AND OVER                            
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0031 930NTV WHT F 21 NTV PNT   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE FEMALES 21 YEARS OF AGE AND OVER OF            
+          NATIVE PARENTAGE                                                      
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0032 930NTV WHT F 21 FRN PNT   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE FEMALES 21 YEARS OF AGE OF                     
+          FOREIGN OR MIXED PARENTAGE                                            
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0033 930F.B WHT F 21 & OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES 21 YEARS OF AGE AND              
+          OVER                                                                  
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0034 930NTRLZ F.B WHT F 21     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES 21 YEARS OF AGE AND              
+          OVER WHO ARE NATURALIZED                                              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0035 930F.B WHT F 21 1ST PPR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES 21 YEARS OF AGE AND              
+          OVER WHO HAVE FIRST PAPERS                                            
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0036 930ALIEN F.B WHT F 21     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ALIEN FOREIGN-BORN WHITE FEMALES 21 YEARS OF AGE            
+          AND OVER                                                              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0037 930F.B WHT F 21 UKWN      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES 21 YEARS OF AGE AND              
+          OVER WHOSE CITIZENSHIP STATUS IS UNKNOWN                              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0038 930NG F 21 & OVER         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO FEMALES 21 YEARS OF AGE AND OVER                      
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0039 930F 21 & OVER OTR RACES  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES 21 YEARS OF AGE AND OVER OF OTHER RACES             
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0040 930TTL PSNS 7-13 YRS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 7-13 YEARS OF AGE                             
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0041 930PSNS 7-13 ATTNDG SCHL  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 7 TO 13 YEARS OF AGE ATTENDING SCHOOL               
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0042 930TTL PSNS 14-15 YRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 14 AND 15 YEARS OF AGE                        
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0043 930PSN 14-15 ATTNDG SCHL  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 14 AND 15 YEARS OF AGE ATTENDING SCHOOL             
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0044 930TTL PSNS 16-17         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 16 AND 17 YEARS OF AGE                        
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0045 930PSN 16-17 ATTNDG SCHL  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS 16 AND 17 YEARS OF AGE ATTENDING SCHOOL             
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0046 930TTL PSNS 18-20 YRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 18-20 YEARS OF AGE                            
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0047 930PSN 18-20 ATTNDG SCHL  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS 18-20 YEARS OF AGE ATTENDING SCHOOL           
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0048 930TTL PSNS 10 YRS & OVR  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS TEN YEARS OF AGE AND OVER                     
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0049 930ILLTRT PSNS 10 & OVR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS TEN YEARS OF AGE AND OVER WHO ARE                   
+          ILLITERATE                                                            
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0050 930NTV WHT 10 YRS & OVR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE PERSONS TEN YEARS OF AGE AND OVER              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0051 930ILLTRT NTV WHT 10 OVR  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NATIVE WHITE PERSONS TEN YEARS OF AGE            
+          AND OVER                                                              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0052 930F.B WHT 10 YRS & OVR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FOREIGN-BORN WHITE PERSONS TEN YEARS OF AGE           
+          AND OVER                                                              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0053 930ILLTRT F.B WHT 10 OVR  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FOREIGN-BORN WHITE PERSONS TEN YEARS OF          
+          AGE AND OVER                                                          
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0054 930NG 10 YRS & OVR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO PERSONS TEN YEARS OF AGE AND OVER                     
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0055 930ILLTRT NG 10 YRS OVR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NEGRO PERSONS TEN YEARS OF AGE AND OVER          
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0056 930TTL M 15 YRS & OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF MALES 15 YEARS OF AGE AND OVER                        
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0057 930SINGLE M 15 & OVR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SINGLE MALES 15 YEARS OF AGE AND OVER                       
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0058 930MARRIED M 15 & OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MARRIED MALES 15 YEARS OF AGE AND OVER                      
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0059 930WIDOWED M 15 & OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WIDOWED MALES 15 YEARS OF AGE AND OVER                      
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0060 930DIVORCED M 15 & OVR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF DIVORCED MALES 15 YEARS OF AGE AND OVER                     
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0061 930M 15 OVR UKWN MARITAL  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES 15 YEARS OF AGE AND OVER OF UNKNOWN MARITAL           
+          CONDITION                                                             
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0062 930TTL F 15 YRS & OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES 15 YEARS OF AGE AND OVER                            
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0063 930SINGLE F 15 & OVR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SINGLE FEMALES 15 YEARS OF AGE AND OVER                     
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0064 930MARRIED F 15 & OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MARRIED FEMALES 15 YEARS OF AGE AND OVER                    
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0065 930WIDOWED F 15 & OVR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WIDOWED FEMALES 15 YEARS OF AGE AND OVER                    
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0066 930DIVORCED F 15 & OVR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF DIVORCED FEMALES 15 YEARS OF AGE AND OVER                   
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0067 930F 15 OVR UKWN MARITAL  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES 15 YEARS OF AGE AND OVER OF UNKNOWN                 
+          MARITAL CONDITION                                                     
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0068 930TTL URBAN POP          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL URBAN POPULATION                                                
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0069 930URBAN-FARM POP         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF URBAN-FARM PEOPLE                                     
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0070 930TTL RURAL POP          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL RURAL POPULATION                                                
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0071 930RURAL-FARM POP         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          RURAL-FARM POPULATION                                                 
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0072 930RURAL-NONFARM POP      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          RURAL-NONFARM POPULATION                                              
+          (1930) SOURCE: DUB. 669-670, TABLE 13                                 
+                                                                                
+                                                                                
+VAR # 0073 920 URBAN POP             WIDTH =-0009                               
+                        #D  =          MD1 =-000001       MD2 =-000002          
+                                                                                
+          URBAN POPULATION, 1920                                                
+          SOURCE: DUB. 669-670, TABLE 13                                        
+                                                                                
+                                                                                
+VAR # 0074 920 RURAL POP             WIDTH =-0009                               
+                        #D  =          MD1 =-000001       MD2 =-000002          
+                                                                                
+          RURAL POPULATION, 1920                                                
+          SOURCE: DUB. 669-670, TABLE 13                                        
+                                                                                
+                                                                                
+VAR # 0075 930ARMENIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN ARMENIA                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0076 930AUSTRALIA              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN AUSTRALIA                      
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0077 930AUSTRIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN AUSTRIA                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0078 930AZORES                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN THE AZORES                     
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0079 930BELGIUM                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN BELGIUM                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0080 930BULGARIA               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN BULGARIA                       
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0081 930CANADA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN CANADA                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0082 930CANADA (FRENCH)        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN CANADA (FRENCH)                
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0083 930CANADA (OTHER)         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN CANADA (OTHER)                 
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0084 930CENTRAL & SOUTH AM     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN CENTRAL AND                    
+          SOUTH AMERICA                                                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0085 930CUBA                   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN CUBA                           
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0086 930CZECHOSLOVAKIA         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN CZECHOSLOVAKIA                 
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0087 930DENMARK                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN DENMARK                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0088 930ENGLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN ENGLAND                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0089 930FINLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN FINLAND                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0090 930FRANCE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN FRANCE                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0091 930GERMANY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN GERMANY                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0092 930GREECE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN GREECE                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0093 930HOLLAND & NETHERLANDS  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN HOLLAND AND                    
+          NETHERLANDS                                                           
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0094 930HUNGARY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN HUNGARY                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0095 930IRELAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN IRELAND                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0096 930IRISH FREE STATE       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN IRISH FREE STATE               
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0097 930ITALY                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN ITALY                          
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0098 930LATVIA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN LATVIA                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0099 930LITHUANIA              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN LITHUANIA                      
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0100 930LUXEMBURG              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN LUXEMBURG                      
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0101 930MEXICO                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN MEXICO                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0102 930NEWFOUNDLAND           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN NEWFOUNDLAND                   
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0103 930NORTHERN IRELAND       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN NORTHERN IRELAND               
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0104 930NORWAY                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN NORWAY                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0105 930PALESTINE & SYRIA      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN PALESTINE AND SYRIA            
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0106 930POLAND                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN POLAND                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0107 930PORTUGAL               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN PORTUGAL                       
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0108 930RUMANIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN RUMANIA                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0109 930RUSSIA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN RUSSIA                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0110 930SCOTLAND               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN SCOTLAND                       
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0111 930SPAIN                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN SPAIN                          
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0112 930SWEDEN                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN SWEDEN                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0113 930SWITZERLAND            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN SWITZERLAND                    
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0114 930TURKEY                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN TURKEY                         
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0115 930WALES                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN WALES                          
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0116 930WEST INDIES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN THE WEST INDIES                
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0117 930WEST INDIES (OTHER)    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN THE WEST INDIES                
+          (OTHER)                                                               
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0118 930YUGOSLAVIA             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN YUGOSLAVIA                     
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0119 930OTHER COUNTRIES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN OTHER COUNTRIES                
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0120 930ICELAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS (1930) BORN IN ICELAND                        
+          SOURCE: DUB. 669-670, TABLE 18                                        
+                                                                                
+                                                                                
+VAR # 0121 930NMBR STBLSHTS MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MANUFACTURING ESTABLISHMENTS, 1929                          
+          SOURCE: DUB. 719, TABLE 2                                             
+                                                                                
+                                                                                
+VAR # 0122 930WG ERNRS MFGN          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF WAGE EARNERS IN MANUFACTURING INDUSTRIES,           
+          1929                                                                  
+          SOURCE: DUB. 719, TABLE 2                                             
+                                                                                
+                                                                                
+VAR # 0123 930HRSPWR MFGN            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          HORSEPOWER IN MANUFACTURING (RATED CAPACITY OF PRIME MOVERS           
+          AND ELECTRIC MOTORS), 1929                                            
+          SOURCE: DUB. 719, TABLE 2                                             
+                                                                                
+                                                                                
+VAR # 0124 930WGS MFGN               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          ANNUAL WAGES IN MANUFACTURING, 1929                                   
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          SOURCE: DUB. 719, TABLE 2                                             
+                                                                                
+                                                                                
+VAR # 0125 930TTL CST MTRLS MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL COST OF MATERIALS, CONTAINERS, FUEL AND PURCHASED               
+          ENERGY USED BY MANUFACTURING ESTABLISHMENTS, 1929                     
+          (IN THOUSANDS OF DOLLARS)                                             
+          SOURCE: DUB. 719, TABLE 2                                             
+                                                                                
+                                                                                
+VAR # 0126 930CST MTRLS CNTNRS MFGN  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          COST OF MATERIALS AND CONTAINERS USED IN MANUFACTURING, 1929          
+          (IN THOUSANDS OF DOLLARS)                                             
+          SOURCE: DUB. 719, TABLE 2                                             
+                                                                                
+                                                                                
+VAR # 0127 930CST FUEL MFGN          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          COST OF FUEL AND PURCHASED ENERGY USED IN MANUFACTURING,              
+          1929                                                                  
+          SOURCE: DUB. 719, TABLE 2                                             
+                                                                                
+                                                                                
+VAR # 0128 930VAL PRDT MFGN          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF MANUFACTURED PRODUCTS, 1929                                  
+          (IN THOUSANDS OF DOLLARS)                                             
+          SOURCE: DUB. 719, TABLE 2                                             
+                                                                                
+                                                                                
+VAR # 0129 930VAL ADDED BY MFGN      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE ADDED BY MANUFACTURE, 1929                                      
+          (IN THOUSANDS OF DOLLARS)                                             
+          SOURCE: DUB. 719, TABLE 2                                             
+                                                                                
+                                                                                
+VAR # 0130 930TOTAL POPULATION       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL POPULATION                                                      
+          (1930) SOURCE: DUB. 684, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0131 930NMBR GAINFUL WRKRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF GAINFUL WORKERS                                             
+          (1930) SOURCE: DUB. 684, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0132 930TTL PSNS OUT OF WORK   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS OUT OF A JOB, ABLE TO WORK, AND               
+          LOOKING FOR A JOB                                                     
+          (1930) SOURCE: DUB. 684, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0133 930NMBR M OUT OF WORK     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES OUT OF A JOB, ABLE TO WORK, AND LOOKING               
+          FOR A JOB                                                             
+          (1930) SOURCE: DUB. 684, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0134 930NMBR F OUT OF WORK     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES OUT OF A JOB, ABLE TO WORK, AND LOOKING             
+          FOR A JOB                                                             
+          (1930) SOURCE: DUB. 684, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0135 930TTL PSNS LAID OFF      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS HAVING JOBS BUT ON LAY-OFF WITHOUT            
+          PAY, EXCLUDING THOSE SICK OR VOLUNTARILY IDLE                         
+          (1930) SOURCE: DUB. 684, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0136 930NMBR M LAID OFF        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES HAVING JOBS BUT ON LAY-OFF WITHOUT PAY,               
+          EXCLUDING THOSE SICK OR VOLUNTARILY IDLE                              
+          (1930) SOURCE: DUB. 684, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0137 930NMBR F LAID OFF        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES HAVING JOBS BUT ON LAY-OFF WITHOUT PAY,             
+          EXCLUDING THOSE SICK OR VOLUNTARILY IDLE                              
+          (1930) SOURCE: DUB. 684, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0138 930WHOLESALE STABLSHTS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHOLESALE ESTABLISHMENTS                                    
+          (1930) SOURCE: DUB. 727, TABLE 5                                      
+                                                                                
+                                                                                
+VAR # 0139 930WHOLE SALES (1000,S)   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NET SALES OF WHOLESALE ESTABLISHMENTS IN THOUSANDS                    
+          OF DOLLARS                                                            
+          (1930) SOURCE: DUB. 727, TABLE 5                                      
+                                                                                
+                                                                                
+VAR # 0140 930WHOLESALE TTL EMPLES   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF EMPLOYEES OF WHOLESALE ESTABLISHMENTS                 
+          (1930) SOURCE: DUB. 727, TABLE 5                                      
+                                                                                
+                                                                                
+VAR # 0141 930WHOLESALE M EMPLES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE EMPLOYEES OF WHOLESALE ESTABLISHMENTS                  
+          (1930) SOURCE: DUB. 727, TABLE 5                                      
+                                                                                
+                                                                                
+VAR # 0142 930WHOLESALE F EMPLES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE EMPLOYEES OF WHOLESALE ESTABLISHMENTS                
+          (1930) SOURCE: DUB. 727, TABLE 5                                      
+                                                                                
+                                                                                
+VAR # 0143 930SALARIES WHOLESALE     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          SALARIES AND WAGES PAID IN WHOLESALE ESTABLISHMENTS                   
+          IN DOLLARS.                                                           
+          (1930) SOURCE: DUB. 727, TABLE 5                                      
+                                                                                
+                                                                                
+VAR # 0144 930WHOLE STOCKS (1000,S)  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          STOCKS ON HAND AT END OF YEAR, AT COST, IN THOUSANDS OF               
+          DOLLARS                                                               
+          (1930) SOURCE: DUB. 727, TABLE 5                                      
+                                                                                
+                                                                                
+VAR # 0145 930TTL POP                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL POPULATION                                                      
+          (1930) SOURCE: DUB. 724, TABLE 13                                     
+                                                                                
+                                                                                
+VAR # 0146 930NMBR RETAIL STORES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF RETAIL DISTRIBUTION STORES                                  
+          (1930) SOURCE: DUB. 724, TABLE 13                                     
+                                                                                
+                                                                                
+VAR # 0147 930NMBR RETAIL PRPTRS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF RETAIL DISTRIBUTION PROPRIETORS AND FIRM MEMBERS,           
+          (NOT ON PAYROLL)                                                      
+          (1930) SOURCE: DUB. 724, TABLE 13                                     
+                                                                                
+                                                                                
+VAR # 0148 930NMBR RETAIL EMPLES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FULL-TIME EMPLOYEES OF RETAIL DISTRIBUTION STORES.          
+          (1930) SOURCE: DUB. 724, TABLE 13                                     
+                                                                                
+                                                                                
+VAR # 0149 930RETAIL SALES (1000'S)  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NET SALES OF RETAIL DISTRIBUTION STORES, 1929 (IN THOUSANDS           
+          OF DOLLARS)                                                           
+          SOURCE: DUB. 724, TABLE 13                                            
+                                                                                
+                                                                                
+VAR # 0150 930RETAIL STOCKS(1000'S)  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          RETAIL STOCKS ON HAND AT END OF YEAR, AT COST, (IN THOUSANDS          
+          OF DOLLARS)                                                           
+          (1930) SOURCE: DUB. 724, TABLE 13                                     
+                                                                                
+                                                                                
+VAR # 0151 930RETAIL PYRL (1000'S)   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL FULL-TIME AND PART-TIME PAYROLL OF RETAIL ESTABLISH-            
+          MENTS (IN THOUSANDS OF DOLLARS)                                       
+          (1930) SOURCE: DUB. 724, TABLE 13                                     
+                                                                                
+                                                                                
+VAR # 0152 930TTL VAL                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF FIELD AND ORCHARD CROPS, VEGETABLES, AND               
+          FARM GARDEN CROPS                                                     
+          (1930) SOURCE: DUB. 689-691, TABLE 10                                 
+                                                                                
+                                                                                
+VAR # 0153 930VAL OF CEREALS         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF CEREALS                                                      
+          (1930) SOURCE: DUB. 689-691, TABLE 10                                 
+                                                                                
+                                                                                
+VAR # 0154 930VAL OTR GRAINS&SEEDS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF OTHER GRAINS AND SEEDS                                       
+          (1930) SOURCE: DUB. 689-691, TABLE 10                                 
+                                                                                
+                                                                                
+VAR # 0155 930VAL HAY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF HAY AND FORAGE                                               
+          (1930) SOURCE: DUB. 689-691, TABLE 10                                 
+                                                                                
+                                                                                
+VAR # 0156 930VAL VEGETABLES         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF VEGETABLES                                                   
+          (1930) SOURCE: DUB. 689-691, TABLE 10                                 
+                                                                                
+                                                                                
+VAR # 0157 930VAL FRUITS & NUTS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FRUITS AND NUTS                                              
+          (1930) SOURCE: DUB. 689-691, TABLE 10                                 
+                                                                                
+                                                                                
+VAR # 0158 930VAL OTR FIELD CROPS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF ALL OTHER FIELD CROPS                                        
+          (1930) SOURCE: DUB. 689-691, TABLE 10                                 
+                                                                                
+                                                                                
+VAR # 0159 930VAL GRDN VEGETABLES    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF GARDEN VEGETABLES                                            
+          (1930) SOURCE: DUB. 689-691, TABLE 10                                 
+                                                                                
+                                                                                
+VAR # 0160 930VAL FOREST PRDTS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FOREST PRODUCTS                                              
+          (1930) SOURCE: DUB. 689-691, TABLE 10                                 
+                                                                                
+                                                                                
+VAR # 0161 930TTL NMBR FM            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS                                                 
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0162 930NMBR FM WHT            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OF WHITE FARMERS                                
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0163 930NMBR FM CLRD           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OF COLORED FARMERS                              
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0164 930LD AREA BY ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          APPROXIMATE LAND AREA (IN ACRES)                                      
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0165 930TTL ACR LD IN FM       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF ACRES OF LAND IN FARMS                                
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0166 930ACR LD FM WHT          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OPERATED BY WHITE FARMERS            
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0167 930ACR LD FM CLRD         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OPERATED BY COLORED FARMERS          
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0168 930AVERAGE ACR IN FM      WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE SIZE OF FARMS  (IN ACRES, TO ONE DECIMAL PLACE)               
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0169 930TTL ACR CROP LD        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF ACRES OF CROP LAND                                    
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0170 930ACR CROP LD HRVSTD     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF CROP LAND HARVESTED                                
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0171 930ACR LD CROP FAILURE    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND WITH CROP FAILURES                            
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0172 930ACR IDLE LD            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IDLE OR FALLOW LAND                                
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0173 930ACR PASTURE            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF PASTURE LAND                                       
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0174 930ACR WDLD NOT PSTRD     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF WOODLAND NOT PASTURED                              
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0175 930ACR OTR LD             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF ALL OTHER LAND                                     
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0176 930TTL FM FULL ONR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OF FULL OWNERS                                  
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0177 930FM PART ONR            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF PART OWNERS                                        
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0178 930FM MGR                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF MANAGERS                                           
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0179 930TTL FM TNT             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OF TENANTS                                      
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0180 930FM CASH TNT            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OF CASH TENANTS                                 
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0181 930FM OTR TNT             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF OTHER TENANTS                                      
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0182 930TTL ACR FM FULL ONR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OF FULL OWNER                        
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0183 930ACR FM PART ONR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OF PART OWNER                        
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0184 930ACR FM MGR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OF MANAGERS                          
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0185 930TTL ACR FM TNT         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OF TENANTS                           
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0186 930ACR FM CASH TNT        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OF CASH TENANTS                      
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0187 930ACR FM OTR TNT         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF LAND IN FARMS OF ALL OTHER TENANTS                 
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0188 930ACR C.L HRVSTD F.ONR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF CROP LAND HARVESTED ON FARMS OF FULL               
+          OWNERS                                                                
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0189 930ACR C.L HRVSTD P.ONR   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF CROPLAND HARVESTED ON FARMS OF PART                
+          OWNERS                                                                
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0190 930ACR C.L HRVSTD MGR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF CROP LAND HARVESTED ON FARMS OF MANAGERS           
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0191 930ACR C.L HRVSTD TNT     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF ACRES OF CROP LAND HARVESTED ON FARMS OF              
+          TENANTS                                                               
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0192 930ACR C.L HRVSTD C.T     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF CROP LAND HARVESTED ON FARMS OF CASH               
+          TENANTS                                                               
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0193 930ACR C.L HRVSTD O.T     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF CROP LAND HARVESTED ON FARMS OF OTHER              
+          TENANTS                                                               
+          (1930) SOURCE: DUB. 689-691, TABLE 1                                  
+                                                                                
+                                                                                
+VAR # 0194 930TTL FM UNR 3 ACR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF UNDER THREE ACRES                                  
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0195 930FM 3-9 ACR             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 3-9 ACRES                                          
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0196 930FM 10-19 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 10-19 ACRES                                        
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0197 930FM 20-49 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 20-49 ACRES                                        
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0198 930FM 50-99 ACR           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 50-99 ACRES                                        
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0199 930FM 100-174 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 100-174 ACRES                                      
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0200 930FM 175-259 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 175-259 ACRES                                      
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0201 930FM 260-499 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 260-499 ACRES                                      
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0202 930FM 500-999 ACR         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 500-999 ACRES                                      
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0203 930FM 1000-4999 ACR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 1000-4999 ACRES                                    
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0204 930FM 5000 ACR OVR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 5000 OR MORE ACRES                                 
+          (1930) SOURCE: DUB. 689-691, TABLE 2                                  
+                                                                                
+                                                                                
+VAR # 0205 930TTL VAL FM LD          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF FARM LAND                                              
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0206 930VAL FM BLDG            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF FARM BUILDINGS                                         
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0207 930VAL FMR DWELLING       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF FARMERS' DWELLINGS                                     
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0208 930NMBR FM REPORTING      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS REPORTING                                       
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0209 930VAL MCHNRY             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF IMPLEMENTS AND MACHINERY                               
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0210 930VAL LD BLDG FM WHT     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS OF FARMS OF WHITE FARMERS                 
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0211 930VAL LD BLDG FM CLRD    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS OF FARMS OF COLORED FARMERS               
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0212 930VAL LD BLDG FM F.O     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS OF FARMS OF FULL OWNERS                   
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0213 930VAL LD BLDG FM P.O     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS OF FARMS OF PART OWNERS                   
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0214 930VAL LD BLDG FM MGR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS OF FARMS OF MANAGERS                      
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0215 930VAL LD BLDG FM TNT     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF LAND AND BUILDINGS OF FARMS OF TENANTS                 
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0216 930VAL LD BLDG C.T        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS OF FARMS OF CASH TENANTS                  
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0217 930VAL LD BLDG O.T        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LAND AND BUILDINGS OF FARMS OF OTHER TENANTS                 
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0218 930VAL MCHNRY FM F.O      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF IMPLEMENTS AND MACHINERY OF FARMS OF FULL OWNERS             
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0219 930VAL MCHNRY FM P.O      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF IMPLEMENTS AND MACHINERY OF FARMS OF PART OWNERS             
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0220 930VAL MCHNRY FM MGR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF IMPLEMENTS AND MACHINERY OF FARMS OF MANAGERS                
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0221 930VAL MCHNRY FM TNT      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL VALUE OF IMPLEMENTS AND MACHINERY OF FARMS OF TENANTS           
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0222 930VAL MCHNRY FM C.T      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF IMPLEMENTS AND MACHINERY OF FARMS OF CASH TENANTS            
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0223 930VAL MCHNRY FM O.T      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF IMPLEMENTS AND MACHINERY OF FARMS OF OTHER TENANTS           
+          (1930) SOURCE: DUB. 689-691, TABLE 3                                  
+                                                                                
+                                                                                
+VAR # 0224 930LAND AREA SQ MI 1930   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          LAND AREA IN SQUARE MILES, 1930                                       
+          SOURCE: DUB. 652, TABLE 3                                             
+                                                                                
+                                                                                
+VAR # 0225 930POP PER SQ MI 1930     WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          POPULATION PER SQUARE MILE, 1930                                      
+          (TO ONE DECIMAL PLACE)                                                
+          SOURCE: DUB. 652, TABLE 3                                             
+                                                                                
+                                                                                
+VAR # 0226 937TOTALLY UNEMPLOYED     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF TOTALLY UNEMPLOYED PERSONS REGISTERED                       
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0227 937WHT M TTL UEMPLD       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES REGISTERED AS TOTALLY UNEMPLOYED                
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0228 937WHT F TTL UEMPLD       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES REGISTERED AS TOTALLY UNEMPLOYED              
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0229 937NG M TTL UEMPLD        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES REGISTERED AS TOTALLY UNEMPLOYED                
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0230 937NG F TTL UEMPLD        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMER OF NEGRO FEMALES REGISTERED AS TOTALLY UNEMPLOYED               
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0231 937EMERGENCY WORKERS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF REGISTERED EMERGENCY WORKERS                          
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0232 937WHT M EMRGY WRKRS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF REGISTERED WHITE MALE EMERGENCY WORKERS                     
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0233 937WHT F EMRGY WRKRS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF REGISTERED WHITE FEMALE EMERGENCY WORKERS                   
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0234 937NG M EMRGY WRKRS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF REGISTERED NEGRO MALE EMERGENCY WORKERS                     
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0235 937NG F EMRGY WRKRS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF REGISTERED NEGRO FEMALE EMERGENCY WORKERS                   
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0236 937PARTLY UNEMPLOYED      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PARTLY UNEMPLOYED PERSONS REGISTERED                  
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0237 937WHT M PTLY UEMPLD      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES REGISTERED AS PARTLY UNEMPLOYED                 
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0238 937WHT F PTLY UEMPLD      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES REGISTERED AS PARTLY UNEMPLOYED               
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0239 937NG M PTLY UEMPLD       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES REGISTERED AS PARTLY UNEMPLOYED                 
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0240 937NG F PTLY UEMPLD       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO FEMALES REGISTERED AS PARTLY UNEMPLOYED               
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0241 937TTLY UEMPLD ON FMS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS REGISTERED AS TOTALLY UNEMPLOYED LIVING ON          
+          FARMS                                                                 
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0242 937TTLY UEMPLD NNFM       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS REGISTERED AS TOTALLY UNEMPLOYED NOT                
+          LIVING ON FARMS                                                       
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0243 937TTLY UEMPLD UKWN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS REGISTERED AS TOTALLY UNEMPLOYED,                   
+          RESIDENCE NOT REPORTED                                                
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0244 937EMRGY WRKRS ON FMS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF REGISTERED EMERGENCY WORKERS LIVING ON FARMS                
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0245 937EMRGY WRKRS NNFM       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF REGISTERED EMERGENCY WORKERS NOT LIVING ON FARMS            
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0246 937EMRGY WRKRS UKWN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF REGISTERED EMERGENCY WORKERS, RESIDENCE NOT                 
+          REPORTED                                                              
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0247 937PTLY UEMPLD ON FMS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS REGISTERED AS PARTLY UNEMPLOYED LIVING ON           
+          FARMS                                                                 
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0248 937PTLY UEMPLD NNFM       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS REGISTERED AS PARTLY UNEMPLOYED NOT LIVING          
+          ON FARMS                                                              
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                
+                                                                                
+                                                                                
+VAR # 0249 937PTLY UEMPLD UKWN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS REGISTERED AS PARTLY UNEMPLOYED, RESIDENCE          
+          NOT REPORTED                                                          
+          (1937) SOURCE: DUB. 3601-3603, TABLE 9                                

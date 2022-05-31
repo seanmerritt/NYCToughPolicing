@@ -1,0 +1,51 @@
+:: We are going to use this to keep a list of files that need to be run to fully assemble the build of the data
+:: The :: indicates a comment that will not be read
+:: The file needs to be saved with the .bat extension
+:: It also requires adding python and R executables to the path
+
+python D:\Dropbox\GregBenSean\NYCToughPolice\Work\Build\Code\ManageBuildDirectories.py
+
+::Crime data: https://www.icpsr.umich.edu/web/NACJD/studies/03226
+::Ben looks at 03226
+::https://www.icpsr.umich.edu/web/NACJD/studies/7708
+
+::Downloaded census from: https://www.icpsr.umich.edu/web/ICPSR/studies/3
+
+python D:\Dropbox\GregBenSean\NYCToughPolice\Work\Build\Code\UnzipICPSR.py
+
+::Sean's R code to build the single analysis file dataset
+
+Rscript D:\Dropbox\GregBenSean\NYCToughPolice\Work\Build\Code\DataCleaning.R
+
+::"C:\Program Files\Stata16\StataMP-64.exe" /e do "D:\Dropbox\GregBenSean\NYCToughPolice\Work\Build\Code\SynthSetup.do"
+::Sean's .R Synth Setup
+::making into per 100,000
+
+Rscript 
+
+::Ben takes weather control variables from Global Historical Climatology Network
+::Downloaded full archive from: https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily,
+::https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/
+::Stored on Ben's External hard drive (7GB double zipped file)
+
+::Urban Density data
+::https://urbanization.yale.edu/data
+::https://www.nature.com/articles/sdata201634
+
+
+::Historical Census Resources for several 
+::https://guides.lib.umich.edu/c.php?g=283004&p=1885626
+
+::File to open/clean ICPSR data
+
+::File to merge data 
+
+::File to make variables used in the regression and misc cleaning- spit out the analysis file
+
+
+
+
+
+@pause
+:: This instructs the batch to not close the output log after being used
+

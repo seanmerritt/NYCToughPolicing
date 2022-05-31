@@ -1,0 +1,655 @@
+"","City","Year","Homicides","Population"
+"1","New Orleans, Louisiana",1880,20,216090
+"2","Philadelphia, Pennsylvania",1870,37,647022
+"3","Brooklyn, New York",1870,NA,396099
+"4","Chicago, Illinois",1870,14,298977
+"5","Boston, Massachusetts",1870,29,250526
+"6","St. Louis, Missouri",1870,NA,310864
+"7","Baltimore, Maryland",1870,13,267354
+"8","Cincinnati, Ohio",1870,17,216239
+"9","San Francisco, California",1870,31,149473
+"10","Newark, New Jersey",1870,1,104789
+"11","Washington, DC",1870,10,109199
+"12","Louisville, Kentucky",1870,21,100753
+"13","Detroit, Michigan",1870,4,79577
+"14","Milwaukee, Wisconsin",1870,2,71448
+"15","Providence, Rhode Island",1870,0,68904
+"16","New Haven, Connecticut",1870,12,50840
+"17","Lowell, Massachusetts",1870,0,40928
+"18","Philadelphia, Pennsylvania",1871,NA,667037
+"19","Brooklyn, New York",1871,8,413802
+"20","Chicago, Illinois",1871,NA,319409
+"21","Boston, Massachusetts",1871,9,261754
+"22","St. Louis, Missouri",1871,NA,314829
+"23","Baltimore, Maryland",1871,16,273850
+"24","Cincinnati, Ohio",1871,9,220129
+"25","San Francisco, California",1871,21,157922
+"26","Washington, DC",1871,10,113008
+"27","Newark, New Jersey",1871,3,108204
+"28","Louisville, Kentucky",1871,15,103054
+"29","Detroit, Michigan",1871,9,83253
+"30","Providence, Rhode Island",1871,0,72499
+"31","New Haven, Connecticut",1871,4,52044
+"32","Lowell, Massachusetts",1871,NA,42783
+"33","Philadelphia, Pennsylvania",1872,30,687052
+"34","Brooklyn, New York",1872,14,431506
+"35","Chicago, Illinois",1872,13,339819
+"36","Boston, Massachusetts",1872,14,272981
+"37","St. Louis, Missouri",1872,15,318795
+"38","Baltimore, Maryland",1872,13,280346
+"39","Cincinnati, Ohio",1872,12,224019
+"40","San Francisco, California",1872,25,166370
+"41","Cleveland, Ohio",1872,3,99561
+"42","Buffalo, New York",1872,NA,125198
+"43","Washington, DC",1872,19,116818
+"44","Newark, New Jersey",1872,5,111349
+"45","Louisville, Kentucky",1872,NA,105354
+"46","Detroit, Michigan",1872,6,86930
+"47","Providence, Rhode Island",1872,2,76095
+"48","Richmond, Virginia",1872,NA,53550
+"49","New Haven, Connecticut",1872,1,53248
+"50","Lowell, Massachusetts",1872,NA,44637
+"51","Philadelphia, Pennsylvania",1873,18,707066
+"52","Brooklyn, New York",1873,9,449209
+"53","Chicago, Illinois",1873,NA,360239
+"54","Boston, Massachusetts",1873,17,284209
+"55","St. Louis, Missouri",1873,19,322760
+"56","Baltimore, Maryland",1873,12,286842
+"57","Cincinnati, Ohio",1873,19,227909
+"58","San Francisco, California",1873,25,174819
+"59","Cleveland, Ohio",1873,5,113024
+"60","Buffalo, New York",1873,6,128940
+"61","Washington, DC",1873,16,120627
+"62","Newark, New Jersey",1873,1,114494
+"63","Louisville, Kentucky",1873,14,107654
+"64","Detroit, Michigan",1873,7,90606
+"65","Milwaukee, Wisconsin",1873,2,84690
+"66","Providence, Rhode Island",1873,2,79690
+"67","Richmond, Virginia",1873,5,54807
+"68","New Haven, Connecticut",1873,0,54453
+"69","Lowell, Massachusetts",1873,NA,46492
+"70","Philadelphia, Pennsylvania",1874,65,727081
+"71","Brooklyn, New York",1874,19,466913
+"72","Chicago, Illinois",1874,14,380660
+"73","Boston, Massachusetts",1874,14,295437
+"74","St. Louis, Missouri",1874,11,326726
+"75","Baltimore, Maryland",1874,NA,293338
+"76","Cincinnati, Ohio",1874,26,231799
+"77","San Francisco, California",1874,27,183267
+"78","Cleveland, Ohio",1874,6,119756
+"79","Buffalo, New York",1874,10,132682
+"80","Washington, DC",1874,10,124437
+"81","Newark, New Jersey",1874,1,117639
+"82","Louisville, Kentucky",1874,NA,109955
+"83","Detroit, Michigan",1874,10,94282
+"84","Milwaukee, Wisconsin",1874,NA,89104
+"85","Providence, Rhode Island",1874,2,83285
+"86","Richmond, Virginia",1874,11,56063
+"87","New Haven, Connecticut",1874,2,55657
+"88","Lowell, Massachusetts",1874,NA,48347
+"89","Philadelphia, Pennsylvania",1875,60,747096
+"90","Brooklyn, New York",1875,28,484616
+"91","Chicago, Illinois",1875,22,401081
+"92","Boston, Massachusetts",1875,25,306664
+"93","St. Louis, Missouri",1875,NA,330691
+"94","Baltimore, Maryland",1875,12,299834
+"95","Cincinnati, Ohio",1875,13,235689
+"96","San Francisco, California",1875,42,191716
+"97","Cleveland, Ohio",1875,13,126488
+"98","Buffalo, New York",1875,6,136424
+"99","Washington, DC",1875,19,128246
+"100","Newark, New Jersey",1875,4,120784
+"101","Louisville, Kentucky",1875,8,112256
+"102","Detroit, Michigan",1875,10,97958
+"103","Milwaukee, Wisconsin",1875,5,93518
+"104","Providence, Rhode Island",1875,2,86880
+"105","Richmond, Virginia",1875,5,57319
+"106","New Haven, Connecticut",1875,3,56861
+"107","Lowell, Massachusetts",1875,NA,50202
+"108","Philadelphia, Pennsylvania",1876,NA,767111
+"109","Brooklyn, New York",1876,21,501031
+"110","Chicago, Illinois",1876,11,421502
+"111","Boston, Massachusetts",1876,19,317892
+"112","St. Louis, Missouri",1876,25,334656
+"113","Baltimore, Maryland",1876,2,306329
+"114","Cincinnati, Ohio",1876,14,239549
+"115","San Francisco, California",1876,45,200165
+"116","Cleveland, Ohio",1876,12,133219
+"117","Buffalo, New York",1876,1,140166
+"118","Washington, DC",1876,7,132055
+"119","Newark, New Jersey",1876,1,123927
+"120","Louisville, Kentucky",1876,6,114556
+"121","Detroit, Michigan",1876,7,101635
+"122","Providence, Rhode Island",1876,4,90476
+"123","Richmond, Virginia",1876,5,58575
+"124","New Haven, Connecticut",1876,1,58065
+"125","Lowell, Massachusetts",1876,1,52056
+"126","Philadelphia, Pennsylvania",1877,53,787126
+"127","Chicago, Illinois",1877,14,441923
+"128","Boston, Massachusetts",1877,12,319120
+"129","St. Louis, Missouri",1877,NA,338622
+"130","Baltimore, Maryland",1877,6,312825
+"131","Cincinnati, Ohio",1877,10,243469
+"132","San Francisco, California",1877,39,208613
+"133","Cleveland, Ohio",1877,14,139951
+"134","Buffalo, New York",1877,8,143908
+"135","Washington, DC",1877,7,135865
+"136","Newark, New Jersey",1877,2,127071
+"137","Louisville, Kentucky",1877,NA,116856
+"138","Detroit, Michigan",1877,4,105311
+"139","Providence, Rhode Island",1877,1,94071
+"140","Rochester, New York",1877,2,81272
+"141","Richmond, Virginia",1877,4,59831
+"142","New Haven, Connecticut",1877,0,59269
+"143","Lowell, Massachusetts",1877,1,53911
+"144","Philadelphia, Pennsylvania",1878,39,807140
+"145","Brooklyn, New York",1878,22,533860
+"146","Chicago, Illinois",1878,10,462343
+"147","Boston, Massachusetts",1878,12,340348
+"148","St. Louis, Missouri",1878,16,342587
+"149","Baltimore, Maryland",1878,14,319321
+"150","Cincinnati, Ohio",1878,10,247359
+"151","San Francisco, California",1878,51,217062
+"152","Cleveland, Ohio",1878,3,146683
+"153","Buffalo, New York",1878,2,147650
+"154","Washington, DC",1878,10,139674
+"155","Newark, New Jersey",1878,1,130215
+"156","Louisville, Kentucky",1878,11,119157
+"157","Detroit, Michigan",1878,18,108987
+"158","Providence, Rhode Island",1878,0,97666
+"159","Rochester, New York",1878,NA,83970
+"160","Richmond, Virginia",1878,4,61088
+"161","New Haven, Connecticut",1878,2,60474
+"162","Lowell, Massachusetts",1878,1,55766
+"163","Philadelphia, Pennsylvania",1879,49,827155
+"164","Brooklyn, New York",1879,13,550274
+"165","Chicago, Illinois",1879,14,482764
+"166","Boston, Massachusetts",1879,NA,351575
+"167","St. Louis, Missouri",1879,10,346553
+"168","Baltimore, Maryland",1879,12,325817
+"169","Cincinnati, Ohio",1879,17,251249
+"170","San Francisco, California",1879,35,225510
+"171","Cleveland, Ohio",1879,2,153414
+"172","Buffalo, New York",1879,4,151392
+"173","Washington, DC",1879,14,143484
+"174","Newark, New Jersey",1879,NA,133359
+"175","Louisville, Kentucky",1879,4,121458
+"176","Detroit, Michigan",1879,5,112664
+"177","Providence, Rhode Island",1879,1,101262
+"178","Rochester, New York",1879,NA,86668
+"179","Richmond, Virginia",1879,2,62344
+"180","New Haven, Connecticut",1879,3,61678
+"181","Lowell, Massachusetts",1879,0,57620
+"182","Philadelphia, Pennsylvania",1880,28,847170
+"183","Brooklyn, New York",1880,43,566663
+"184","Chicago, Illinois",1880,12,503185
+"185","Boston, Massachusetts",1880,11,362839
+"186","Baltimore, Maryland",1880,27,332313
+"187","St. Louis, Missouri",1880,16,350518
+"188","Cincinnati, Ohio",1880,14,255139
+"189","San Francisco, California",1880,35,233959
+"190","Cleveland, Ohio",1880,7,160146
+"191","Buffalo, New York",1880,3,155134
+"192","Washington, DC",1880,10,147293
+"193","Newark, New Jersey",1880,3,136508
+"194","Louisville, Kentucky",1880,20,123758
+"195","Detroit, Michigan",1880,11,116340
+"196","Milwaukee, Wisconsin",1880,1,115587
+"197","Providence, Rhode Island",1880,1,104857
+"198","Rochester, New York",1880,NA,89366
+"199","Richmond, Virginia",1880,3,63600
+"200","New Haven, Connecticut",1880,0,62882
+"201","Lowell, Massachusetts",1880,0,59475
+"202","Philadelphia, Pennsylvania",1881,31,867149
+"203","Brooklyn, New York",1881,28,590631
+"204","Chicago, Illinois",1881,16,562852
+"205","Boston, Massachusetts",1881,7,371403
+"206","St. Louis, Missouri",1881,17,360643
+"207","Baltimore, Maryland",1881,24,342526
+"208","Cincinnati, Ohio",1881,23,259316
+"209","San Francisco, California",1881,34,240463
+"210","Cleveland, Ohio",1881,NA,170267
+"211","Buffalo, New York",1881,6,165187
+"212","Washington, DC",1881,9,151457
+"213","Newark, New Jersey",1881,3,140960
+"214","Louisville, Kentucky",1881,NA,127495
+"215","Detroit, Michigan",1881,17,125294
+"216","Providence, Rhode Island",1881,1,107586
+"217","Rochester, New York",1881,NA,93819
+"218","Richmond, Virginia",1881,7,65379
+"219","New Haven, Connecticut",1881,3,65198
+"220","Lowell, Massachusetts",1881,1,61297
+"221","Philadelphia, Pennsylvania",1882,25,887129
+"222","Brooklyn, New York",1882,25,614599
+"223","Chicago, Illinois",1882,9,622518
+"224","Boston, Massachusetts",1882,11,379967
+"225","St. Louis, Missouri",1882,22,370768
+"226","Baltimore, Maryland",1882,20,352738
+"227","Cincinnati, Ohio",1882,18,263493
+"228","San Francisco, California",1882,38,246967
+"229","Cleveland, Ohio",1882,2,180387
+"230","Buffalo, New York",1882,7,175240
+"231","Washington, DC",1882,10,155621
+"232","Newark, New Jersey",1882,1,145412
+"233","Louisville, Kentucky",1882,43,131232
+"234","Detroit, Michigan",1882,8,134247
+"235","Providence, Rhode Island",1882,3,110315
+"236","Rochester, New York",1882,NA,98272
+"237","Richmond, Virginia",1882,1,67158
+"238","New Haven, Connecticut",1882,0,67515
+"239","Lowell, Massachusetts",1882,2,63119
+"240","Philadelphia, Pennsylvania",1883,42,907108
+"241","Brooklyn, New York",1883,NA,638567
+"242","Chicago, Illinois",1883,5,682184
+"243","Boston, Massachusetts",1883,10,388530
+"244","St. Louis, Missouri",1883,30,380894
+"245","Baltimore, Maryland",1883,25,362951
+"246","Cincinnati, Ohio",1883,27,267670
+"247","San Francisco, California",1883,45,253470
+"248","Cleveland, Ohio",1883,4,190508
+"249","Buffalo, New York",1883,7,185293
+"250","Washington, DC",1883,10,159785
+"251","Newark, New Jersey",1883,2,149865
+"252","Louisville, Kentucky",1883,NA,134969
+"253","Detroit, Michigan",1883,3,143201
+"254","Milwaukee, Wisconsin",1883,6,142251
+"255","Providence, Rhode Island",1883,0,113044
+"256","Rochester, New York",1883,NA,102725
+"257","Richmond, Virginia",1883,1,68936
+"258","New Haven, Connecticut",1883,4,69831
+"259","Lowell, Massachusetts",1883,0,64941
+"260","Philadelphia, Pennsylvania",1884,24,927088
+"261","Brooklyn, New York",1884,30,662535
+"262","Chicago, Illinois",1884,10,741851
+"263","Boston, Massachusetts",1884,10,397094
+"264","St. Louis, Missouri",1884,19,391019
+"265","Baltimore, Maryland",1884,21,373163
+"266","Cincinnati, Ohio",1884,22,271847
+"267","San Francisco, California",1884,44,259974
+"268","Cleveland, Ohio",1884,16,200629
+"269","Buffalo, New York",1884,7,195346
+"270","Washington, DC",1884,12,163949
+"271","Newark, New Jersey",1884,0,154317
+"272","Louisville, Kentucky",1884,NA,138706
+"273","Detroit, Michigan",1884,4,152154
+"274","Milwaukee, Wisconsin",1884,2,151139
+"275","Providence, Rhode Island",1884,1,115773
+"276","Rochester, New York",1884,NA,107178
+"277","Richmond, Virginia",1884,2,70715
+"278","New Haven, Connecticut",1884,0,72147
+"279","Lowell, Massachusetts",1884,0,66763
+"280","Philadelphia, Pennsylvania",1885,36,947067
+"281","Brooklyn, New York",1885,40,686503
+"282","Chicago, Illinois",1885,6,801518
+"283","Boston, Massachusetts",1885,18,405658
+"284","St. Louis, Missouri",1885,18,401144
+"285","Baltimore, Maryland",1885,NA,383376
+"286","Cincinnati, Ohio",1885,21,276024
+"287","San Francisco, California",1885,40,266478
+"288","Cleveland, Ohio",1885,6,210750
+"289","Buffalo, New York",1885,3,205399
+"290","Washington, DC",1885,11,168172
+"291","Newark, New Jersey",1885,3,158769
+"292","Louisville, Kentucky",1885,NA,142443
+"293","Detroit, Michigan",1885,4,161108
+"294","Milwaukee, Wisconsin",1885,2,160027
+"295","Providence, Rhode Island",1885,1,118502
+"296","Rochester, New York",1885,NA,111631
+"297","Richmond, Virginia",1885,2,72494
+"298","New Haven, Connecticut",1885,1,74464
+"299","Lowell, Massachusetts",1885,2,68585
+"300","Philadelphia, Pennsylvania",1886,NA,967046
+"301","Brooklyn, New York",1886,NA,710471
+"302","Chicago, Illinois",1886,29,NA
+"303","Boston, Massachusetts",1886,23,414222
+"304","St. Louis, Missouri",1886,NA,411270
+"305","Baltimore, Maryland",1886,NA,393589
+"306","Cincinnati, Ohio",1886,22,280200
+"307","San Francisco, California",1886,33,272882
+"308","Cleveland, Ohio",1886,6,220870
+"309","Buffalo, New York",1886,7,215452
+"310","Washington, DC",1886,15,172276
+"311","Newark, New Jersey",1886,10,163221
+"312","Louisville, Kentucky",1886,18,146180
+"313","Detroit, Michigan",1886,5,170062
+"314","Milwaukee, Wisconsin",1886,1,168915
+"315","Providence, Rhode Island",1886,2,121230
+"316","Rochester, New York",1886,NA,116084
+"317","Richmond, Virginia",1886,0,74273
+"318","New Haven, Connecticut",1886,3,76780
+"319","Lowell, Massachusetts",1886,1,70407
+"320","Philadelphia, Pennsylvania",1887,72,987026
+"321","Brooklyn, New York",1887,NA,734439
+"322","Chicago, Illinois",1887,29,920850
+"323","Boston, Massachusetts",1887,9,422786
+"324","St. Louis, Missouri",1887,28,421395
+"325","Baltimore, Maryland",1887,NA,403801
+"326","Cincinnati, Ohio",1887,14,284377
+"327","San Francisco, California",1887,60,279486
+"328","New Orleans, Louisiana",1887,NA,228522
+"329","Cleveland, Ohio",1887,9,230991
+"330","Buffalo, New York",1887,NA,225505
+"331","Washington, DC",1887,3,176440
+"332","Newark, New Jersey",1887,7,167673
+"333","Louisville, Kentucky",1887,14,149917
+"334","Detroit, Michigan",1887,4,179015
+"335","Milwaukee, Wisconsin",1887,NA,177803
+"336","Providence, Rhode Island",1887,4,123959
+"337","Rochester, New York",1887,NA,120537
+"338","Pittsburgh, Pennsylvania",1887,NA,213948
+"339","Richmond, Virginia",1887,1,76052
+"340","New Haven, Connecticut",1887,0,79096
+"341","Lowell, Massachusetts",1887,0,72229
+"342","Philadelphia, Pennsylvania",1888,50,1007005
+"343","Brooklyn, New York",1888,NA,758407
+"344","Chicago, Illinois",1888,28,980517
+"345","Boston, Massachusetts",1888,25,431349
+"346","St. Louis, Missouri",1888,27,431521
+"347","Baltimore, Maryland",1888,NA,414014
+"348","Cincinnati, Ohio",1888,14,288554
+"349","San Francisco, California",1888,47,285989
+"350","New Orleans, Louisiana",1888,NA,NA
+"351","Cleveland, Ohio",1888,11,241112
+"352","Buffalo, New York",1888,NA,235558
+"353","Washington, DC",1888,15,180604
+"354","Newark, New Jersey",1888,NA,1172156
+"355","Louisville, Kentucky",1888,17,153654
+"356","Detroit, Michigan",1888,5,187969
+"357","Milwaukee, Wisconsin",1888,7,186691
+"358","Providence, Rhode Island",1888,3,126688
+"359","Rochester, New York",1888,NA,124990
+"360","Pittsburgh, Pennsylvania",1888,8,222171
+"361","Richmond, Virginia",1888,4,77830
+"362","New Haven, Connecticut",1888,0,81412
+"363","Lowell, Massachusetts",1888,1,74051
+"364","Philadelphia, Pennsylvania",1889,24,1026985
+"365","Brooklyn, New York",1889,NA,782375
+"366","Chicago, Illinois",1889,28,1040184
+"367","Boston, Massachusetts",1889,24,439913
+"368","St. Louis, Missouri",1889,19,441646
+"369","Baltimore, Maryland",1889,NA,424226
+"370","Cincinnati, Ohio",1889,17,292731
+"371","San Francisco, California",1889,58,292493
+"372","New Orleans, Louisiana",1889,NA,NA
+"373","Cleveland, Ohio",1889,15,251232
+"374","Buffalo, New York",1889,9,245611
+"375","Washington, DC",1889,17,189768
+"376","Newark, New Jersey",1889,2,176578
+"377","Louisville, Kentucky",1889,NA,157391
+"378","Detroit, Michigan",1889,NA,196922
+"379","Milwaukee, Wisconsin",1889,1,195579
+"380","Providence, Rhode Island",1889,0,129417
+"381","Rochester, New York",1889,NA,129443
+"382","Pittsburgh, Pennsylvania",1889,5,230394
+"383","Richmond, Virginia",1889,6,79609
+"384","New Haven, Connecticut",1889,1,83729
+"385","Lowell, Massachusetts",1889,1,75873
+"386","Philadelphia, Pennsylvania",1890,19,1046964
+"387","Brooklyn, New York",1890,71,806343
+"388","Chicago, Illinois",1890,21,1099850
+"389","Boston, Massachusetts",1890,NA,448477
+"390","St. Louis, Missouri",1890,25,451770
+"391","Baltimore, Maryland",1890,NA,434439
+"392","Cincinnati, Ohio",1890,28,296908
+"393","San Francisco, California",1890,59,298997
+"394","New Orleans, Louisiana",1890,NA,NA
+"395","Cleveland, Ohio",1890,9,261353
+"396","Buffalo, New York",1890,14,255664
+"397","Washington, DC",1890,13,188932
+"398","Newark, New Jersey",1890,4,181030
+"399","Louisville, Kentucky",1890,34,161129
+"400","Detroit, Michigan",1890,NA,205876
+"401","Milwaukee, Wisconsin",1890,6,204468
+"402","Providence, Rhode Island",1890,2,132146
+"403","Rochester, New York",1890,NA,133896
+"404","Pittsburgh, Pennsylvania",1890,4,238617
+"405","Richmond, Virginia",1890,6,81388
+"406","New Haven, Connecticut",1890,0,86045
+"407","Lowell, Massachusetts",1890,1,77696
+"408","Philadelphia, Pennsylvania",1891,30,1071637
+"409","Brooklyn, New York",1891,48,842637
+"410","Chicago, Illinois",1891,34,1159722
+"411","Boston, Massachusetts",1891,3,459718
+"412","St. Louis, Missouri",1891,29,464117
+"413","Baltimore, Maryland",1891,NA,441891
+"414","Cincinnati, Ohio",1891,38,299807
+"415","San Francisco, California",1891,42,303376
+"416","New Orleans, Louisiana",1891,48,246546
+"417","Cleveland, Ohio",1891,15,273394
+"418","Buffalo, New York",1891,NA,265336
+"419","Washington, DC",1891,7,197911
+"420","Newark, New Jersey",1891,7,187534
+"421","Louisville, Kentucky",1891,16,165489
+"422","Detroit, Michigan",1891,NA,213859
+"423","Milwaukee, Wisconsin",1891,4,212553
+"424","Providence, Rhode Island",1891,1,136491
+"425","Rochester, New York",1891,NA,136767
+"426","Pittsburgh, Pennsylvania",1891,5,246847
+"427","Richmond, Virginia",1891,5,81754
+"428","New Haven, Connecticut",1891,5,88243
+"429","Lowell, Massachusetts",1891,1,79423
+"430","Philadelphia, Pennsylvania",1892,22,1096311
+"431","Brooklyn, New York",1892,NA,878391
+"432","Chicago, Illinois",1892,26,1219595
+"433","Boston, Massachusetts",1892,29,470960
+"434","St. Louis, Missouri",1892,27,476464
+"435","Baltimore, Maryland",1892,41,449343
+"436","Cincinnati, Ohio",1892,41,302707
+"437","San Francisco, California",1892,29,307754
+"438","New Orleans, Louisiana",1892,51,251052
+"439","Cleveland, Ohio",1892,10,285436
+"440","Buffalo, New York",1892,NA,275009
+"441","Washington, DC",1892,11,206889
+"442","Newark, New Jersey",1892,4,194038
+"443","Louisville, Kentucky",1892,41,170849
+"444","Detroit, Michigan",1892,6,221842
+"445","Milwaukee, Wisconsin",1892,5,220637
+"446","Providence, Rhode Island",1892,4,140836
+"447","Rochester, New York",1892,NA,139638
+"448","Pittsburgh, Pennsylvania",1892,4,255077
+"449","Richmond, Virginia",1892,8,82120
+"450","New Haven, Connecticut",1892,5,90441
+"451","Lowell, Massachusetts",1892,5,81151
+"452","Philadelphia, Pennsylvania",1893,28,1120984
+"453","Brooklyn, New York",1893,NA,914415
+"454","Chicago, Illinois",1893,48,1279468
+"455","Boston, Massachusetts",1893,29,482202
+"456","St. Louis, Missouri",1893,35,488810
+"457","Baltimore, Maryland",1893,31,456794
+"458","Cincinnati, Ohio",1893,24,305606
+"459","San Francisco, California",1893,41,312133
+"460","New Orleans, Louisiana",1893,60,255558
+"461","Cleveland, Ohio",1893,13,297478
+"462","Buffalo, New York",1893,NA,284681
+"463","Washington, DC",1893,19,215686
+"464","Newark, New Jersey",1893,13,200542
+"465","Louisville, Kentucky",1893,22,175209
+"466","Detroit, Michigan",1893,7,229824
+"467","Milwaukee, Wisconsin",1893,0,228722
+"468","Providence, Rhode Island",1893,1,145181
+"469","Rochester, New York",1893,NA,142510
+"470","Pittsburgh, Pennsylvania",1893,1,263307
+"471","Richmond, Virginia",1893,4,82486
+"472","New Haven, Connecticut",1893,2,92640
+"473","Lowell, Massachusetts",1893,1,82878
+"474","Philadelphia, Pennsylvania",1894,28,1145657
+"475","Brooklyn, New York",1894,82,950439
+"476","Chicago, Illinois",1894,46,1339340
+"477","Boston, Massachusetts",1894,13,493443
+"478","St. Louis, Missouri",1894,43,501157
+"479","Baltimore, Maryland",1894,NA,464246
+"480","Cincinnati, Ohio",1894,18,308506
+"481","San Francisco, California",1894,53,316511
+"482","New Orleans, Louisiana",1894,NA,260065
+"483","Cleveland, Ohio",1894,21,309519
+"484","Buffalo, New York",1894,NA,294353
+"485","Washington, DC",1894,13,224846
+"486","Newark, New Jersey",1894,20,207246
+"487","Louisville, Kentucky",1894,29,179569
+"488","Detroit, Michigan",1894,NA,237807
+"489","Milwaukee, Wisconsin",1894,12,236807
+"490","Providence, Rhode Island",1894,2,149526
+"491","Rochester, New York",1894,NA,145381
+"492","Pittsburgh, Pennsylvania",1894,15,271537
+"493","Richmond, Virginia",1894,18,82852
+"494","New Haven, Connecticut",1894,1,94838
+"495","Lowell, Massachusetts",1894,NA,84605
+"496","Philadelphia, Pennsylvania",1895,39,1170330
+"497","Brooklyn, New York",1895,NA,986463
+"498","Chicago, Illinois",1895,63,1399212
+"499","Boston, Massachusetts",1895,37,504684
+"500","St. Louis, Missouri",1895,30,513504
+"501","Baltimore, Maryland",1895,NA,471698
+"502","Cincinnati, Ohio",1895,33,311405
+"503","San Francisco, California",1895,43,320890
+"504","New Orleans, Louisiana",1895,NA,264572
+"505","Cleveland, Ohio",1895,12,321560
+"506","Buffalo, New York",1895,NA,304026
+"507","Washington, DC",1895,10,233825
+"508","Newark, New Jersey",1895,11,213550
+"509","Louisville, Kentucky",1895,18,183929
+"510","Detroit, Michigan",1895,9,245790
+"511","Milwaukee, Wisconsin",1895,6,244892
+"512","Providence, Rhode Island",1895,1,149971
+"513","Rochester, New York",1895,NA,148252
+"514","Pittsburgh, Pennsylvania",1895,6,279767
+"515","Richmond, Virginia",1895,0,83218
+"516","New Haven, Connecticut",1895,3,97036
+"517","Lowell, Massachusetts",1895,1,86332
+"518","Philadelphia, Pennsylvania",1896,49,1195004
+"519","Brooklyn, New York",1896,NA,1022487
+"520","Chicago, Illinois",1896,35,1459085
+"521","Boston, Massachusetts",1896,26,515926
+"522","St. Louis, Missouri",1896,57,525851
+"523","Baltimore, Maryland",1896,NA,479150
+"524","Cincinnati, Ohio",1896,27,314304
+"525","San Francisco, California",1896,49,325268
+"526","New Orleans, Louisiana",1896,NA,269078
+"527","Cleveland, Ohio",1896,27,333602
+"528","Buffalo, New York",1896,NA,313698
+"529","Washington, DC",1896,11,242804
+"530","Newark, New Jersey",1896,15,220054
+"531","Louisville, Kentucky",1896,37,188289
+"532","Detroit, Michigan",1896,NA,253773
+"533","Milwaukee, Wisconsin",1896,10,252976
+"534","Providence, Rhode Island",1896,4,154316
+"535","Rochester, New York",1896,NA,151123
+"536","Pittsburgh, Pennsylvania",1896,10,287997
+"537","Richmond, Virginia",1896,14,83584
+"538","New Haven, Connecticut",1896,4,99234
+"539","Lowell, Massachusetts",1896,2,88060
+"540","Philadelphia, Pennsylvania",1897,43,1219677
+"541","Chicago, Illinois",1897,37,1518958
+"542","Boston, Massachusetts",1897,21,527168
+"543","St. Louis, Missouri",1897,94,538198
+"544","Baltimore, Maryland",1897,NA,486602
+"545","Cincinnati, Ohio",1897,26,317204
+"546","San Francisco, California",1897,43,329646
+"547","New Orleans, Louisiana",1897,NA,273585
+"548","Cleveland, Ohio",1897,9,345644
+"549","Buffalo, New York",1897,9,323370
+"550","Washington, DC",1897,12,251782
+"551","Newark, New Jersey",1897,18,226558
+"552","Louisville, Kentucky",1897,37,192649
+"553","Detroit, Michigan",1897,2,261756
+"554","Milwaukee, Wisconsin",1897,3,261061
+"555","Providence, Rhode Island",1897,3,158661
+"556","Rochester, New York",1897,NA,153994
+"557","Pittsburgh, Pennsylvania",1897,23,296227
+"558","Richmond, Virginia",1897,1,83950
+"559","New Haven, Connecticut",1897,6,101432
+"560","Lowell, Massachusetts",1897,0,89787
+"561","Philadelphia, Pennsylvania",1898,37,1244350
+"562","Chicago, Illinois",1898,40,1578830
+"563","Boston, Massachusetts",1898,20,538409
+"564","St. Louis, Missouri",1898,47,550544
+"565","Baltimore, Maryland",1898,32,494053
+"566","Cincinnati, Ohio",1898,40,320103
+"567","San Francisco, California",1898,48,334025
+"568","New Orleans, Louisiana",1898,64,278091
+"569","Cleveland, Ohio",1898,16,357685
+"570","Buffalo, New York",1898,8,333042
+"571","Washington, DC",1898,18,260761
+"572","Newark, New Jersey",1898,13,233062
+"573","Louisville, Kentucky",1898,29,197009
+"574","Detroit, Michigan",1898,2,269738
+"575","Milwaukee, Wisconsin",1898,4,269146
+"576","Providence, Rhode Island",1898,4,163006
+"577","Rochester, New York",1898,NA,156886
+"578","Pittsburgh, Pennsylvania",1898,5,304457
+"579","Richmond, Virginia",1898,9,84316
+"580","New Haven, Connecticut",1898,2,103631
+"581","Lowell, Massachusetts",1898,NA,91514
+"582","Philadelphia, Pennsylvania",1899,27,1269024
+"583","Chicago, Illinois",1899,38,1638702
+"584","Boston, Massachusetts",1899,23,549650
+"585","St. Louis, Missouri",1899,61,562891
+"586","Baltimore, Maryland",1899,23,501505
+"587","Cincinnati, Ohio",1899,30,323003
+"588","San Francisco, California",1899,59,338404
+"589","New Orleans, Louisiana",1899,NA,282598
+"590","Cleveland, Ohio",1899,26,369726
+"591","Buffalo, New York",1899,10,342715
+"592","Washington, DC",1899,21,269739
+"593","Newark, New Jersey",1899,29,239566
+"594","Louisville, Kentucky",1899,18,201369
+"595","Detroit, Michigan",1899,4,277721
+"596","Milwaukee, Wisconsin",1899,6,277231
+"597","Providence, Rhode Island",1899,2,167351
+"598","Rochester, New York",1899,NA,159737
+"599","Pittsburgh, Pennsylvania",1899,15,312687
+"600","Richmond, Virginia",1899,7,84682
+"601","New Haven, Connecticut",1899,1,105829
+"602","Lowell, Massachusetts",1899,1,93242
+"603","Philadelphia, Pennsylvania",1900,63,1293697
+"604","Chicago, Illinois",1900,28,1698575
+"605","Boston, Massachusetts",1900,33,560892
+"606","St. Louis, Missouri",1900,31,575238
+"607","Baltimore, Maryland",1900,29,508957
+"608","Cincinnati, Ohio",1900,30,325902
+"609","San Francisco, California",1900,86,342782
+"610","New Orleans, Louisiana",1900,61,287104
+"611","Cleveland, Ohio",1900,22,381768
+"612","Buffalo, New York",1900,6,352387
+"613","Washington, DC",1900,18,278718
+"614","Newark, New Jersey",1900,17,246070
+"615","Louisville, Kentucky",1900,35,204731
+"616","Detroit, Michigan",1900,5,285704
+"617","Milwaukee, Wisconsin",1900,6,285315
+"618","Providence, Rhode Island",1900,5,175597
+"619","Rochester, New York",1900,NA,162608
+"620","Pittsburgh, Pennsylvania",1900,NA,321616
+"621","Richmond, Virginia",1900,8,85050
+"622","New Haven, Connecticut",1900,1,108027
+"623","Lowell, Massachusetts",1900,1,94969
+"624","New York City",1870,38,942000
+"625","New York City",1871,55,953000
+"626","New York City",1872,73,976000
+"627","New York City",1873,65,999000
+"628","New York City",1874,56,1021000
+"629","New York City",1875,59,1042000
+"630","New York City",1876,53,1075000
+"631","New York City",1877,53,1108000
+"632","New York City",1878,57,1140000
+"633","New York City",1879,46,1173000
+"634","New York City",1880,52,1206000
+"635","New York City",1881,61,1244000
+"636","New York City",1882,70,1278000
+"637","New York City",1883,56,1311000
+"638","New York City",1884,51,1344000
+"639","New York City",1885,54,1377000
+"640","New York City",1886,62,1410000
+"641","New York City",1887,68,1444000
+"642","New York City",1888,54,1476000
+"643","New York City",1889,65,1509000
+"644","New York City",1890,56,1515000
+"645","New York City",1891,49,1557000
+"646","New York City",1892,38,1600000
+"647","New York City",1893,44,1642000
+"648","New York City",1894,57,1685000
+"649","New York City",1895,68,1727000
+"650","New York City",1896,64,1770000
+"651","New York City",1897,61,1812000
+"652","New York City",1898,108,3251000
+"653","New York City",1899,130,3344000
+"654","New York City",1900,132,3437000

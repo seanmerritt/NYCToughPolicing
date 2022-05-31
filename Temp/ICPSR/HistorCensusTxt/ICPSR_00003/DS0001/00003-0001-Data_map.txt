@@ -1,0 +1,474 @@
+DATA MAP FOR 1790 CENSUS DATA  (COUNTY AND STATE) [ICPSR 0003, DATASET 0001]       
+                                                                                   
+                                                                                   
+                                                                                   
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:      
+                                                                                   
+                                                                                   
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS      
+            WILL FIND TAPE LOCATION INFORMATION HERE.                              
+                                                                                   
+    #D    = NUMBER OF DECIMAL DIGITS.                                              
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                        
+                                                                                   
+    MD1   = FIRST MISSING DATA CODE.                                               
+                                                                                   
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                    
+                                                                                   
+    VAR # = VARIABLE NUMBER.                                                       
+                                                                                   
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                           
+                                                                                   
+                                                                                   
+                                                                                   
+                                                                                   
+          DUBESTER 2785:  A CENTURY OF POPULATION GROWTH FROM THE                  
+                          FIRST CENSUS OF THE UNITED STATES TO THE                 
+                          TWELFTH, 1790-1900.  (WASHINGTON, D.C.:                  
+                          1909).                                                   
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                           
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:             
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,             
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                          
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                           
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                            
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,             
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                          
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                        
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                      
+                                                                                   
+                                                                                   
+VAR # 0001 DATA TYPE                 WIDTH =0001                                   
+                        #D  =          MD1 =               MD2 =                   
+                                                                                   
+          DATA TYPE                                                                
+              C.  COUNTY DATA                                                      
+              S.  STATE DATA                                                       
+                                                                                   
+                                                                                   
+VAR # 0002 YEAR                      WIDTH =0003                                   
+                        #D  =          MD1 =               MD2 =                   
+                                                                                   
+          YEAR TO WHICH DATA ARE RELEVANT                                          
+              790.  1790                                                           
+                                                                                   
+                                                                                   
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                   
+                        #D  =          MD1 =               MD2 =                   
+                                                                                   
+                                                                                   
+                                                                                   
+VAR # 0004 CNGSL DIST NUMBER         WIDTH =0002                                   
+                        #D  =          MD1 =               MD2 =                   
+                                                                                   
+          CONGRESSIONAL DISTRICT NUMBER                                            
+                                                                                   
+                                                                                   
+VAR # 0061 IDENTIFICATION NUMBER     WIDTH =0004                                   
+                        #D  =          MD1 =   9999        MD2 =                   
+                                                                                   
+          COUNTY OR STATE IDENTIFICATION NUMBER                                    
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                     
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                      
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                   
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                     
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                       
+          UNIT OF ANALYSIS IN THE DATA FILE.                                       
+                                                                                   
+                                                                                   
+VAR # 0005 COUNTY NAME               WIDTH =0017                                   
+                        #D  =          MD1 =               MD 2=                   
+                                                                                   
+                                                                                   
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                   
+                        #D  =          MD1 =               MD2 =                   
+                                                                                   
+          CATALOG ENTRY NUMBER                                                     
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                   
+          1790-1945", PREPARED BY HENRY J. DUBESTER                                
+                                                                                   
+                                                                                   
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                   
+                        #D  =          MD1 =               MD2 =                   
+                                                                                   
+          TABLE NUMBER                                                             
+                                                                                   
+                                                                                   
+VAR # 0008 790TTL POPULATION         WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          TOTAL POPULATION                                                         
+          (1790) SOURCE: DUB. 2785, TABLE 104                                      
+                                                                                   
+                                                                                   
+VAR # 0009 790WHT M 16 & OVR         WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF WHITE MALES 16 YEARS OF AGE AND OVER                           
+          (1790) SOURCE: DUB. 2785, TABLE 104                                      
+                                                                                   
+                                                                                   
+VAR # 0010 790WHT M UNDER 16         WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF WHITE MALES UNDER 16 YEARS OF AGE                              
+          (1790) SOURCE: DUB. 2785, TABLE 104                                      
+                                                                                   
+                                                                                   
+VAR # 0011 790WHT FEMALES            WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF WHITE FEMALES                                                  
+          (1790) SOURCE: DUB. 2785, TABLE 104                                      
+                                                                                   
+                                                                                   
+VAR # 0012 790ALL OTR FREE PSNS      WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF ALL OTHER FREE PERSONS                                         
+          (1790) SOURCE: DUB. 2785, TABLE 104                                      
+                                                                                   
+                                                                                   
+VAR # 0013 790TTL SLAVES             WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF SLAVES                                                         
+          (1790) SOURCE: DUB. 2785, TABLE 104                                      
+                                                                                   
+                                                                                   
+VAR # 0014 790TOTAL FAMILIES         WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          TOTAL NUMBER OF FAMILIES                                                 
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0015 790FAMS W 1 MEMBER        WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH ONE MEMBER                                       
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0016 790FAMS W 2 MEMBERS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH TWO MEMBERS                                      
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0017 790FAMS W 3 MEMBERS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH THREE MEMBERS                                    
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0018 790FAMS W 4 MEMBERS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+                                                                                   
+          NUMBER OF FAMILIES WITH FOUR MEMBERS                                     
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+VAR # 0019 790FAMS W 5 MEMBERS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH FIVE MEMBERS                                     
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0020 790FAMS W 6 MEMBERS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH SIX MEMBERS                                      
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0021 790FAMS W 7 MEMBERS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH SEVEN MEMBERS                                    
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0022 790FAMS W 8 MEMBERS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH EIGHT MEMBERS                                    
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0023 790FAMS W 9 MEMBERS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH NINE MEMBERS                                     
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0024 790FAMS W 10 MEMBERS      WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH TEN MEMBERS                                      
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0025 79011 OR MORE MEMBERS     WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES WITH 11 OR MORE MEMBERS                               
+          (1790) SOURCE: DUB. 2785, TABLE 109                                      
+                                                                                   
+                                                                                   
+VAR # 0026 790PSNS OF ALL NATLTY     WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF PERSONS OF ALL NATIONALITIES                                   
+          (1790) SOURCE: DUB. 2785, TABLE 112                                      
+                                                                                   
+                                                                                   
+VAR # 0027 790ENGL & WLS NATLTY      WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF PERSONS OF ENGLISH AND WELSH NATIONALITY                       
+          (1790) SOURCE: DUB. 2785, TABLE 112                                      
+                                                                                   
+                                                                                   
+VAR # 0028 790SCOTCH NATLTY          WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF PERSONS OF SCOTCH NATIONALITY                                  
+          (1790) SOURCE: DUB. 2785, TABLE 112                                      
+                                                                                   
+                                                                                   
+VAR # 0029 790IRISH  NATLTY          WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF PERSONS OF IRISH NATIONALITY                                   
+          (1790) SOURCE: DUB. 2785, TABLE 112                                      
+                                                                                   
+                                                                                   
+VAR # 0030 790DUTCH  NATLTY          WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF PERSONS OF DUTCH NATIONALITY                                   
+          (1790) SOURCE: DUB. 2785, TABLE 112                                      
+                                                                                   
+                                                                                   
+VAR # 0031 790FRENCH NATLTY          WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF PERSONS OF FRENCH NATIONALITY                                  
+          (1790) SOURCE: DUB. 2785, TABLE 112                                      
+                                                                                   
+                                                                                   
+VAR # 0032 790GERMAN NATLTY          WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF PERSONS OF GERMAN NATIONALITY                                  
+          (1790) SOURCE: DUB. 2785, TABLE 112                                      
+                                                                                   
+                                                                                   
+VAR # 0033 790HEBREW NATLTY          WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF PERSONS OF HEBREW NATIONALITY                                  
+          (1790) SOURCE: DUB. 2785, TABLE 112                                      
+                                                                                   
+                                                                                   
+VAR # 0034 790ALL OTR CNTRY          WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF PERSONS OF ALL OTHER NATIONALITIES                             
+          (1790) SOURCE: DUB. 2785, TABLE 112                                      
+                                                                                   
+                                                                                   
+VAR # 0035 790TTL SLVHLDG FAMS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF SLAVEHOLDING FAMILIES                                          
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0036 790WHT SLVHLDG FAMS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF WHITE SLAVEHOLDING FAMILIES                                    
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0037 790MBRS WHT SLVHLDG FAMS  WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          TOTAL NUMBER OF MEMBERS IN WHITE SLAVEHOLDING FAMILIES                   
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0038 790AV FAM MBRS WHT        WIDTH =0009                                   
+                        #D  =  1       MD1 =-000001        MD2 =-000002            
+                                                                                   
+          AVERAGE NUMBER OF MEMBERS PER FAMILY IN WHITE SLAVEHOLDING               
+              FAMILIES                                                             
+          (TO ONE DECIMAL PLACE)                                                   
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0039 790F.C SLVHLDG FAMS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FREE COLORED SLAVEHOLDING FAMILIES                             
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0040 790TTL NNSLVHLDG FAMS     WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF NONSLAVEHOLDING FAMILIES                                       
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0041 790WHT NNSLVHLDG FAMS     WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF WHITE NONSLAVEHOLDING FAMILIES                                 
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0042 790MBRS WHT NNSLVHLDG     WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          TOTAL NUMBER OF MEMBERS IN WHITE NONSLAVEHOLDING FAMILIES                
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0043 790AV FAM MBRS NN         WIDTH =0009                                   
+                        #D  =  1       MD1 =-000001        MD2 =-000002            
+                                                                                   
+          AVERAGE NUMBER OF MEMBERS PER FAMILY OF WHITE                            
+              NONSLAVEHOLDING FAMILIES                                             
+          (TO ONE DECIMAL PLACE)                                                   
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0044 790F.C NNSLVHLDG FAMS     WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FREE COLORED NONSLAVEHOLDING FAMILIES                          
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0045 790% WHT SLVHLDG          WIDTH =0009                                   
+                        #D  =  1       MD1 =-000001        MD2 =-000002            
+                                                                                   
+          PERCENT OF WHITE SLAVEHOLDING FAMILIES                                   
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0046 790% F.C SLVHLDG          WIDTH =0009                                   
+                        #D  =  1       MD1 =-000001        MD2 =-000002            
+                                                                                   
+          PERCENT OF FREE COLORED SLAVEHOLDING FAMILIES                            
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0047 790% WHT NNSLVHLDG        WIDTH =0009                                   
+                        #D  =  1       MD1 =-000001        MD2 =-000002            
+                                                                                   
+          PERCENT OF WHITE NONSLAVEHOLDING FAMILIES                                
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0048 790F.C NNSLVHLDG          WIDTH =0009                                   
+                        #D  =  1       MD1 =-000001        MD2 =-000002            
+                                                                                   
+          PERCENT OF FREE COLORED NONSLAVEHOLDING FAMILIES                         
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0049 790TTL SLAVES             WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          TOTAL NUMBER OF SLAVES                                                   
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0050 790AV SLV PER FAM         WIDTH =0009                                   
+                        #D  =  1       MD1 =-000001        MD2 =-000002            
+                                                                                   
+          AVERAGE NUMBER OF SLAVES PER SLAVEHOLDING FAMILY                         
+          (TO ONE DECIMAL PLACE)                                                   
+          (1790) SOURCE: DUB. 2785, TABLE 114                                      
+                                                                                   
+                                                                                   
+VAR # 0051 790FAMS W 1 SLAVE         WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING ONE SLAVE                                     
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      
+                                                                                   
+                                                                                   
+VAR # 0052 790FAMS W 2-4 SLVS        WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING 2-4 SLAVES                                    
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      
+                                                                                   
+                                                                                   
+VAR # 0053 790FAMS W 5-9 SLVS        WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING 5-9 SLAVES                                    
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      
+                                                                                   
+                                                                                   
+VAR # 0054 790FAMS W 10-19 SLVS      WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING 10-19 SLAVES                                  
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      
+                                                                                   
+                                                                                   
+VAR # 0055 790FAMS W 20-49 SLVS      WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING 20-49 SLAVES                                  
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      
+                                                                                   
+                                                                                   
+VAR # 0056 790FAMS W 50-99 SLVS      WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING 50-99 SLAVES                                  
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      
+                                                                                   
+                                                                                   
+VAR # 0057 790FAMS W 100-199 SLVS    WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING 100-199 SLAVES                                
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      
+                                                                                   
+                                                                                   
+VAR # 0058 790FAMS W 200-299 SLVS    WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING 200-299 SLAVES                                
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      
+                                                                                   
+                                                                                   
+VAR # 0059 790FAMS W 300 OR MR SLVS  WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING 300 SLAVES OR MORE                            
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      
+                                                                                   
+                                                                                   
+VAR # 0060 790FAMS W UKWN SLVS       WIDTH =0009                                   
+                        #D  =          MD1 =-000001        MD2 =-000002            
+                                                                                   
+          NUMBER OF FAMILIES HOLDING AN UNKNOWN NUMBER OF SLAVES                   
+          (1790) SOURCE: DUB. 2785, TABLE 115                                      

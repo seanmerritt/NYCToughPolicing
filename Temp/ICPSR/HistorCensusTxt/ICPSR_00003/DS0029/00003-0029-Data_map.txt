@@ -1,0 +1,210 @@
+DATA MAP FOR HISTORICAL, DEMOGRAPHIC...UNITED STATES, 1900 DATASET S01 (STATE)  
+                     [ICPSR 0003, DATASET 0029]                                 
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.                                
+                                                                                
+    LOC   = LOCATION FOR OSIRIS OR LOGICAL RECORD LENGTH DATA.                  
+                                                                                
+    NDEC  = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS OMITTED IF THERE ARE NO DECIMAL DIGITS.)                   
+                                                                                
+    MD    = MISSING DATA CODE.                                                  
+                                                                                
+    VAR   = VARIABLE NUMBER.                                                    
+                                                                                
+    REF   = REFERENCE NUMBER; NORMALLY THE SAME AS VARIABLE NUMBER.             
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                 DUBESTER 0271:  TWELFTH DECENNIAL CENSUS OF THE                
+                                 UNITED STATES, 1900:  OCCUPATIONS.             
+                                 (WASHINGTON, D.C.:  1904).                     
+                                                                                
+                                                                                
+                 ----                                                           
+                                                                                
+              VAR 0001      DATA TYPE                   NO MISSING DATA CODES   
+              REF 0001         LOC    1 WIDTH  1                                
+                                                                                
+                                                                                
+                 DATA TYPE                                                      
+                 ---------                                                      
+                                                                                
+                     C.  COUNTY DATA                                            
+                     S.  STATE DATA                                             
+              ...............................................................   
+              VAR 0002      YEAR                        NO MISSING DATA CODES   
+              REF 0002         LOC    2 WIDTH  3                                
+                                                                                
+                                                                                
+                 YEAR TO WHICH DATA ARE RELEVANT                                
+                 -------------------------------                                
+                                                                                
+                     900.  1900                                                 
+              ...............................................................   
+              VAR 0003      STATE CODE                  NO MISSING DATA CODES   
+              REF 0003         LOC    5 WIDTH  2                                
+                                                                                
+              ...............................................................   
+              VAR 0004      CNGSL DIST NUMBER           NO MISSING DATA CODES   
+              REF 0004         LOC    7 WIDTH  2                                
+                                                                                
+                                                                                
+                 CONGRESSIONAL DISTRICT NUMBER                                  
+                 -----------------------------                                  
+              ...............................................................   
+              VAR 0005      COUNTY NAME                 NO MISSING DATA CODES   
+              REF 0005         LOC    9 WIDTH 17                                
+                                                                                
+              ...............................................................   
+              VAR 0006      CTLG ENTRY NMBR             NO MISSING DATA CODES   
+              REF 0006         LOC   26 WIDTH  4                                
+                                                                                
+                                                                                
+                 CATALOG ENTRY NUMBER                                           
+                     "CATALOG OF UNITED STATES CENSUS                           
+                     PUBLICATIONS, 1790-1945", PREPARED                         
+                     BY HENRY J. DUBESTER                                       
+                 --------------------------------------                         
+              ...............................................................   
+              VAR 0007      TABLE NMBR                  NO MISSING DATA CODES   
+              REF 0007         LOC   30 WIDTH  3                                
+                                                                                
+                                                                                
+                 TABLE NUMBER                                                   
+                 ------------                                                   
+              ...............................................................   
+              VAR 0008      900TTL M 10 & OVR                  MD=-1 OR LE -2   
+              REF 0008         LOC   33 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF MALES 10 YEARS OF AGE AND OVER                 
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 ----------------------------------------------                 
+              ...............................................................   
+              VAR 0009      900TTL F 10 & OVR                  MD=-1 OR LE -2   
+              REF 0009         LOC   42 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FEMALES 10 YEARS OF AGE AND OVER               
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 ------------------------------------------------               
+              ...............................................................   
+              VAR 0010      900TTL M ALL OCCS                  MD=-1 OR LE -2   
+              REF 0010         LOC   51 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF MALES 10 YEARS OF AGE AND OVER ENGAGED IN      
+                     ALL CLASSES OF GAINFUL OCCUPATIONS                         
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0011      900TTL F ALL OCCS                  MD=-1 OR LE -2   
+              REF 0011         LOC   60 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FEMALES 10 YEARS OF AGE AND OVER ENGAGED IN    
+                     ALL CLASSES OF GAINFUL OCCUPATIONS                         
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0012      900M 10 & OVR AGRIC                MD=-1 OR LE -2   
+              REF 0012         LOC   69 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF MALES 10 YEARS OF AGE AND OVER ENGAGED IN      
+                     AGRICULTURAL PURSUITS                                      
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0013      900F 10 & OVR AGRIC                MD=-1 OR LE -2   
+              REF 0013         LOC   78 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FEMALES 10 YEARS OF AGE AND OVER ENGAGED IN    
+                     AGRICULTURAL PURSUITS                                      
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0014      900M 10 & OVR PRFNL                MD=-1 OR LE -2   
+              REF 0014         LOC   87 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF MALES 10 YEARS OF AGE AND OVER ENGAGED IN      
+                     PROFESSIONAL SERVICE                                       
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0015      900F 10 & OVR PRFNL                MD=-1 OR LE -2   
+              REF 0015         LOC   96 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FEMALES 10 YEARS OF AGE AND OVER ENGAGED IN    
+                     PROFESSIONAL SERVICE                                       
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0016      900M 10 & OVR DMSTC                MD=-1 OR LE -2   
+              REF 0016         LOC  105 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF MALES 10 YEARS OF AGE AND OVER ENGAGED IN      
+                     DOMESTIC AND PERSONAL SERVICE                              
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0017      900F 10 & OVR DMSTC                MD=-1 OR LE -2   
+              REF 0017         LOC  114 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FEMALES 10 YEARS OF AGE AND OVER ENGAGED IN    
+                     DOMESTIC AND PERSONAL SERVICE                              
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0018      900M 10 & OVR T&T                  MD=-1 OR LE -2   
+              REF 0018         LOC  123 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF MALES 10 YEARS OF AGE AND OVER ENGAGED IN      
+                     TRADE AND TRANSPORTATION                                   
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0019      900F 10 & OVR T&T                  MD=-1 OR LE -2   
+              REF 0019         LOC  132 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FEMALES 10 YEARS OF AGE AND OVER ENGAGED IN    
+                     TRADE AND TRANSPORTATION                                   
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0020      900M 10 & OVR MFGN                 MD=-1 OR LE -2   
+              REF 0020         LOC  141 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF MALES 10 YEARS OF AGE AND OVER ENGAGED IN      
+                     MANUFACTURING AND MECHANICAL PURSUITS                      
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0021      900F 10 & OVR MFGN                 MD=-1 OR LE -2   
+              REF 0021         LOC  150 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FEMALES 10 YEARS OF AGE AND OVER ENGAGED IN    
+                     MANUFACTURING AND MECHANICAL PURSUITS                      
+                 (1900) SOURCE: DUB. 271, TABLE 31                              
+                 -----------------------------------------------------------    
+    TERMINATION OF CODEBOOK LIST.                                               

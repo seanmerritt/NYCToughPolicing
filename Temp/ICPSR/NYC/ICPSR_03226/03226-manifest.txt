@@ -1,0 +1,89 @@
+File Manifest for ICPSR 3226
+
+Monkkonen, Eric. Homicides in New York City, 1797-1999 [And Various
+Historical Comparison Sites]. ICPSR03226-v1. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2001. http://doi.org/10.3886/ICPSR03226.v1
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    03226-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    03226-related_literature.txt        -       -         -       daily       -
+
+    03226-manifest.txt                  -       -         -       daily       -
+
+    03226-Codebook.pdf                  -       -         -       2001-11-29  dd7bb71396ddefbbdeb9291b0bbb6fe5
+
+
+DS0001 Annual Homicide Data for New York City
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    03226-0001-Data.dta                 -       376       123     2005-03-10  b2d0c3a7f6534639e192a107d321dc8c
+
+    03226-0001-Data.por                 -       376       122     2005-03-10  55ec9e68a14d004c41cfed71e5a94be8
+
+    03226-0001-Data.txt                 489     376       122     2001-11-29  9c79b26b0d7048937c19cf1a00217b0f
+
+    03226-0001-Data.xpt                 -       376       122     2005-03-10  e1d0e0d4f59f0593fdf6a7b718bf2cf9
+
+    03226-0001-Setup.dct                -       -         -       2005-03-10  6a6966eb02907bc14eee237a085dc11f
+
+    03226-0001-Setup.do                 -       -         -       2005-03-10  3660e7857d7e867eb45a976167786487
+
+    03226-0001-Setup.sas                -       -         -       2001-11-29  28d8d787e8ca6969a35def44fce941df
+
+    03226-0001-Setup.sps                -       -         -       2001-11-29  880294b4a812aed8f49a18a496cc5452
+
+
+DS0002 Individual Homicide Data for New York City
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    03226-0002-Data.dta                 -       1,786     24      2005-03-10  23782edb4604b82dc5da0542265e81b3
+
+    03226-0002-Data.por                 -       1,786     23      2005-03-10  1ed4e527f2ecc569f3ca07dcf03e1b08
+
+    03226-0002-Data.txt                 134     1,786     23      2001-11-29  32be438d694d41d52db3c55638a817eb
+
+    03226-0002-Data.xpt                 -       1,786     23      2005-03-10  7727c455abc70977f3fa707abc40045e
+
+    03226-0002-Setup.dct                -       -         -       2005-03-10  4f9689e560885ba721a3e1866aee3c6b
+
+    03226-0002-Setup.do                 -       -         -       2005-03-10  cf721e3891dbc79cc4867cb62b4a4721
+
+    03226-0002-Setup.sas                -       -         -       2001-11-29  30a708a4934e8817cecbe204630b985b
+
+    03226-0002-Setup.sps                -       -         -       2001-11-29  df33475cfaddcc9f71ef189c2995a6ce
+
+
+DS0003 Annual Homicide Data for Comparison Sites
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    03226-0003-Data.txt                 420     369       84      2001-11-29  6fe09d01cae6dc2e88d06e01800bab9f
+
+    03226-0003-Setup.sas                -       -         -       2001-11-29  10b1cd7390329dbe3524c13d5770d310
+
+    03226-0003-Setup.sps                -       -         -       2001-11-29  51c96c1540dae45ee55be522b482f7be
+
+
+Version History
+
+2006-03-30 File CB3226.ALL.PDF was removed from any previous datasets and
+flagged as a study-level file, so that it will accompany all downloads.
+2005-11-04  On 2005-03-14 new files were added to one  or  more datasets.
+These files included additional setup files as well  as one or more of the
+following: SAS  program, SAS transport, SPSS portable,   and Stata system
+files. The  metadata record was revised  2005-11-04 to  reflect these
+additions.

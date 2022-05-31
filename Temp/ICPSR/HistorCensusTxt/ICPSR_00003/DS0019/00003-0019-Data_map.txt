@@ -1,0 +1,933 @@
+DATA MAP FOR 1960 CENSUS -- COUNTY AND STATE   [ICPSR 0003, DATASET 0019]       
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS   
+            WILL FIND TAPE LOCATION INFORMATION HERE.                           
+                                                                                
+    #D    = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                     
+                                                                                
+    MD1   = FIRST MISSING DATA CODE.                                            
+                                                                                
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                 
+                                                                                
+    VAR # = VARIABLE NUMBER.                                                    
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+          ICPR     1960:  EIGHTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1960:  POPULATION, VOLUME I,           
+                          CHARACTERISTICS OF THE POPULATION.                    
+                          (WASHINGTON, D. C.:  1962)                            
+          ICPR   CCDB62:  U.S. BUREAU OF THE CENSUS.  COUNTY AND                
+                          CITY DATA BOOK, 1962 (A STATISTICAL                   
+                          ABSTRACT SUPPLEMENT).  (U.S. GOVERNMENT               
+                          PRINTING OFFICE, WASHINGTON, D.C.:  1962)             
+          ICPR   CCDB67:  U.S. BUREAU OF THE CENSUS.  COUNTY AND                
+                          CITY DATA BOOK, 1967 (A STATISTICAL                   
+                          ABSTRACT SUPPLEMENT).  (U.S. GOVERNMENT               
+                          PRINTING OFFICE, WASHINGTON, D.C.:  1967)             
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1820:  CENSUS FOR 1820.                
+                          (WASHINGTON, D.C.:  1821).                            
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+                          1830:  FIFTH CENSUS.  (WASHINGTON, D.C.:              
+                          1832).                                                
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1840:  COMPENDIUM OF THE ENUMERATION OF THE           
+                          INHABITANTS AND STATISTICS OF THE                     
+                          UNITED STATES... (WASHINGTON, D.C.:  1841).           
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1850:  THE SEVENTH CENSUS              
+                          OF THE UNITED STATES:  1850.                          
+                          (WASHINGTON, D.C.:  1853).                            
+          DUBESTER 0033:  SEVENTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1850:  STATISTICAL VIEW OF             
+                          THE UNITED STATES.  (WASHINGTON, D.C.:                
+                          1854).                                                
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1860:  POPULATION.                     
+                          (WASHINGTON, D.C.:  1864).                            
+          DUBESTER 0038:  EIGHTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1860:  AGRICULTURE OF THE              
+                          UNITED STATES IN 1860.  (WASHINGTON, D.C.:            
+                          1864).                                                
+          DUBESTER 0039:  EIGHTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1860:  MANUFACTURING OF THE            
+                          UNITED STATES IN 1860.  (WASHINGTON, D.C.:            
+                          1865).                                                
+          DUBESTER 0040:  EIGHTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1860:  STATISTICS OF THE               
+                          UNITED STATES, (INCLUDING MORTALITY,                  
+                          PROPERTY, ETC.) IN 1860.  (WASHINGTON, D.C.:          
+                          1866).                                                
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+                          UNITED STATES, 1870:  VOLUME I, STATISTICS            
+                          OF THE POPULATION OF THE UNITED STATES.               
+                          (WASHINGTON, D.C.:  1872).                            
+          DUBESTER 0052:  NINTH DECENNIAL CENSUS OF THE                         
+                          UNITED STATES, 1870:  VOLUME III, STATISTICS          
+                          OF THE WEALTH AND INDUSTRY OF THE                     
+                          UNITED STATES.  (WASHINGTON, D.C.:  1872).            
+          DUBESTER 0057:  NINTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1870:  A COMPENDIUM.  (WASHINGTON, D.C.:              
+                          1872).                                                
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME I, STATISTICS OF THE                    
+                          POPULATION.  (WASHINGTON, D.C.:  1883-1888).          
+          DUBESTER 0063:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME II, REPORT ON THE MANUFACTURES          
+                          OF THE UNITED STATES... (WASHINGTON, D.C.:            
+                          1883).                                                
+          DUBESTER 0069:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME II, IRON AND STEEL PRODUCTION           
+                          ... (WASHINGTON, D.C.:  1883).                        
+          DUBESTER 0075:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME III, REPORT ON THE PRODUCTION           
+                          OF AGRICULTURE... (WASHINGTON, D.C.:  1883).          
+          DUBESTER 0111:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME VIII, SHIP-BUILDING OF THE              
+                          UNITED STATES.  (WASHINGTON, D.C.:  1884).            
+          DUBESTER 0153:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  COMPENDIUM, PART ONE.                          
+                          (WASHINGTON, D.C.:  1883).                            
+          DUBESTER 0154:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  COMPENDIUM, PART TWO.                          
+                          (WASHINGTON, D.C.:  1885-1888).                       
+          DUBESTER 0162:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  THE AREA OF THE UNITED STATES.                 
+                          (WASHINGTON, D.C.:  1881).                            
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+                          UNITED STATES, 1890:  VOLUME I.  POPULATION,          
+                          PART ONE.  (WASHINGTON, D.C.:  1892-1897).            
+          DUBESTER 0188:  ELEVENTH DECENNIAL CENSUS OF THE                      
+                          UNITED STATES, 1890:  VOL. V.  REPORT ON THE          
+                          STATISTICS OF AGRICULTURE.                            
+                          (WASHINGTON, D.C.:  1895-1897).                       
+          DUBESTER 0193:  ELEVENTH DECENNIAL CENSUS OF THE                      
+                          UNITED STATES, 1890:  VOL. VI.  REPORT ON             
+                          MANUFACTURING, PART ONE.  (WASHINGTON, D.C.:          
+                          1895).                                                
+          DUBESTER 0229:  ELEVENTH DECENNIAL CENSUS OF THE                      
+                          UNITED STATES, 1890:  VOL. I.  REPORT ON              
+                          EDUCATION IN THE UNITED STATES...1890.                
+                          (WASHINGTON, D.C.:  1893).                            
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. I, POPULATION              
+                          OF STATES AND TERRITORIES.                            
+                          (WASHINGTON, D.C.:  1906).                            
+          DUBESTER 0254:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. II, POPULATION             
+                          OF STATES AND TERRITORIES.                            
+                          (WASHINGTON, D.C.:  1904).                            
+          DUBESTER 0263:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. VIII,                      
+                          MANUFACTURES OF STATES AND TERRITORIES.               
+                          (WASHINGTON, D.C.:  1906).                            
+          DUBESTER 0259:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. V, AGRICULTURE OF          
+                          THE UNITED STATES.  (WASHINGTON, D.C.:                
+                          1908).                                                
+          DUBESTER 0276:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  ABSTRACT.                       
+                          (WASHINGTON, D.C.:  1904).                            
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+                   0314:  UNITED STATES, 1910:  VOLUMES II AND III,             
+                          REPORT ON THE POPULATION OF THE                       
+                          UNITED STATES.  (WASHINGTON, D.C.:  1915).            
+          DUBESTER 0333-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+                   0334:  UNITED STATES, 1910:  VOLUMES VI AND VII,             
+                          REPORT ON THE STATISTICS OF AGRICULTURE IN            
+                          THE UNITED STATES.  (WASHINGTON, D.C.:                
+                          1915).                                                
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1920:  VOL. I, POPULATION.             
+                          (WASHINGTON, D.C.:  1921).                            
+          DUBESTER 0470:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1920:  VOL. III, POPULATION.           
+                          (WASHINGTON, D.C.:  1922).                            
+          DUBESTER 0497-  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                   0499:  UNITED STATES, 1920:  VOL. VI, PARTS 1, 2,            
+                          AND 3, AGRICULTURE.  (WASHINGTON, D.C.:               
+                          1922).                                                
+          DUBESTER 0504:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1920:  VOL. VIII,                      
+                          MANUFACTURES.  (WASHINGTON, D.C.:  1923).             
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:  POPULATION,                     
+                          VOLUME I.  (WASHINGTON, D.C.:  1931)                  
+          DUBESTER 0669-  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                   0670:  UNITED STATES, 1930:  POPULATION,                     
+                          VOLUME III, PARTS I & II.                             
+                          (WASHINGTON, D.C.:  1932)                             
+          DUBESTER 0719:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:  MANUFACTURES:                   
+                          1929, VOLUME III.                                     
+                          (WASHINGTON, D.C.:  1933)                             
+          DUBESTER 0684:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:  UNEMPLOYMENT,                   
+                          VOLUME I.  (WASHINGTON, D.C.: 1932)                   
+          DUBESTER 0727:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:                                  
+                          WHOLESALE DISTRIBUTION, VOLUME II.                    
+                          (WASHINGTON, D.C.:  1933)                             
+          DUBESTER 0724:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:                                  
+                          RETAIL DISTRIBUTION, VOLUME I, PART I.                
+                          (WASHINGTON, D.C.:  1933)                             
+          DUBESTER 0689-  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                   0691:  UNITED STATES, 1930:  AGRICULTURE,                    
+                          VOLUME II, PARTS 1-3.                                 
+                          (WASHINGTON, D.C.: 1932)                              
+          DUBESTER 3601-  CENSUS OF PARTIAL EMPLOYMENT,                         
+                   3603:  UNEMPLOYMENT AND OCCUPATIONS, 1937:                   
+                          VOLUMES I-III.  (WASHINGTON, D.C.:  1938)             
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  POPULATION, VOL. I,             
+                          NUMBER OF INHABITANTS.  (WASHINGTON, D.C.:            
+                          1942).                                                
+          DUBESTER 0957-  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                   0963:  UNITED STATES, 1940:  POPULATION, VOL. II,            
+                          CHARACTERISTICS OF THE POPULATION.                    
+                          (WASHINGTON, D.C.:  1943).                            
+          DUBESTER 1021-  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                   1024:  UNITED STATES, 1940:  HOUSING, VOL. II.               
+                          (WASHINGTON, D.C.:  1943).                            
+          DUBESTER 1043-  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                   1048:  UNITED STATES, 1940:  AGRICULTURE, VOL. I.            
+                          (WASHINGTON, D.C.:  1942).                            
+          DUBESTER 1050-  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                   1052:  UNITED STATES, 1940:  AGRICULTURE, VOL. II.           
+                          (WASHINGTON, D.C.:  1942).                            
+          DUBESTER 1093:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  MANUFACTURES,                   
+                          VOL. III.  (WASHINGTON, D.C.:  1942).                 
+          DUBESTER 1105:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  BUSINESS, VOL. I,               
+                          RETAIL TRADE, PART 3.  (WASHINGTON, D.C.:             
+                          1941).                                                
+          DUBESTER 1106:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  BUSINESS, VOL. II,              
+                          WHOLESALE TRADE.  (WASHINGTON, D.C.:  1942).          
+          DUBESTER 1107:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  BUSINESS, VOL. III,             
+                          SERVICE ESTABLISHMENTS.  (WASHINGTON, D.C.:           
+                          1943).                                                
+          DUBESTER 3601-  CENSUS OF PARTIAL EMPLOYMENT, UNEMPLOYMENT,           
+                   3603:  AND OCCUPATIONS, 1937:  VOLUMES I-III.                
+                          (WASHINGTON, D.C.:  1938).                            
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                   4550:  UNITED STATES, 1950:                                  
+                          CHARACTERISTICS OF THE POPULATION,                    
+                          VOLUME II, PARTS 2-50.                                
+                          (WASHINGTON, D.C.:  1952)                             
+          ICPR     4601-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                   4633:  UNITED STATES, 1950:  AGRICULTURE,                    
+                          VOLUME I, PARTS 1-33.                                 
+                          (WASHINGTON, D.C.:  1952)                             
+          ICPR     NCCC:  NATIONAL COUNCIL OF CHURCHES OF CHRIST                
+                          OF THE UNITED STATES:                                 
+                          SURVEY OF CHURCHES AND CHURCH MEMBERSHIP,             
+                          1952  (BULLETINS, SERIES C., 1956)                    
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1820:  CENSUS FOR 1820.                
+                          (WASHINGTON, D.C.:  1821).                            
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+                          1830:  FIFTH CENSUS.  (WASHINGTON, D.C.:              
+                          1832).                                                
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1840:  COMPENDIUM OF THE ENUMERATION OF THE           
+                          INHABITANTS AND STATISTICS OF THE                     
+                          UNITED STATES... (WASHINGTON, D.C.:  1841).           
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1850:  THE SEVENTH CENSUS              
+                          OF THE UNITED STATES:  1850.                          
+                          (WASHINGTON, D.C.:  1853).                            
+          DUBESTER 0033:  SEVENTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1850:  STATISTICAL VIEW OF             
+                          THE UNITED STATES.  (WASHINGTON, D.C.:                
+                          1854).                                                
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1860:  POPULATION.                     
+                          (WASHINGTON, D.C.:  1864).                            
+          DUBESTER 0038:  EIGHTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1860:  AGRICULTURE OF THE              
+                          UNITED STATES IN 1860.  (WASHINGTON, D.C.:            
+                          1864).                                                
+          DUBESTER 0039:  EIGHTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1860:  MANUFACTURING OF THE            
+                          UNITED STATES IN 1860.  (WASHINGTON, D.C.:            
+                          1865).                                                
+          DUBESTER 0040:  EIGHTH DECENNIAL CENSUS OF THE                        
+                          UNITED STATES, 1860:  STATISTICS OF THE               
+                          UNITED STATES, (INCLUDING MORTALITY,                  
+                          PROPERTY, ETC.) IN 1860.  (WASHINGTON, D.C.:          
+                          1866).                                                
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+                          UNITED STATES, 1870:  VOLUME I, STATISTICS            
+                          OF THE POPULATION OF THE UNITED STATES.               
+                          (WASHINGTON, D.C.:  1872).                            
+          DUBESTER 0052:  NINTH DECENNIAL CENSUS OF THE                         
+                          UNITED STATES, 1870:  VOLUME III, STATISTICS          
+                          OF THE WEALTH AND INDUSTRY OF THE                     
+                          UNITED STATES.  (WASHINGTON, D.C.:  1872).            
+          DUBESTER 0057:  NINTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1870:  A COMPENDIUM.  (WASHINGTON, D.C.:              
+                          1872).                                                
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME I, STATISTICS OF THE                    
+                          POPULATION.  (WASHINGTON, D.C.:  1883-1888).          
+          DUBESTER 0063:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME II, REPORT ON THE MANUFACTURES          
+                          OF THE UNITED STATES... (WASHINGTON, D.C.:            
+                          1883).                                                
+          DUBESTER 0069:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME II, IRON AND STEEL PRODUCTION           
+                          ... (WASHINGTON, D.C.:  1883).                        
+          DUBESTER 0075:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME III, REPORT ON THE PRODUCTION           
+                          OF AGRICULTURE... (WASHINGTON, D.C.:  1883).          
+          DUBESTER 0111:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  VOLUME VIII, SHIP-BUILDING OF THE              
+                          UNITED STATES.  (WASHINGTON, D.C.:  1884).            
+          DUBESTER 0153:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  COMPENDIUM, PART ONE.                          
+                          (WASHINGTON, D.C.:  1883).                            
+          DUBESTER 0154:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  COMPENDIUM, PART TWO.                          
+                          (WASHINGTON, D.C.:  1885-1888).                       
+          DUBESTER 0162:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1880:  THE AREA OF THE UNITED STATES.                 
+                          (WASHINGTON, D.C.:  1881).                            
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+                          UNITED STATES, 1890:  VOLUME I.  POPULATION,          
+                          PART ONE.  (WASHINGTON, D.C.:  1892-1897).            
+          DUBESTER 0188:  ELEVENTH DECENNIAL CENSUS OF THE                      
+                          UNITED STATES, 1890:  VOL. V.  REPORT ON THE          
+                          STATISTICS OF AGRICULTURE.                            
+                          (WASHINGTON, D.C.:  1895-1897).                       
+          DUBESTER 0193:  ELEVENTH DECENNIAL CENSUS OF THE                      
+                          UNITED STATES, 1890:  VOL. VI.  REPORT ON             
+                          MANUFACTURING, PART ONE.  (WASHINGTON, D.C.:          
+                          1895).                                                
+          DUBESTER 0229:  ELEVENTH DECENNIAL CENSUS OF THE                      
+                          UNITED STATES, 1890:  VOL. I.  REPORT ON              
+                          EDUCATION IN THE UNITED STATES...1890.                
+                          (WASHINGTON, D.C.:  1893).                            
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. I, POPULATION              
+                          OF STATES AND TERRITORIES.                            
+                          (WASHINGTON, D.C.:  1906).                            
+          DUBESTER 0254:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. II, POPULATION             
+                          OF STATES AND TERRITORIES.                            
+                          (WASHINGTON, D.C.:  1904).                            
+          DUBESTER 0263:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. VIII,                      
+                          MANUFACTURES OF STATES AND TERRITORIES.               
+                          (WASHINGTON, D.C.:  1906).                            
+          DUBESTER 0259:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. V, AGRICULTURE OF          
+                          THE UNITED STATES.  (WASHINGTON, D.C.:                
+                          1908).                                                
+          DUBESTER 0276:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  ABSTRACT.                       
+                          (WASHINGTON, D.C.:  1904).                            
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+                   0314:  UNITED STATES, 1910:  VOLUMES II AND III,             
+                          REPORT ON THE POPULATION OF THE                       
+                          UNITED STATES.  (WASHINGTON, D.C.:  1915).            
+          DUBESTER 0333-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+                   0334:  UNITED STATES, 1910:  VOLUMES VI AND VII,             
+                          REPORT ON THE STATISTICS OF AGRICULTURE IN            
+                          THE UNITED STATES.  (WASHINGTON, D.C.:                
+                          1915).                                                
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1920:  VOL. I, POPULATION.             
+                          (WASHINGTON, D.C.:  1921).                            
+          DUBESTER 0470:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1920:  VOL. III, POPULATION.           
+                          (WASHINGTON, D.C.:  1922).                            
+          DUBESTER 0497-  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                   0499:  UNITED STATES, 1920:  VOL. VI, PARTS 1, 2,            
+                          AND 3, AGRICULTURE.  (WASHINGTON, D.C.:               
+                          1922).                                                
+          DUBESTER 0504:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+                          UNITED STATES, 1920:  VOL. VIII,                      
+                          MANUFACTURES.  (WASHINGTON, D.C.:  1923).             
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:  POPULATION,                     
+                          VOLUME I.  (WASHINGTON, D.C.:  1931)                  
+          DUBESTER 0669-  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                   0670:  UNITED STATES, 1930:  POPULATION,                     
+                          VOLUME III, PARTS I & II.                             
+                          (WASHINGTON, D.C.:  1932)                             
+          DUBESTER 0719:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:  MANUFACTURES:                   
+                          1929, VOLUME III.                                     
+                          (WASHINGTON, D.C.:  1933)                             
+          DUBESTER 0684:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:  UNEMPLOYMENT,                   
+                          VOLUME I.  (WASHINGTON, D.C.: 1932)                   
+          DUBESTER 0727:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:                                  
+                          WHOLESALE DISTRIBUTION, VOLUME II.                    
+                          (WASHINGTON, D.C.:  1933)                             
+          DUBESTER 0724:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1930:                                  
+                          RETAIL DISTRIBUTION, VOLUME I, PART I.                
+                          (WASHINGTON, D.C.:  1933)                             
+          DUBESTER 0689-  FIFTEENTH DECENNIAL CENSUS OF THE                     
+                   0691:  UNITED STATES, 1930:  AGRICULTURE,                    
+                          VOLUME II, PARTS 1-3.                                 
+                          (WASHINGTON, D.C.: 1932)                              
+          DUBESTER 3601-  CENSUS OF PARTIAL EMPLOYMENT,                         
+                   3603:  UNEMPLOYMENT AND OCCUPATIONS, 1937:                   
+                          VOLUMES I-III.  (WASHINGTON, D.C.:  1938)             
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  POPULATION, VOL. I,             
+                          NUMBER OF INHABITANTS.  (WASHINGTON, D.C.:            
+                          1942).                                                
+          DUBESTER 0957-  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                   0963:  UNITED STATES, 1940:  POPULATION, VOL. II,            
+                          CHARACTERISTICS OF THE POPULATION.                    
+                          (WASHINGTON, D.C.:  1943).                            
+          DUBESTER 1021-  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                   1024:  UNITED STATES, 1940:  HOUSING, VOL. II.               
+                          (WASHINGTON, D.C.:  1943).                            
+          DUBESTER 1043-  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                   1048:  UNITED STATES, 1940:  AGRICULTURE, VOL. I.            
+                          (WASHINGTON, D.C.:  1942).                            
+          DUBESTER 1050-  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                   1052:  UNITED STATES, 1940:  AGRICULTURE, VOL. II.           
+                          (WASHINGTON, D.C.:  1942).                            
+          DUBESTER 1093:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  MANUFACTURES,                   
+                          VOL. III.  (WASHINGTON, D.C.:  1942).                 
+          DUBESTER 1105:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  BUSINESS, VOL. I,               
+                          RETAIL TRADE, PART 3.  (WASHINGTON, D.C.:             
+                          1941).                                                
+          DUBESTER 1106:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  BUSINESS, VOL. II,              
+                          WHOLESALE TRADE.  (WASHINGTON, D.C.:  1942).          
+          DUBESTER 1107:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+                          UNITED STATES, 1940:  BUSINESS, VOL. III,             
+                          SERVICE ESTABLISHMENTS.  (WASHINGTON, D.C.:           
+                          1943).                                                
+          DUBESTER 3601-  CENSUS OF PARTIAL EMPLOYMENT, UNEMPLOYMENT,           
+                   3603:  AND OCCUPATIONS, 1937:  VOLUMES I-III.                
+                          (WASHINGTON, D.C.:  1938).                            
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                   4550:  UNITED STATES, 1950:                                  
+                          CHARACTERISTICS OF THE POPULATION,                    
+                          VOLUME II, PARTS 2-50.                                
+                          (WASHINGTON, D.C.:  1952)                             
+          ICPR     4601-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                   4633:  UNITED STATES, 1950:  AGRICULTURE,                    
+                          VOLUME I, PARTS 1-33.                                 
+                          (WASHINGTON, D.C.:  1952)                             
+          ICPR     NCCC:  NATIONAL COUNCIL OF CHURCHES OF CHRIST                
+                          OF THE UNITED STATES:                                 
+                          SURVEY OF CHURCHES AND CHURCH MEMBERSHIP,             
+                          1952  (BULLETINS, SERIES C., 1956)                    
+                                                                                
+                                                                                
+VAR # 0001 DATA TYPE                 WIDTH =0001                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          DATA TYPE                                                             
+              C. COUNTY DATA                                                    
+              S. STATE DATA                                                     
+                                                                                
+                                                                                
+VAR # 0002 YEAR (960)                WIDTH =0003                                
+                        #D  =          MD1 =    960        MD2 =                
+                                                                                
+          YEAR OF THE CENSUS                                                    
+              960.  1960, ETC.                                                  
+                                                                                
+                                                                                
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0004 CNGSL DIST NMBR           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CONGRESSIONAL DISTRICT NUMBER                                         
+                                                                                
+                                                                                
+VAR # 0063 IDENTIFICATION NUMBER     WIDTH =0004                                
+                        #D  =          MD1 =   9999        MD2 =                
+                                                                                
+          COUNTY OR STATE IDENTIFICATION NUMBER                                 
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                  
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                   
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                  
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                    
+          UNIT OF ANALYSIS IN THE DATA FILE.                                    
+                                                                                
+                                                                                
+VAR # 0005 COUNTY NAME               WIDTH =0017                                
+                        #D  =          MD1 =               MD 2=                
+                                                                                
+                                                                                
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CATALOG ENTRY NUMBER                                                  
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                
+          1790-1945", PREPARED BY HENRY J. DUBESTER                             
+                                                                                
+                                                                                
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          TABLE NUMBER                                                          
+                                                                                
+                                                                                
+VAR # 0008 960 TTL FOREIGN STOCK     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF PERSONS OF FOREIGN STOCK, 1960                        
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0009 960 UNITED KINGDOM        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING THE UNITED               
+          KINGDOM AS COUNTRY OF ORIGIN, 1960                                    
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0010 960 IRELAND               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING IRELAND (EIRE)           
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0011 960 NORWAY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING NORWAY                   
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0012 960 SWEDEN                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING SWEDEN                   
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0013 960 DENMARK               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING DENMARK                  
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0014 960 NETHERLANDS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING NETHERLANDS              
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0015 960 SWITZERLAND           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING SWITZERLAND              
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0016 960 FRANCE                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING FRANCE                   
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0017 960 GERMANY               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING GERMANY                  
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0018 960 POLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING POLAND                   
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0019 960 CZECHOSLOVAKIA        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING CZECHOSLOVAKIA           
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0020 960 AUSTRIA               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING AUSTRIA                  
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0021 960 HUNGARY               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING HUNGARY                  
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0022 960 YUGOSLAVIA            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING YUGOSLAVIA               
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0023 960 USSR                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING THE U.S.S.R.             
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0024 960 LITHUANIA             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING LITHUANIA                
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0025 960 FINLAND               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING FINLAND                  
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0026 960 RUMANIA               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING RUMANIA                  
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0027 960 GREECE                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING GREECE                   
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0028 960 ITALY                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING ITALY                    
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0029 960 PORTUGAL              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING PORTUGAL                 
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0030 960 OTHER EUROPE          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING OTHER EUROPEAN           
+          COUNTRIES AS COUNTRY OF ORIGIN, 1960                                  
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0031 960 ASIA                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING ASIA                     
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0032 960 CANADA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING CANADA                   
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0033 960 MEXICO                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING MEXICO                   
+          AS COUNTRY OF ORIGIN, 1960                                            
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0034 960 OTHER AMERICA         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING OTHER AMERICAN           
+          COUNTRIES AS COUNTRY OF ORIGIN, 1960                                  
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0035 960 ALL OTR COUNTRIES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK REPORTING ALL OTHER                
+          COUNTRIES AS COUNTRY OF ORIGIN, 1960                                  
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0036 960 F. STOCK NT RPRTD     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS OF FOREIGN STOCK, COUNTRY OF ORIGIN                 
+          NOT REPORTED, 1960                                                    
+          SOURCE: ICPR 1960, TABLE 89                                           
+                                                                                
+                                                                                
+VAR # 0037 960% RURAL NONFARM        WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          PERCENT RURAL NONFARM POPULATION, 1960 (TO ONE DECIMAL                
+          PLACE)                                                                
+          SOURCE: ICPR 1960, TABLE 35                                           
+                                                                                
+                                                                                
+VAR # 0038 960% RESIDE BIRTH STATE   WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          PERCENTAGE OF THE NATIVE POPULATION RESIDING IN THE STATE             
+          OF BIRTH, 1960 (TO ONE DECIMAL PLACE)                                 
+          SOURCE: ICPR 1960, TABLE 35                                           
+                                                                                
+                                                                                
+VAR # 0039 960% MOVED AFTER 1958     WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          PERCENTAGE OF TOTAL POPULATION, 1960 WHICH MOVED INTO                 
+          PRESENT HOUSE AFTER 1958 (TO ONE DECIMAL PLACE)                       
+          SOURCE: ICPR 1960, TABLE 35                                           
+                                                                                
+                                                                                
+VAR # 0040 960% PRIVATE SCHOOL       WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          PERCENTAGE OF CHILDREN IN ELEMENTARY SCHOOL ATTENDING                 
+          PRIVATE SCHOOL, 1960 (TO ONE DECIMAL PLACE)                           
+          SOURCE: ICPR 1960, TABLE 35                                           
+                                                                                
+                                                                                
+VAR # 0041 960% 14-17 IN SCHOOL      WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          PERCENTAGE OF PERSONS 14 TO 17 YEARS OF AGE IN SCHOOL, 1960           
+          (TO ONE DECIMAL PLACE)                                                
+          SOURCE: ICPR 1960, TABLE 35                                           
+                                                                                
+                                                                                
+VAR # 0042 960% COUPLES W/OUT HOUSE  WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          PERCENTAGE OF MARRIED COUPLES WITHOUT THEIR OWN HOUSEHOLD             
+          1960 (TO ONE DECIMAL PLACE)                                           
+          SOURCE: ICPR 1960, TABLE 35                                           
+                                                                                
+                                                                                
+VAR # 0043 960% FAMS OWN CHILDREN    WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          PERCENTAGE OF FAMILIES WITH THEIR OWN CHILDREN UNDER 6                
+          YEARS OF AGE, 1960 (TO ONE DECIMAL PLACE)                             
+          SOURCE: ICPR 1960, TABLE 35                                           
+                                                                                
+                                                                                
+VAR # 0044 960% FERTILITY RATE       WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          CUMULATIVE FERTILITY RATE (CHILDREN EVER BORN PER 1000 WOMEN          
+          15 TO 44 YEARS OLD OF ALL MARITAL CLASSES), 1960 (TO ONE              
+          DECIMAL PLACE)                                                        
+          SOURCE: ICPR 1960, TABLE 35                                           
+                                                                                
+                                                                                
+VAR # 0045 960TTL NMBR MALES         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF MALES, 1960                                           
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0046 960NMBR WHITE MALES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE MALES, 1960                                           
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0047 960NMBR NEGRO MALES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES, 1960                                           
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0048 960NMBR INDIAN MALES      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF INDIAN MALES, 1960                                          
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0049 960NMBR JAPANESE MALES    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF JAPANESE MALES, 1960                                        
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0050 960NMBR CHINESE MALES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF CHINESE MALES, 1960                                         
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0051 960NMBR FILIPINO MALES    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FILIPINO MALES, 1960                                        
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0052 960NMBR MALES OTR RACES   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALES OF OTHER RACES, 1960                                  
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0053 960TTL NMBR FEMALES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FEMALES, 1960                                         
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0054 960NMBR WHITE FEMALES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE FEMALES, 1960                                         
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0055 960NMBR NEGRO FEMALES     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO FEMALES, 1960                                         
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0056 960NMBR INDIAN FEMALES    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF INDIAN FEMALES, 1960                                        
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0057 960NMBR JPN FEMALES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF JAPANESE FEMALES, 1960                                      
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0058 960NMBR CHN FEMALES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF CHINESE FEMALES, 1960                                       
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0059 960NMBR FLPN FEMALES      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FILIPINO FEMALES, 1960                                      
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0060 960NMBR FEMALES OTR       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALES OF OTHER RACES, 1960                                
+          SOURCE: ICPR 1960, TABLE 28                                           
+                                                                                
+                                                                                
+VAR # 0061 NONWHITE MALES 21+ 960    WIDTH =0007                                
+                        #D  =          MD1 =9999999        MD2 =                
+                                                                                
+          NUMBER OF NONWHITE MALES 21 YEARS OF AGE AND                          
+              OVER, 1960                                                        
+              SOURCE:  ICPR 9998, TABLES 16 AND 27                              
+                                                                                
+                                                                                
+VAR # 0062 NONWHITE FEMALES 21+ 960  WIDTH =0007                                
+                        #D  =          MD1 =9999999        MD2 =                
+                                                                                
+          NUMBER OF NONWHITE FEMALES 21 YEARS OF AGE AND                        
+              OVER, 1960                                                        
+              SOURCE:  ICPR 9998, TABLES 16 AND 27                              

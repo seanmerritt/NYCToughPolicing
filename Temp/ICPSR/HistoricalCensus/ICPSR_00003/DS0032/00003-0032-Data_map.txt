@@ -1,0 +1,368 @@
+DATA MAP FOR HISTORICAL, DEMOGRAPHIC...UNITED STATES, 1930 DATASET S01 (STATE)  
+                     [ICPSR 0003, DATASET 0032]                                 
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.                                
+                                                                                
+    LOC   = LOCATION FOR OSIRIS OR LOGICAL RECORD LENGTH DATA.                  
+                                                                                
+    NDEC  = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS OMITTED IF THERE ARE NO DECIMAL DIGITS.)                   
+                                                                                
+    MD    = MISSING DATA CODE.                                                  
+                                                                                
+    VAR   = VARIABLE NUMBER.                                                    
+                                                                                
+    REF   = REFERENCE NUMBER; NORMALLY THE SAME AS VARIABLE NUMBER.             
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                 DUBESTER 0672:  FIFTEENTH DECENNIAL CENSUS OF THE              
+                                 UNITED STATES, 1930:  POPULATION, VOL. VI,     
+                                 OCCUPATION STATISTICS.  (WASHINGTON, D.C.:     
+                                 1933).                                         
+                                                                                
+                                                                                
+                 ----                                                           
+                                                                                
+              VAR 0001      DATA TYPE                   NO MISSING DATA CODES   
+              REF 0001         LOC    1 WIDTH  1                                
+                                                                                
+                                                                                
+                 DATA TYPE                                                      
+                 ---------                                                      
+                                                                                
+                     C.  COUNTY DATA                                            
+                     S.  STATE DATA                                             
+              ...............................................................   
+              VAR 0002      YEAR                        NO MISSING DATA CODES   
+              REF 0002         LOC    2 WIDTH  3                                
+                                                                                
+                                                                                
+                 YEAR TO WHICH DATA ARE RELEVANT                                
+                 -------------------------------                                
+                                                                                
+                     930.  1930                                                 
+              ...............................................................   
+              VAR 0003      ICPR STATE CODE             NO MISSING DATA CODES   
+              REF 0003         LOC    5 WIDTH  2                                
+                                                                                
+              ...............................................................   
+              VAR 0004      CNGSL DIST NUMBER           NO MISSING DATA CODES   
+              REF 0004         LOC    7 WIDTH  2                                
+                                                                                
+                                                                                
+                 CONGRESSIONAL DISTRICT NUMBER                                  
+                 -----------------------------                                  
+              ...............................................................   
+              VAR 0005      COUNTY NAME                 NO MISSING DATA CODES   
+              REF 0005         LOC    9 WIDTH 17                                
+                                                                                
+              ...............................................................   
+              VAR 0006      CTLG ENTRY NMBR             NO MISSING DATA CODES   
+              REF 0006         LOC   26 WIDTH  4                                
+                                                                                
+                                                                                
+                 CATALOG ENTRY NUMBER                                           
+                     "CATALOG OF UNITED STATES CENSUS                           
+                     PUBLICATIONS, 1790-1945", PREPARED                         
+                     BY HENRY J. DUBESTER                                       
+                 --------------------------------------                         
+              ...............................................................   
+              VAR 0007      TABLE NMBR                  NO MISSING DATA CODES   
+              REF 0007         LOC   30 WIDTH  3                                
+                                                                                
+                                                                                
+                 TABLE NUMBER                                                   
+                 ------------                                                   
+              ...............................................................   
+              VAR 0008      930% EMPL AGRIC 1930               MD=-1 OR LE -2   
+              REF 0008         LOC   33 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YEARS OF AGE   
+                 AND OVER ENGAGED IN AGRICULTURE, 1930                          
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0009      930% EMPL AGRIC 1920               MD=-1 OR LE -2   
+              REF 0009         LOC   42 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YEARS OF AGE   
+                 AND OVER ENGAGED IN AGRICULTURE, 1920                          
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0010      930% EMPL FORESTRY 1930            MD=-1 OR LE -2   
+              REF 0010         LOC   51 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN FORESTRY AND FISHING, 1930                   
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0011      930% EMPL FORESTRY 1920            MD=-1 OR LE -2   
+              REF 0011         LOC   60 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN FORESTRY AND FISHING, 1920                   
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0012      930% EMPL MINERALS 1930            MD=-1 OR LE -2   
+              REF 0012         LOC   69 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS OF AGE     
+                 & OVER ENGAGED IN EXTRACTION OF MINERALS, 1930                 
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0013      930% EMPL MINERALS 1920            MD=-1 OR LE -2   
+              REF 0013         LOC   78 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 AND OVER ENGAGED IN EXTRACTION OF MINERALS, 1920               
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0014      930% EMPL MFGN 1930                MD=-1 OR LE -2   
+              REF 0014         LOC   87 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN NAMUFACTURING AND MECHANICAL INDUSTRIES,     
+                 1930                                                           
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0015      930% EMPL MFGN 1920                MD=-1 OR LE -2   
+              REF 0015         LOC   96 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS OF AGE     
+                 & OVER ENGAGED IN MANUFACTURING AND MECHANICAL                 
+                 INDUSTRIES, 1920                                               
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0016      930% EMPL TRNSPRTN 1930            MD=-1 OR LE -2   
+              REF 0016         LOC  105 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN TRANSPORTATION AND COMMUNICATION, 1930       
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0017      930% EMPL TRNSPRTN 1920            MD=-1 OR LE -2   
+              REF 0017         LOC  114 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN TRANSPORTATION AND COMMUNICATION, 1920       
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0018      930% EMPL TRADE 1930               MD=-1 OR LE -2   
+              REF 0018         LOC  123 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN TRADE, 1930                                  
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0019      930% EMPL TRADE 1920               MD=-1 OR LE -2   
+              REF 0019         LOC  132 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN TRADE, 1920                                  
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0020      930% EMPL PUB SRVC 1930            MD=-1 OR LE -2   
+              REF 0020         LOC  141 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN PUBLIC SERVICE (NOT ELSEWHERE CLASSIFIED),   
+                 1930                                                           
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0021      930% EMPL PUB SRVC 1920            MD=-1 OR LE -2   
+              REF 0021         LOC  150 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN PUBLIC SERVICE (NOT ELSEWHERE CLASSIFIED),   
+                 1920                                                           
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0022      930% EMPL PRFNL 1930               MD=-1 OR LE -2   
+              REF 0022         LOC  159 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN PROFESSIONAL SERVICE, 1930                   
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0023      930% EMPL PRFNL 1920               MD=-1 OR LE -2   
+              REF 0023         LOC  168 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN PROFESSIONAL SERVICE, 1920                   
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0024      930% EMPL PSNL 1930                MD=-1 OR LE -2   
+              REF 0024         LOC  177 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN DOMESTIC AND PERSONAL SERVICE, 1930          
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0025      930% EMPL PSNL 1920                MD=-1 OR LE -2   
+              REF 0025         LOC  186 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 AND OVER ENGAGED IN DOMESTIC AND PERSONAL SERVICE, 1920        
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0026      930% EMPL CLERICAL 1930            MD=-1 OR LE -2   
+              REF 0026         LOC  195 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 AND OVER ENGAGED IN CLERICAL OCCUPATIONS, 1930                 
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0027      930% EMPL CLERICAL 1920            MD=-1 OR LE -2   
+              REF 0027         LOC  204 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YRS. OF AGE    
+                 & OVER ENGAGED IN CLERICAL OCCUPATIONS, 1920                   
+                 SOURCE: DUB. 0672, TABLE 8                                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0028      930TTL NMBR ALL OCC                MD=-1 OR LE -2   
+              REF 0028         LOC  213 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF GAINFULLY OCCUPIED PERSONS TEN YEARS OF AGE    
+                 AND OVER                                                       
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0029      930NMBR EMPL AGRIC                 MD=-1 OR LE -2   
+              REF 0029         LOC  222 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 AGRICULTURE                                                    
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0030      930NMBR EMPL FORESTRY              MD=-1 OR LE -2   
+              REF 0030         LOC  231 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 FORESTRY AND FISHING                                           
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0031      930NMBR EMPL MINERALS              MD=-1 OR LE -2   
+              REF 0031         LOC  240 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 EXTRACTION OF MINERALS                                         
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0032      930NMBR EMPL MFGN                  MD=-1 OR LE -2   
+              REF 0032         LOC  249 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 MANUFACTURING AND MECHANICAL INDUSTRIES                        
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0033      930NMBR EMPL TRNSPRTN              MD=-1 OR LE -2   
+              REF 0033         LOC  258 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 TRANSPORTATION AND COMMUNICATION                               
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0034      930NMBR EMPL TRADE                 MD=-1 OR LE -2   
+              REF 0034         LOC  267 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN TRADE   
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0035      930NMBR EMPL PUB SRVC              MD=-1 OR LE -2   
+              REF 0035         LOC  276 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 PUBLIC SERVICE (NOT ELSEWHERE CLASSIFIED)                      
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0036      930NMBR EMPL PFNL                  MD=-1 OR LE -2   
+              REF 0036         LOC  285 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 PROFESSIONAL SERVICE                                           
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0037      930NMBR EMPL PSNL                  MD=-1 OR LE -2   
+              REF 0037         LOC  294 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS TEN YEARS OF AGE AND OVER ENGAGED IN         
+                 DOMESTIC AND PERSONAL SERVICE                                  
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0038      930NMBR EMPL CLERICAL              MD=-1 OR LE -2   
+              REF 0038         LOC  303 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN          
+                 CLERICAL OCCUPATIONS                                           
+                 (1930) SOURCE: DUB. 0672, TABLE 10                             
+                 -----------------------------------------------------          
+    TERMINATION OF CODEBOOK LIST.                                               

@@ -1,0 +1,136 @@
+File Manifest for ICPSR 7708
+
+Monkkonen, Eric. Police Departments, Arrests and Crime in the United
+States, 1860-1920. ICPSR07708-v2. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 2005-11-04.
+http://doi.org/10.3886/ICPSR07708.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07708-descriptioncitation.pdf       -       -         -       2020-01-23  -
+
+    07708-related_literature.txt        -       -         -       daily       -
+
+    07708-manifest.txt                  -       -         -       daily       -
+
+    07708-Codebook.pdf                  -       -         -       1999-09-03  a839099f6e96cf1eb5dc48f70c19eadd
+
+
+DS0001 Raw Data for 23 U.S. Cities, 1860-1920
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07708-0001-Data.dta                 -       1,179     14      2005-03-10  9e623c6b0e439dd96372e67c82337518
+
+    07708-0001-Data.por                 -       1,179     14      2005-03-10  500f3a612394054bfba5a7339a6e00f3
+
+    07708-0001-Data.txt                 62      1,179     14      1996-05-22  b2c271636df8823d6f46c1369d8aa6a4
+
+    07708-0001-Data.xpt                 -       1,179     14      2005-03-10  ae402a7ae5f6851c653e392668b55e18
+
+    07708-0001-Setup.dct                -       -         -       2005-03-10  3b7d89161a6dc6dbb5e982f687d9a7fa
+
+    07708-0001-Setup.do                 -       -         -       2005-03-10  5496079a3ec36b6ef6ee32a0fb39b66d
+
+    07708-0001-Setup.sas                -       -         -       2005-03-10  523d814b58393c3fac867e34a8b55e07
+
+    07708-0001-Setup.sps                -       -         -       1996-05-22  7a1ab29beb5f47d8d1fa1d1a1840e937
+
+    07708-0001-Supplemental_syntax.do   -       -         -       2005-03-10  cdb9090c243a3211ea7ee0b3ab06f842
+
+    07708-0001-Supplemental_syntax.sas  -       -         -       2005-03-10  560df6514cde87ee6824b6e5acd7aca3
+
+
+DS0002 U.S. Cities Data, 1880-1890
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07708-0002-Data.dta                 -       267       15      2005-03-10  b8a8bb3c03c17c26ec7191f11e5d9b35
+
+    07708-0002-Data.por                 -       267       15      2005-03-10  1c06e24fde655cf9d6b3d4f30e60f6d6
+
+    07708-0002-Data.txt                 61      267       15      1996-05-22  f58e67870801b07da511913562c70276
+
+    07708-0002-Data.xpt                 -       267       15      2005-03-10  0c6fab9f26070b2ba6baafb26317c6f9
+
+    07708-0002-Setup.dct                -       -         -       2005-03-10  d974cd7df0926d4877c9add8dab27b0f
+
+    07708-0002-Setup.do                 -       -         -       2005-03-10  8ddb8528c0ce4440827bf15522e4401e
+
+    07708-0002-Setup.sas                -       -         -       2005-03-10  0ac0a1b8cd9b9f200647e22a25dec54d
+
+    07708-0002-Setup.sps                -       -         -       1996-05-22  7787177d56d409a1d755bfee2048c8ab
+
+    07708-0002-Supplemental_syntax.do   -       -         -       2005-03-10  dac6d10e96e2858c8129e60d6d45329e
+
+    07708-0002-Supplemental_syntax.sas  -       -         -       2005-03-10  d9495b97db17338e8b7fd46ffb742837
+
+
+DS0003 Aggregated U.S. Cities, 1860-1920
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07708-0003-Data.dta                 -       61        9       2005-03-10  268a5c17a9c3051e59e27edd481923d7
+
+    07708-0003-Data.por                 -       61        9       2005-03-10  be77e3e95fe19c93d229b1c44d4a0150
+
+    07708-0003-Data.txt                 48      61        9       1996-05-22  572cfcf2960e24c780549ebe01890e47
+
+    07708-0003-Data.xpt                 -       61        9       2005-03-10  f9726aaf2f542df2d57d190863720f27
+
+    07708-0003-Setup.dct                -       -         -       2005-03-10  83c7f71e2baf6f34861b1744e0e9e7d7
+
+    07708-0003-Setup.do                 -       -         -       2005-03-10  5f1afb46d0ee59a7af0f9bc5324b5e73
+
+    07708-0003-Setup.sas                -       -         -       2005-03-10  e55c890169aa5c9f0be1f9701aba2c06
+
+    07708-0003-Setup.sps                -       -         -       1996-05-22  e209d51f73a3967749eeb215dc635038
+
+    07708-0003-Supplemental_syntax.do   -       -         -       2005-03-10  0b266764a7ecda870b6f5a65bb1e389b
+
+    07708-0003-Supplemental_syntax.sas  -       -         -       2005-03-10  3fdbcf1f05de8bdf71a40b3257cd242d
+
+
+DS0005 SAS Data Definition Statements for Raw Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07708-0005-Setup.sas                -       -         -       1997-06-03  2c76719a871a9c9193879bdd45c1bb04
+
+
+DS0006 SAS Data Definition Statements for U.S. Cities Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07708-0006-Setup.sas                -       -         -       1997-06-03  3a19d93c9496c1f00161a5ba83597b84
+
+
+DS0007 SAS Data Definition Statements for Aggregated Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    07708-0007-Setup.sas                -       -         -       1997-06-03  740057419e633efcace2bc7d4ae98074
+
+
+Version History
+
+2006-01-12 All files were removed from dataset 4 and flagged as study-level
+files, so that they will accompany all downloads.  2006-01-12 All files
+were removed from dataset 4 and flagged as study-level files, so that they
+will accompany all downloads.  2005-11-04  On 2005-03-14 new files were
+added to one  or  more datasets.  These files included additional setup
+files as well  as one or more of the following: SAS  program, SAS
+transport, SPSS portable,   and Stata system files. The  metadata record
+was revised  2005-11-04 to  reflect these additions.

@@ -1,0 +1,1084 @@
+DATA MAP FOR HISTORICAL, DEMOGRAPHIC...UNITED STATES, 1910 DATASET S01 (STATE)  
+                     [ICPSR 0003, DATASET 0030]                                 
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.                                
+                                                                                
+    LOC   = LOCATION FOR OSIRIS OR LOGICAL RECORD LENGTH DATA.                  
+                                                                                
+    NDEC  = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS OMITTED IF THERE ARE NO DECIMAL DIGITS.)                   
+                                                                                
+    MD    = MISSING DATA CODE.                                                  
+                                                                                
+    VAR   = VARIABLE NUMBER.                                                    
+                                                                                
+    REF   = REFERENCE NUMBER; NORMALLY THE SAME AS VARIABLE NUMBER.             
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                 DUBESTER 0315:  THIRTEENTH DECENNIAL CENSUS OF THE             
+                                 UNITED STATES, 1910:  VOL. IV, OCCUPATION      
+                                 STATISTICS OF THE POPULATION.                  
+                                 (WASHINGTON, D.C.:  1914).                     
+                                                                                
+                 DUBESTER 0333:  THIRTEENTH DECENNIAL CENSUS OF THE             
+                                 UNITED STATES, 1910:  VOL. VI AND VII,         
+                                 AGRICULTURE.  (WASHINGTON, D.C.:  1915).       
+                                                                                
+                                                                                
+                 ----                                                           
+                                                                                
+              VAR 0001      DATA TYPE                   NO MISSING DATA CODES   
+              REF 0001         LOC    1 WIDTH  1                                
+                                                                                
+                                                                                
+                 DATA TYPE                                                      
+                 ---------                                                      
+                                                                                
+                     C.  COUNTY DATA                                            
+                     S.  STATE DATA                                             
+              ...............................................................   
+              VAR 0002      YEAR                        NO MISSING DATA CODES   
+              REF 0002         LOC    2 WIDTH  3                                
+                                                                                
+                                                                                
+                 YEAR TO WHICH DATA ARE RELEVANT                                
+                 -------------------------------                                
+                                                                                
+                     910.  1910                                                 
+              ...............................................................   
+              VAR 0003      ICPR STATE CODE             NO MISSING DATA CODES   
+              REF 0003         LOC    5 WIDTH  2                                
+                                                                                
+              ...............................................................   
+              VAR 0004      CNGSL DIST NUMBER           NO MISSING DATA CODES   
+              REF 0004         LOC    7 WIDTH  2                                
+                                                                                
+                                                                                
+                 CONGRESSIONAL DISTRICT NUMBER                                  
+                 -----------------------------                                  
+              ...............................................................   
+              VAR 0005      COUNTY NAME                 NO MISSING DATA CODES   
+              REF 0005         LOC    9 WIDTH 17                                
+                                                                                
+              ...............................................................   
+              VAR 0006      CTLG ENTRY NMBR             NO MISSING DATA CODES   
+              REF 0006         LOC   26 WIDTH  4                                
+                                                                                
+                                                                                
+                 CATALOG ENTRY NUMBER                                           
+                     "CATALOG OF UNITED STATES CENSUS                           
+                     PUBLICATIONS, 1790-1945", PREPARED                         
+                     BY HENRY J. DUBESTER                                       
+                 --------------------------------------                         
+              ...............................................................   
+              VAR 0007      TABLE NMBR                  NO MISSING DATA CODES   
+              REF 0007         LOC   30 WIDTH  3                                
+                                                                                
+                                                                                
+                 TABLE NUMBER                                                   
+                 ------------                                                   
+              ...............................................................   
+              VAR 0008      910NMBR IN ALL OCCS                MD=-1 OR LE -2   
+              REF 0008         LOC   33 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF PERSONS 10 YEARS OF AGE AND OVER IN ALL        
+                     OCCUPATIONS                                                
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -------------------------------------------------------        
+              ...............................................................   
+              VAR 0009      910NMBR IN AGRIC                   MD=-1 OR LE -2   
+              REF 0009         LOC   42 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN          
+                     AGRICULTURE, FORESTRY, AND ANIMAL HUSBANDRY                
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0010      910NMBR IN MINERALS                MD=-1 OR LE -2   
+              REF 0010         LOC   51 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN          
+                     EXTRACTION OF MINERALS                                     
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0011      910NMBR IN MFGN                    MD=-1 OR LE -2   
+              REF 0011         LOC   60 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN          
+                     MANUFACTURING AND MECHANICAL INDUSTRIES                    
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0012      910NMBR IN TRNSPRTN                MD=-1 OR LE -2   
+              REF 0012         LOC   69 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN          
+                     TRANSPORTATION                                             
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0013      910NMBR IN TRADE                   MD=-1 OR LE -2   
+              REF 0013         LOC   78 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN TRADE    
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0014      910NMBR IN PUB SRVC                MD=-1 OR LE -2   
+              REF 0014         LOC   87 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN          
+                     PUBLIC SERVICE (NOT ELSEWHERE CLASSIFIED)                  
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0015      910NMBR IN PRFNL                   MD=-1 OR LE -2   
+              REF 0015         LOC   96 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN          
+                     PROFESSIONAL SERVICE                                       
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0016      910NMBR IN DMSTC                   MD=-1 OR LE -2   
+              REF 0016         LOC  105 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN          
+                     DOMESTIC AND PERSONAL SERVICE                              
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0017      910NMBR IN CLERICAL                MD=-1 OR LE -2   
+              REF 0017         LOC  114 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF PERSONS 10 YEARS OF AGE AND OVER ENGAGED IN          
+                     CLERICAL OCCUPATIONS                                       
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0018      910% IN AGRIC                      MD=-1 OR LE -2   
+              REF 0018         LOC  123 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YEARS OF       
+                     AGE AND OVER ENGAGED IN AGRICULTURE, FORESTRY, AND         
+                     ANIMAL HUSBANDRY                                           
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0019      910% IN MINERALS                   MD=-1 OR LE -2   
+              REF 0019         LOC  132 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YEARS OF       
+                     AGE AND OVER ENGAGED IN EXTRACTION OF MINERALS             
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0020      910% IN MFGN                       MD=-1 OR LE -2   
+              REF 0020         LOC  141 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YEARS OF       
+                     AGE AND OVER ENGAGED IN MANUFACTURING AND MECHANICAL       
+                     INDUSTRIES                                                 
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0021      910% IN TRNSPRTN                   MD=-1 OR LE -2   
+              REF 0021         LOC  150 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YEARS OF       
+                     AGE AND OVER ENGAGED IN TRANSPORTATION                     
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0022      910% IN TRADE                      MD=-1 OR LE -2   
+              REF 0022         LOC  159 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 10 YEARS OF       
+                     AGE AND OVER ENGAGED IN TRADE                              
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0023      910% IN PUB SRVC                   MD=-1 OR LE -2   
+              REF 0023         LOC  168 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 1 YEAR OF         
+                     AGE AND OVER ENGAGED IN PUBLIC SERVICE (NOT ELSEWHERE      
+                     CLASSIFIED)                                                
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0024      910% IN PRFNL                      MD=-1 OR LE -2   
+              REF 0024         LOC  177 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 1 YEAR OF         
+                     AGE AND OVER ENGAGED IN PROFESSIONAL SERVICE               
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0025      910% IN DMSTC                      MD=-1 OR LE -2   
+              REF 0025         LOC  186 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 1 YEAR OF         
+                     AGE AND OVER ENGAGED IN DOMESTIC AND PERSONAL SERVICE      
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0026      910% IN CLERICAL                   MD=-1 OR LE -2   
+              REF 0026         LOC  195 WIDTH  9                                
+                                                    IMP DEC=  1                 
+                                                                                
+                 PERCENTAGE (TO ONE DECIMAL PLACE) OF PERSONS 1 YEAR OF         
+                     AGE AND OVER ENGAGED IN CLERICAL OCCUPATIONS               
+                 (1910) SOURCE: DUB. 0315, TABLE 10                             
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0027      910TTL NMBR FM                     MD=-1 OR LE -2   
+              REF 0027         LOC  204 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS                                          
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0028      910NMBR FM WHT                     MD=-1 OR LE -2   
+              REF 0028         LOC  213 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS                               
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0029      910NMBR FM CLRD                    MD=-1 OR LE -2   
+              REF 0029         LOC  222 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS                             
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0030      910NMBR FM NTV WHT                 MD=-1 OR LE -2   
+              REF 0030         LOC  231 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF NATIVE-BORN WHITES                          
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0031      910NMBR FM NTV WHT                 MD=-1 OR LE -2   
+              REF 0031         LOC  240 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF NATIVE-BORN WHITES                          
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0032      910FM F.B WHT                      MD=-1 OR LE -2   
+              REF 0032         LOC  249 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF FOREIGN-BORN WHITES                   
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 --------------------------------------------                   
+              ...............................................................   
+              VAR 0033      910FM F.B WHT                      MD=-1 OR LE -2   
+              REF 0033         LOC  258 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF FOREIGN-BORN WHITES                         
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0034      910FM NG & NNWHT                   MD=-1 OR LE -2   
+              REF 0034         LOC  267 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF NEGROES AND OTHER NON-WHITES                
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0035      910FM NG & NNWHT                   MD=-1 OR LE -2   
+              REF 0035         LOC  276 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF NEGROES AND OTHER NON-WHITES                
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0036      910FM UNR 3 ACR                    MD=-1 OR LE -2   
+              REF 0036         LOC  285 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF UNDER THREE ACRES                     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0037      910FM UNR 3 ACR WHT                MD=-1 OR LE -2   
+              REF 0037         LOC  294 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF UNDER THREE ACRES OPERATED BY WHITE         
+                 FARMERS                                                        
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0038      910FM UNR 3 ACR CLRD               MD=-1 OR LE -2   
+              REF 0038         LOC  303 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF UNDER THREE ACRES OPERATED BY COLORED       
+                 FARMERS                                                        
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0039      910FM 3-9 ACR                      MD=-1 OR LE -2   
+              REF 0039         LOC  312 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 3-9 ACRES                             
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0040      910FM 3-9 ACR WHT                  MD=-1 OR LE -2   
+              REF 0040         LOC  321 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 3-9 ACRES OPERATED BY WHITE FARMERS         
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0041      910FM 3-9 ACR CLRD                 MD=-1 OR LE -2   
+              REF 0041         LOC  330 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 3-9 ACRES OPERATED BY COLORED FARMERS"      
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0042      910FM 10-19 ACR                    MD=-1 OR LE -2   
+              REF 0042         LOC  339 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 10-19 ACRES                           
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0043      910FM 10-19 ACR WHT                MD=-1 OR LE -2   
+              REF 0043         LOC  348 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 10-19 ACRES OPERATED BY WHITE FARMERS       
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0044      910FM 10-19 ACR CLRD               MD=-1 OR LE -2   
+              REF 0044         LOC  357 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 10-19 ACRES OPERATED BY COLORED FARMERS     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0045      910FM 20-49 ACR                    MD=-1 OR LE -2   
+              REF 0045         LOC  366 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 20-49 ACRES                           
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0046      910FM 20-49 ACR WHT                MD=-1 OR LE -2   
+              REF 0046         LOC  375 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 20-49 ACRES OPERATED BY WHITE FARMERS       
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0047      910FM 20-49 ACR CLRD               MD=-1 OR LE -2   
+              REF 0047         LOC  384 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 20-49 ACRES OPERATED BY COLORED FARMERS     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0048      910FM 50-99 ACR                    MD=-1 OR LE -2   
+              REF 0048         LOC  393 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 50-99 ACRES                           
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0049      910FM 50-99 ACR WHT                MD=-1 OR LE -2   
+              REF 0049         LOC  402 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 50-99 ACRES OPERATED BY WHITE FARMERS       
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0050      910FM 50-99 ACR CLRD               MD=-1 OR LE -2   
+              REF 0050         LOC  411 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 50-99 ACRES OPERATED BY COLORED FARMERS     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0051      910FM 100-174 ACR                  MD=-1 OR LE -2   
+              REF 0051         LOC  420 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 100-174 ACRES                         
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0052      910FM 100-174 ACR WHT              MD=-1 OR LE -2   
+              REF 0052         LOC  429 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 100-174 ACRES OPERATED BY WHITE FARMERS     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0053      910FM 100-174 ACR CLRD             MD=-1 OR LE -2   
+              REF 0053         LOC  438 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 100-174 ACRES OPERATED BY COLORED FARMERS   
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0054      910FM 175-259 ACR                  MD=-1 OR LE -2   
+              REF 0054         LOC  447 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 175-259 ACRES                               
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0055      910FM 175-259 ACR WHT              MD=-1 OR LE -2   
+              REF 0055         LOC  456 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 175-259 ACRES OPERATED BY WHITE FARMERS     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0056      910FM 175-259 ACR CLRD             MD=-1 OR LE -2   
+              REF 0056         LOC  465 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 175-259 ACRES OPERATED BY COLORED FARMERS   
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0057      910FM 260-499 ACR                  MD=-1 OR LE -2   
+              REF 0057         LOC  474 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 260-499 ACRES                         
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0058      910FM 260-499 ACR WHT              MD=-1 OR LE -2   
+              REF 0058         LOC  483 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 260-499 ACRES OPERATED BY WHITE FARMERS     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ----------------------------------------------------------     
+             ................................................................   
+              VAR 0059      910FM 260-499 ACR CLRD             MD=-1 OR LE -2   
+              REF 0059         LOC  492 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 260-499 ACRES OPERATED BY COLORED FARMERS   
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0060      910FM 500-999 ACR                  MD=-1 OR LE -2   
+              REF 0060         LOC  501 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 500-999 ACRES                         
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0061      910FM 500-999 ACR WHT              MD=-1 OR LE -2   
+              REF 0061         LOC  510 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 500-999 ACRES OPERATED BY WHITE FARMERS     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0062      910FM 500-999 ACR CLRD             MD=-1 OR LE -2   
+              REF 0062         LOC  519 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 500-999 ACRES OPERATED BY COLORED FARMERS   
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0063      910FM 1000 ACR & OVR               MD=-1 OR LE -2   
+              REF 0063         LOC  528 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OF 1000 OR MORE ACRES                    
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 -------------------------------------------                    
+              ...............................................................   
+              VAR 0064      910FM 1000 ACR & OVR WHT           MD=-1 OR LE -2   
+              REF 0064         LOC  537 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 1000 OR MORE ACRES OPERATED BY WHITE        
+                 FARMERS                                                        
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 -------------------------------------------------------        
+              ...............................................................   
+              VAR 0065      910FM OVR 1000 ACR CLRD            MD=-1 OR LE -2   
+              REF 0065         LOC  546 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF 1000 OR MORE ACRES OPERATED BY COLORED      
+                 FARMERS                                                        
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 1                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0066      910TTL FM OWNER                    MD=-1 OR LE -2   
+              REF 0066         LOC  555 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY OWNERS                       
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0067      910FM WHT OWNER                    MD=-1 OR LE -2   
+              REF 0067         LOC  564 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY WHITE OWNERS                 
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------                 
+              ...............................................................   
+              VAR 0068      910FM CLRD OWNER                   MD=-1 OR LE -2   
+              REF 0068         LOC  573 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED OWNERS                     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0069      910TTL ACR FM OWNER                MD=-1 OR LE -2   
+              REF 0069         LOC  582 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY OWNERS            
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ---------------------------------------------------            
+              ...............................................................   
+              VAR 0070      910ACR LD WHT ONR                  MD=-1 OR LE -2   
+              REF 0070         LOC  591 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY WHITE OWNERS      
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0071      910ACR LD CLRD ONR                 MD=-1 OR LE -2   
+              REF 0071         LOC  600 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY COLORED OWNERS    
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0072      910TTL ACR I.L FM ONR              MD=-1 OR LE -2   
+              REF 0072         LOC  609 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY OWNERS   
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0073      910ACR I.L WHT ONR                 MD=-1 OR LE -2   
+              REF 0073         LOC  618 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY WHITE    
+                 OWNERS                                                         
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0074      910ACR I.L CLRD ONR                MD=-1 OR LE -2   
+              REF 0074         LOC  627 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 COLORED OWNERS                                                 
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0075      910VAL LD & BLDG OWNER             MD=-1 OR LE -2   
+              REF 0075         LOC  636 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY OWNERS        
+                 (IN THOUSANDS OF DOLLARS)                                      
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -------------------------------------------------------        
+              ...............................................................   
+              VAR 0076      910VAL LD BLDG WHT OWNER           MD=-1 OR LE -2   
+              REF 0076         LOC  645 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY WHITE         
+                 OWNERS (IN THOUSANDS OF DOLLARS)                               
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0077      910VAL LD BLDG CLRD ONR            MD=-1 OR LE -2   
+              REF 0077         LOC  654 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY COLORED       
+                 OWNERS                                                         
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0078      910TTL FM OWNED LD ONLY            MD=-1 OR LE -2   
+              REF 0078         LOC  663 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS CONSISTING OF OWNED LAND ONLY                  
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ---------------------------------------------                  
+              ...............................................................   
+              VAR 0079      910FM WHT OWNED LD ONLY            MD=-1 OR LE -2   
+              REF 0079         LOC  672 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS CONSISTING OF OWNED           
+                 LAND ONLY                                                      
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0080      910FM CLRD OWNED LD ONLY           MD=-1 OR LE -2   
+              REF 0080         LOC  681 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS CONSISTING OF OWNED         
+                 LAND ONLY                                                      
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0081      910FM OWNED & HIRED LD             MD=-1 OR LE -2   
+              REF 0081         LOC  690 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS CONSISTING OF OWNED AND HIRED LAND             
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 --------------------------------------------------             
+              ..............................................................    
+              VAR 0082      910WHT OWNED & HIRED LD            MD=-1 OR LE -2   
+              REF 0082         LOC  699 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF WHITE FARMERS CONSISTING OF OWNED           
+                  AND HIRED LAND                                                
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0083      910CLRD OWNED & HIRED LD           MD=-1 OR LE -2   
+              REF 0083         LOC  708 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OF COLORED FARMERS CONSISTING OF OWNED AND     
+                 HIRED LAND                                                     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0084      910NMBR NTV WHT OWNER              MD=-1 OR LE -2   
+              REF 0084         LOC  717 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF NATIVE WHITE FARM OWNERS                             
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0085      910NMBR F.B WHT OWNER              MD=-1 OR LE -2   
+              REF 0085         LOC  726 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FOREIGN-BORN WHITE FARM OWNERS                       
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0086      910NMBR NG & NNWHT ONR             MD=-1 OR LE -2   
+              REF 0086         LOC  735 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF NEGRO AND OTHER NON-WHITE FARM OWNERS                
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0087      910NMBR TENANT FM                  MD=-1 OR LE -2   
+              REF 0087         LOC  744 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY TENANTS                      
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0088      910NMBR FM WHT TNT                 MD=-1 OR LE -2   
+              REF 0088         LOC  753 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY WHITE TENANTS                
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0089      910NMBR FM CLRD TNT                MD=-1 OR LE -2   
+              REF 0089         LOC  762 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED TENANTS                    
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -------------------------------------------                    
+              ...............................................................   
+              VAR 0090      910ACR LD TNT FM                   MD=-1 OR LE -2   
+              REF 0090         LOC  771 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY TENANTS           
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0091      910ACR LD FM WHT TNT               MD=-1 OR LE -2   
+              REF 0091         LOC  780 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY WHITE TENANTS     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0092      910ACR LD FM CLRD TNT              MD=-1 OR LE -2   
+              REF 0092         LOC  789 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY COLORED TENANTS   
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0093      910ACR I.L TNT FM                  MD=-1 OR LE -2   
+              REF 0093         LOC  798 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 TENANTS                                                        
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0094      910ACR I.L FM WHT TNT              MD=-1 OR LE -2   
+              REF 0094         LOC  807 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 WHITE TENANTS                                                  
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0095      910ACR I.L FM CLRD TNT             MD=-1 OR LE -2   
+              REF 0095         LOC  816 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 COLORED TENANTS                                                
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0096      910VAL LD & BLDG FM TNT            MD=-1 OR LE -2   
+              REF 0096         LOC  825 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY TENANTS       
+                 (IN THOUSANDS OF DOLLARS)                                      
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0097      910VAL LD BLDG WHT TNT             MD=-1 OR LE -2   
+              REF 0097         LOC  834 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY WHITE         
+                 TENANTS                                                        
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0098      910VAL LD BLDG CLRD TNT            MD=-1 OR LE -2   
+              REF 0098         LOC  843 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY COLORED       
+                 TENANTS                                                        
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 --------------------------------------------------------       
+              ...............................................................   
+              VAR 0099      910TTL FM SHARE TNT                MD=-1 OR LE -2   
+              REF 0099         LOC  852 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY SHARE TENANTS                
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------                
+              ...............................................................   
+              VAR 0100      910FM WHT SHARE TNT                MD=-1 OR LE -2   
+              REF 0100         LOC  861 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY WHITE SHARE TENANTS          
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0101      910FM CLRD SHARE TNT               MD=-1 OR LE -2   
+              REF 0101         LOC  870 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED SHARE TENANTS              
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -------------------------------------------------              
+              ...............................................................   
+              VAR 0102      910FM SHARE-CASH TNT               MD=-1 OR LE -2   
+              REF 0102         LOC  879 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY SHARE-CASH TENANTS           
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0103      910FM WHT SHARE-CASH               MD=-1 OR LE -2   
+              REF 0103         LOC  888 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY WHITE SHARE-CASH TENANTS     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------------------     
+              ...............................................................   
+              VAR 0104      910FM CLRD SHARE-CASH              MD=-1 OR LE -2   
+              REF 0104         LOC  897 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY COLORED SHARE-CASH TENANTS   
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------------------   
+              ...............................................................   
+              VAR 0105      910TTL FM CASH TNT                 MD=-1 OR LE -2   
+              REF 0105         LOC  906 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY CASH TENANTS                 
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------                 
+              ...............................................................   
+              VAR 0106      910FM WHT CASH TNT                 MD=-1 OR LE -2   
+              REF 0106         LOC  915 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY WHITE CASH TENANTS                 
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------                 
+              ...............................................................   
+              VAR 0107      910FM CLRD CASH TNT                MD=-1 OR LE -2   
+              REF 0107         LOC  924 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF FARMS OPERATED BY COLORED CASH TENANTS               
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------               
+              ...............................................................   
+              VAR 0108      910TTL FM USPEC TNT                MD=-1 OR LE -2   
+              REF 0108         LOC  933 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF TENANT FARMS, TENURE NOT SPECIFIED             
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 --------------------------------------------------             
+              ...............................................................   
+              VAR 0109      910FM USPEC WHT TNT                MD=-1 OR LE -2   
+              REF 0109         LOC  942 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY WHITE TENANTS, TENURE NOT    
+                 SPECIFIED                                                      
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0110      910FM USPEC CLRD TNT               MD=-1 OR LE -2   
+              REF 0110         LOC  951 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY COLORED TENANTS, TENURE      
+                 NOT SPECIFIED                                                  
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0111      910TTL FM NTV WHT TNT              MD=-1 OR LE -2   
+              REF 0111         LOC  960 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY NATIVE WHITE TENANTS         
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0112      910TTL FM F.B WHT TNT              MD=-1 OR LE -2   
+              REF 0112         LOC  969 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY FOREIGN-BORN WHITE TENANTS   
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------------------   
+              ..............................................................    
+              VAR 0113      910TTL FM NG NNWHT TNT             MD=-1 OR LE -2   
+              REF 0113         LOC  978 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY NEGRO AND OTHER NON-WHITE    
+                 TENANTS                                                        
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0114      910TTL FM MGR                      MD=-1 OR LE -2   
+              REF 0114         LOC  987 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY MANAGERS                     
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------                     
+              ...............................................................   
+              VAR 0115      910NMBR FM WHT MGR                 MD=-1 OR LE -2   
+              REF 0115         LOC  996 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY WHITE MANAGERS               
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------               
+              ...............................................................   
+              VAR 0116      910NMBR FM CLRD MGR                MD=-1 OR LE -2   
+              REF 0116         LOC 1005 WIDTH  9                                
+                                                                                
+                                                                                
+                 TOTAL NUMBER OF FARMS OPERATED BY COLORED MANAGERS             
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 --------------------------------------------------             
+              ...............................................................   
+              VAR 0117      910ACR LD FM MGR                   MD=-1 OR LE -2   
+              REF 0117         LOC 1014 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY MANAGERS          
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0118      910ACR LD FM WHT MGR               MD=-1 OR LE -2   
+              REF 0118         LOC 1023 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY WHITE MANAGERS    
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------------    
+              ...............................................................   
+              VAR 0119      910ACR LD FM CLRD MGR              MD=-1 OR LE -2   
+              REF 0119         LOC 1032 WIDTH  9                                
+                                                                                
+                                                                                
+                 MANAGERS                                                       
+                 NUMBER OF ACRES OF LAND IN FARMS OPERATED BY COLORED           
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ----------------------------------------------------           
+              ...............................................................   
+              VAR 0120      910ACR I.L FM MGR                  MD=-1 OR LE -2   
+              REF 0120         LOC 1041 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 MANAGERS                                                       
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0121      910ACR I.L FM WHT MGR              MD=-1 OR LE -2   
+              REF 0121         LOC 1050 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 WHITE MANAGERS                                                 
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0122      910ACR I.L FM CLRD MGR             MD=-1 OR LE -2   
+              REF 0122         LOC 1059 WIDTH  9                                
+                                                                                
+                                                                                
+                 NUMBER OF ACRES OF IMPROVED LAND IN FARMS OPERATED BY          
+                 COLORED MANAGERS                                               
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 -----------------------------------------------------          
+              ...............................................................   
+              VAR 0123      910VAL LD BLDG FM MGR              MD=-1 OR LE -2   
+              REF 0123         LOC 1068 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY MANAGERS      
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ---------------------------------------------------------      
+              ...............................................................   
+              VAR 0124      910VAL LD BLDG WHT MGR             MD=-1 OR LE -2   
+              REF 0124         LOC 1077 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY WHITE         
+                 MANAGERS                                                       
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 ------------------------------------------------------         
+              ...............................................................   
+              VAR 0125      910VAL LD BLDG CLRD MGR            MD=-1 OR LE -2   
+              REF 0125         LOC 1086 WIDTH  9                                
+                                                                                
+                                                                                
+                 VALUE OF LAND AND BUILDINGS IN FARMS OPERATED BY COLORED       
+                 MANAGERS                                                       
+                 (1910) SOURCE: DUB. 0333 AND 0334, TABLE 2                     
+                 --------------------------------------------------------       
+    TERMINATION OF CODEBOOK LIST.                                               

@@ -1,0 +1,625 @@
+DATA MAP FOR 1840 CENSUS DATA  (COUNTY AND STATE)   [ICPSR 0003, DATASET 0006]  
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS   
+            WILL FIND TAPE LOCATION INFORMATION HERE.                           
+                                                                                
+    #D    = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                     
+                                                                                
+    MD1   = FIRST MISSING DATA CODE.                                            
+                                                                                
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                 
+                                                                                
+    VAR # = VARIABLE NUMBER.                                                    
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+                          1840:  COMPENDIUM OF THE ENUMERATION OF THE           
+                          INHABITANTS AND STATISTICS OF THE                     
+                          UNITED STATES... (WASHINGTON, D.C.:  1841).           
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                                                                                
+                                                                                
+VAR # 0001 DATA TYPE                 WIDTH =0001                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          DATA TYPE                                                             
+              C.  COUNTY DATA                                                   
+              S.  STATE DATA                                                    
+                                                                                
+                                                                                
+VAR # 0002 YEAR                      WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          YEAR TO WHICH DATA ARE RELEVANT                                       
+              840.  1840                                                        
+                                                                                
+                                                                                
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0004 CNGSL DIST NUMBER         WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CONGRESSIONAL DISTRICT NUMBER                                         
+                                                                                
+                                                                                
+VAR # 0083 IDENTIFICATION NUMBER     WIDTH =0004                                
+                        #D  =          MD1 =   9999        MD2 =                
+                                                                                
+          COUNTY OR STATE IDENTIFICATION NUMBER                                 
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                  
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                   
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                  
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                    
+          UNIT OF ANALYSIS IN THE DATA FILE.                                    
+                                                                                
+                                                                                
+VAR # 0005 COUNTY NAME               WIDTH =0017                                
+                        #D  =          MD1 =               MD 2=                
+                                                                                
+                                                                                
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CATALOG ENTRY NUMBER                                                  
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                
+          1790-1945", PREPARED BY HENRY J. DUBESTER                             
+                                                                                
+                                                                                
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          TABLE NUMBER                                                          
+                                                                                
+                                                                                
+VAR # 0008 840WHITE MALES UNDER 5    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES UNDER FIVE YEARS OF AGE                    
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0009 840WHITE MALES 5-9        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 5-9 YEARS OF AGE                           
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0010 840WHITE MALES 10-14      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 10-14 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0011 840WHITE MALES 15-19      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 15-19 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0012 840WHITE MALES 20-29      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 20-29 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0013 840WHITE MALES 30-39      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 30-39 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0014 840WHITE MALES 40-49      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 40-49 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0015 840WHITE MALES 50-59      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 50-59 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0016 840WHITE MALES 60-69      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 60-69 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0017 840WHITE MALES 70-79      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 70-79 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0018 840WHITE MALES 80-89      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 80-89 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0019 840WHITE MALES 90-99      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 90-99 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0020 840WHT MALES 100 & OVER   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE MALES 100 YEARS OF AGE AND OVER                  
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0021 840WHITE FEMALES UNDER 5  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES UNDER FIVE YEARS OF AGE                  
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0022 840WHITE FEMALES 5-9      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 5-9 YEARS OF AGE                         
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0023 840WHITE FEMALES 10-14    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 10-14 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0024 840WHITE FEMALES 15-19    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 15-19 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0025 840WHITE FEMALES 20-29    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 20-29 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0026 840WHITE FEMALES 30-39    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 30-39 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0027 840WHITE FEMALES 40-49    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 40-49 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0028 840WHITE FEMALES 50-59    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 50-59 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0029 840WHITE FEMALES 60-69    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 60-69 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0030 840WHITE FEMALES 70-79    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 70-79 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0031 840WHITE FEMALES 80-89    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 80-89 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0032 840WHITE FEMALES 90-99    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 90-99 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0033 840WHITE F 100 & OVER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE WHITE FEMALES 100 YEARS OF AGE AND OVER                
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0034 840F.C MALES UNDER 10     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES UNDER TEN YEARS OF AGE                   
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0035 840F.C MALES 10-23        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 10-23 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0036 840F.C MALES 24-35        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 24-35 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0037 840F.C MALES 36-54        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 36-54 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0038 840F.C MALES 55-99        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 55-99 YEARS OF AGE                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0039 840F.C MALES 100 & OVER   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED MALES 100 YEARS OF AGE AND OVER                
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0040 840F.C FEMALES UNDER 10   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES UNDER TEN YEARS OF AGE                 
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0041 840F.C FEMALES 10-23      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 10-23 YEARS OF AGE                     
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0042 840F.C FEMALES 24-35      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 24-35 YEARS OF AGE                     
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0043 840F.C FEMALES 36-54      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 36-54 YEARS OF AGE                     
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0044 840F.C FEMALES 55-99      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 55-99 YEARS OF AGE                     
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0045 840F.C F 100 & OVER       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FREE COLORED FEMALES 100 YEARS OF AGE AND OVER              
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0046 840MALE SLAVES UNDER 10   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES UNDER TEN YEARS OF AGE                          
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0047 840MALE SLAVES 10-23      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 10-23 YEARS OF AGE                              
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0048 840MALE SLAVES 24-35      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 24-35 YEARS OF AGE                              
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0049 840MALE SLAVES 36-54      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 36-54 YEARS OF AGE                              
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0050 840MALE SLAVES 55-99      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 55-99 YEARS OF AGE                              
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0051 840M SLAVES 100 & OVER    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MALE SLAVES 100 YEARS OF AGE AND OVER                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0052 840F SLAVES UNDER 10      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES UNDER TEN YEARS OF AGE                        
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0053 840F SLAVES 10-23         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 10-23 YEARS OF AGE                            
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0054 840F SLAVES 24-35         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 24-35 YEARS OF AGE                            
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0055 840F SLAVES 36-54         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 36-54 YEARS OF AGE                            
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0056 840F SLAVES 55-99         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 55-99 YEARS OF AGE                            
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0057 840F SLAVES 100 & OVER    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FEMALE SLAVES 100 YEARS OF AGE AND OVER                     
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0058 840TOTAL POPULATION       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL POPULATION                                                      
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0059 840EMPLD IN MINING        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS EMPLOYED IN MINING                                  
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0060 840EMPLD IN AGRICULTURE   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS EMPLOYED IN AGRICULTURE                             
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0061 840EMPLD IN COMMERCE      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS EMPLOYED IN COMMERCE                                
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0062 840EMPLD MFGS & TRADE     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS EMPLOYED IN MANUFACTURING AND TRADES                
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0063 840EMPLD OCEAN NVGN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS EMPLOYED IN NAVIGATION OF THE OCEAN                 
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0064 840EMPLD I.W NVGN         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS EMPLOYED IN NAVIGATION OF CANALS, LAKES,            
+              AND RIVERS                                                        
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0065 840EMPLD LRND PRFNS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS EMPLOYED IN LEARNED PROFESSIONS AND                 
+              ENGINEERING                                                       
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0066 840UNIVS OR CLGS          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF UNIVERSITIES OR COLLEGES                                    
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0067 840UNIV OR CLG STDS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF STUDENTS IN UNIVERSITIES OR COLLEGES                  
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0068 840ACDMS & GRMR SCHLS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACADEMIES AND GRAMMAR SCHOOLS                               
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0069 840ACDM & GRMR SCHL STDS  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SCHOLARS IN ACADEMIES AND GRAMMAR SCHOOLS                   
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0070 840PRIMARY SCHOOLS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PRIMARY AND COMMON SCHOOLS                                  
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0071 840PRIMARY SCHOOL STDS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SCHOLARS IN PRIMARY AND COMMON SCHOOLS                      
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0072 840STDS AT PUBLIC CHARGE  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SCHOLARS AT PUBLIC CHARGE                                   
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0073 840WHTS OVR 20 CNT R&W    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WHITE PERSONS 20 YEARS OF AGE AND OVER WHO CANNOT           
+              READ AND WRITE                                                    
+          (1840) SOURCE: DUB. 19, (UNNUMBERED TABLE, P. 4-103)                  
+                                                                                
+                                                                                
+VAR # 0074 840PRINTING OFFICES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PRINTING OFFICES                                            
+          (1840) SOURCE: DUB. 26, (UNNUM. TABLE, P. 128-357)                    
+                                                                                
+                                                                                
+VAR # 0075 840BINDERIES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF BINDERIES                                                   
+          (1840) SOURCE: DUB. 26, (UNNUM. TABLE, P. 128-357)                    
+                                                                                
+                                                                                
+VAR # 0076 840DAILY NEWSPAPERS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF DAILY NEWSPAPERS                                            
+          (1840) SOURCE: DUB. 26, (UNNUM. TABLE, P. 128-357)                    
+                                                                                
+                                                                                
+VAR # 0077 840WEEKLY NEWSPAPERS      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF WEEKLY NEWSPAPERS                                           
+          (1840) SOURCE: DUB. 26, (UNNUM. TABLE, P. 128-357)                    
+                                                                                
+                                                                                
+VAR # 0078 8402- & 3-WEEKLY NWPPRS   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SEMI AND TRI-WEEKLY NEWSPAPERS                              
+          (1840) SOURCE: DUB. 26, (UNNUM. TABLE, P. 128-357)                    
+                                                                                
+                                                                                
+VAR # 0079 840PERIODICALS            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERIODICALS                                                 
+          (1840) SOURCE: DUB. 26, (UNNUM. TABLE, P. 128-357)                    
+                                                                                
+                                                                                
+VAR # 0080 840EMPLD IN PRINTING      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MEN EMPLOYED IN NEWSPAPER PRODUCTION                        
+          (1840) SOURCE: DUB. 26, (UNNUM. TABLE, P. 128-357)                    
+                                                                                
+                                                                                
+VAR # 0081 840CPTL INVSD PRINTING    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          CAPITAL INVESTED IN PRINTING AND BINDING                              
+          (1840) SOURCE: DUB. 26, (UNNUM. TABLE, P. 128-357)                    
+                                                                                
+                                                                                
+VAR # 0082 840CPTL INVSD MFGS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL CAPITAL INVESTED IN MANUFACTURING                               
+          (1840) SOURCE: DUB. 26, (UNNUM. TABLE, P. 128-357)                    

@@ -1,0 +1,1288 @@
+DATA MAP FOR 1900 CENSUS (COUNTY AND STATE)    [ICPSR 0003, DATASET 0013]       
+                                                                                
+                                                                                
+THE FOLLOWING IS A LIST OF ABBREVIATIONS THE USER MAY ENCOUNTER IN THIS FILE:   
+                                                                                
+                                                                                
+    COL   = COLUMN LOCATION FOR CARD-IMAGE DATA.  LOGICAL RECORD FORMAT USERS   
+            WILL FIND TAPE LOCATION INFORMATION HERE.                           
+                                                                                
+    #D    = NUMBER OF DECIMAL DIGITS.                                           
+            (THIS IS BLANK IF THERE ARE NO DECIMAL DIGITS.)                     
+                                                                                
+    MD1   = FIRST MISSING DATA CODE.                                            
+                                                                                
+    MD2   = SECOND MISSING DATA CODE.  (THIS IS USUALLY BLANK.)                 
+                                                                                
+    VAR # = VARIABLE NUMBER.                                                    
+                                                                                
+    WIDTH = FIELD WIDTH OF THE VARIABLE.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. I, POPULATION              
+                          OF STATES AND TERRITORIES.                            
+                          (WASHINGTON, D.C.:  1906).                            
+          DUBESTER 0254:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. II, POPULATION             
+                          OF STATES AND TERRITORIES.                            
+                          (WASHINGTON, D.C.:  1904).                            
+          DUBESTER 0263:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. VIII,                      
+                          MANUFACTURES OF STATES AND TERRITORIES.               
+                          (WASHINGTON, D.C.:  1906).                            
+          DUBESTER 0259:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  VOL. V, AGRICULTURE OF          
+                          THE UNITED STATES.  (WASHINGTON, D.C.:                
+                          1908).                                                
+          DUBESTER 0276:  TWELFTH DECENNIAL CENSUS OF THE                       
+                          UNITED STATES, 1900:  ABSTRACT.                       
+                          (WASHINGTON, D.C.:  1904).                            
+          DUBESTER 0015:  FOURTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0019:  FIFTH DECENNIAL CENSUS OF THE UNITED STATES:          
+          DUBESTER 0026:  SIXTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0030:  SEVENTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0037:  EIGHTH DECENNIAL CENSUS OF THE                        
+          DUBESTER 0045:  NINTH DECENNIAL CENSUS OF THE                         
+          DUBESTER 0061:  TENTH DECENNIAL CENSUS OF THE UNITED STATES,          
+          DUBESTER 0177:  ELEVENTH DECENNIAL CENSUS OF THE                      
+          DUBESTER 0252:  TWELFTH DECENNIAL CENSUS OF THE                       
+          DUBESTER 0313-  THIRTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0448:  FOURTEENTH DECENNIAL CENSUS OF THE                    
+          DUBESTER 0652:  FIFTEENTH DECENNIAL CENSUS OF THE                     
+          DUBESTER 0955:  SIXTEENTH DECENNIAL CENSUS OF THE                     
+          ICPR     4502-  SEVENTEENTH DECENNIAL CENSUS OF THE                   
+                                                                                
+                                                                                
+VAR # 0001 DATA TYPE                 WIDTH =0001                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          DATA TYPE                                                             
+              C.  COUNTY DATA                                                   
+              S.  STATE DATA                                                    
+                                                                                
+                                                                                
+VAR # 0002 YEAR                      WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          YEAR TO WHICH DATA ARE RELEVANT                                       
+              900.  1900                                                        
+                                                                                
+                                                                                
+VAR # 0003 ICPR STATE CODE           WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0004 CNGSL DIST NUMBER         WIDTH =0002                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CONGRESSIONAL DISTRICT NUMBER                                         
+                                                                                
+                                                                                
+VAR # 0170 IDENTIFICATION NUMBER     WIDTH =0004                                
+                        #D  =          MD1 =   9999        MD2 =                
+                                                                                
+          COUNTY OR STATE IDENTIFICATION NUMBER                                 
+              UNIQUE NUMERIC IDENTIFICATION NUMBER ASSIGNED TO                  
+          EACH COUNTY OR INDEPENDENT CITY WITHIN A STATE. THE                   
+          IDENTIFICATION NUMBER FOR STATE-LEVEL RECORDS IS 0000.                
+          THIS IDENTIFICATION NUMBER, WHEN USED IN CONJUNCTION                  
+          WITH THE ICPR STATE CODE, UNIQUELY IDENTIFIES EACH                    
+          UNIT OF ANALYSIS IN THE DATA FILE.                                    
+                                                                                
+                                                                                
+VAR # 0005 COUNTY NAME               WIDTH =0017                                
+                        #D  =          MD1 =               MD 2=                
+                                                                                
+                                                                                
+                                                                                
+VAR # 0006 CTLG ENTRY NUMBER         WIDTH =0004                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          CATALOG ENTRY NUMBER                                                  
+              "CATALOG OF THE UNITED STATES CENSUS PUBLICATIONS,                
+          1790-1945", PREPARED BY HENRY J. DUBESTER                             
+                                                                                
+                                                                                
+VAR # 0007 TABLE NUMBER              WIDTH =0003                                
+                        #D  =          MD1 =               MD2 =                
+                                                                                
+          TABLE NUMBER                                                          
+                                                                                
+                                                                                
+VAR # 0008 900N.B MALES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE-BORN MALES                                           
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0009 900N.B FEMALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE-BORN FEMALES                                         
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0010 900F.B MALES              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN MALES                                          
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0011 900F.B FEMALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN FEMALES                                        
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0012 900N.B WHT M NTV PNTS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE-BORN WHITE MALES OF NATIVE PARENTAGE                 
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0013 900N.B WHT F NTV PNTS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE-BORN WHITE FEMALES OF NATIVE PARENTAGE               
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0014 900N.B WHT M FRN PNTS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE-BORN WHITE MALES OF FOREIGN PARENTAGE                
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0015 900N.B WHT F FRN PNTS     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE-BORN WHITE FEMALES OF FOREIGN PARENTAGE              
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0016 900F.B WHT MALES          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES                                    
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0017 900F.B WHT FEMALES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES                                  
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0018 900TTL CLRD MALES         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF COLORED MALES                                         
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0019 900TTL CLRD FEMALES       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF COLORED FEMALES                                       
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0020 900NEGRO MALES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES                                                 
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0021 900NEGRO FEMALES          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO FEMALES                                               
+          (1900) SOURCE: DUB. 252, TABLE 22                                     
+                                                                                
+                                                                                
+VAR # 0022 900TTL M 21 YRS & OVER    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF MALES 21 YEARS OF AGE AND OVER                        
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0023 900LTRT N.B WHT M 21      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF LITERATE NATIVE WHITE MALES 21 YEARS OF AGE AND             
+              OVER                                                              
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0024 900ILLTRT N.B WHT M 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NATIVE WHITE MALES 21 YEARS OF AGE AND           
+              OVER                                                              
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0025 900LTRT N.B NG M 21       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF LITERATE NATIVE NEGRO MALES 21 YEARS OF AGE AND             
+              OVER                                                              
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0026 900ILLTRT N.B NG M 21     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NATIVE NEGRO MALES 21 YEARS OF AGE AND           
+              OVER                                                              
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0027 900LTRT OTR N.C M 21      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF OTHER LITERATE NATIVE COLORED MALES 21 YEARS OF             
+              AGE AND OVER                                                      
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0028 900ILLTRT OTR N.C M 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF OTHER ILLITERATE NATIVE COLORED MALES 21 YEARS OF           
+              AGE AND OVER                                                      
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0029 900LTRT NTRLZD M 21       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF LITERATE NATURALIZED FOREIGN-BORN MALES 21 YEARS            
+              OF AGE AND OVER                                                   
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0030 900ILLTRT NTRLZD M 21     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE NATURALIZED FOREIGN-BORN MALES 21                
+              YEARS OF AGE AND OVER                                             
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0031 900LTRT 1ST PPR M 21      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF LITERATE FOREIGN-BORN MALES 21 YEARS OF AGE AND             
+              OVER, HAVING FILED FIRST PAPERS                                   
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0032 900ILLTRT 1ST PPR M 21    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FOREIGN-BORN MALES 21 YEARS OF AGE AND           
+              OVER, HAVING FILED FIRST PAPERS                                   
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0033 900LTRT ALIEN M 21        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF LITERATE FOREIGN-BORN ALIEN MALES 21 YEARS OF AGE           
+              AND OVER                                                          
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0034 900ILLTRT ALIEN M 21      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FOREIGN-BORN ALIEN MALES 21 YEARS OF             
+              AGE AND OVER                                                      
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0035 900LTRT F.B M 21 UKWN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF LITERATE FOREIGN-BORN MALES 21 YEARS OF AGE AND             
+              OVER, CITIZENSHIP STATUS UNKNOWN                                  
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0036 900ILLTRT F.B M 21 UKWN   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ILLITERATE FOREIGN-BORN MALES 21 YEARS OF AGE AND           
+              OVER, CITIZENSHIP STATUS UNKNOWN                                  
+          (1900) SOURCE: DUB. 252, TABLE 92                                     
+                                                                                
+                                                                                
+VAR # 0037 900NTV WHT M 5-20         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES 5-20 YEARS OF AGE                        
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0038 900NTV WHT F 5-20         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE FEMALES 5-20 YEARS OF AGE                      
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0039 900F.B WHT M 5-20         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES 5-20 YEARS OF AGE                  
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0040 900F.B WHT F 5-20         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE FEMALES 5-20 YEARS OF AGE                
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0041 900NEGRO M 5-20           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES 5-20 YEARS OF AGE                               
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0042 900NEGRO F 5-20           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO FEMALES 5-20 YEARS OF AGE                             
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0043 900OTR CLRD M 5-20        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF OTHER COLORED MALES 5-20 YEARS OF AGE                       
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0044 900OTR CLRD F 5-20        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF OTHER COLORED FEMALES 5-20 YEARS OF AGE                     
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0045 900NTV WHT M 18-44        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE MALES 18-44 YEARS OF AGE                       
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0046 900F.B WHT M 18-44        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE MALES 18-44 YEARS OF AGE                 
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0047 900NEGRO M 18-44          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO MALES 18-44 YEARS OF AGE                              
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0048 900OTR CLRD M 18-44       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF OTHER COLORED MALES 18-44 YEARS OF AGE                      
+          (1900) SOURCE: DUB. 254, TABLE 26                                     
+                                                                                
+                                                                                
+VAR # 0049 900ILLTRT WHT NTV PNTS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE ILLITERATES 10 YEARS OF AGE AND OVER,          
+              OF NATIVE PARENTAGE                                               
+          (1900) SOURCE: DUB. 254, TABLE 84                                     
+                                                                                
+                                                                                
+VAR # 0050 900ILLTRT WHT F.B PNTS    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NATIVE WHITE ILLITERATES 10 YEARS OF AGE AND OVER,          
+              OF FOREIGN PARENTAGE                                              
+          (1900) SOURCE: DUB. 254, TABLE 84                                     
+                                                                                
+                                                                                
+VAR # 0051 900ILLTRT F.B WHT         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FOREIGN-BORN WHITE ILLITERATES 10 YEARS OF AGE AND          
+              OVER                                                              
+          (1900) SOURCE: DUB. 254, TABLE 84                                     
+                                                                                
+                                                                                
+VAR # 0052 900ILLTRT TTL CLRD        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF COLORED ILLITERATES 10 YEARS OF AGE AND OVER          
+          (1900) SOURCE: DUB. 254, TABLE 84                                     
+                                                                                
+                                                                                
+VAR # 0053 900ILLTRT NEGRO           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF NEGRO ILLITERATES 10 YEARS OF AGE AND OVER                  
+          (1900) SOURCE: DUB. 254, TABLE 84                                     
+                                                                                
+                                                                                
+VAR # 0054 900TTL POPULATION         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL POPULATION                                                      
+          (1900) SOURCE: DUB. 254, TABLE 103                                    
+                                                                                
+                                                                                
+VAR # 0055 900DWELLINGS              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF DWELLINGS                                                   
+          (1900) SOURCE: DUB. 254, TABLE 103                                    
+                                                                                
+                                                                                
+VAR # 0056 900TTL NMBR FAMILIES      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FAMILIES                                              
+          (1900) SOURCE: DUB. 254, TABLE 103                                    
+                                                                                
+                                                                                
+VAR # 0057 900NMBR PRIVATE FAMILIES  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PRIVATE FAMILIES                                            
+          (1900) SOURCE: DUB. 254, TABLE 103                                    
+                                                                                
+                                                                                
+VAR # 0058 900PSNS IN PRIVATE FAM    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS IN PRIVATE FAMILIES                                 
+          (1900) SOURCE: DUB. 254, TABLE 103                                    
+                                                                                
+                                                                                
+VAR # 0059 900ASIA                   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN ASIA                                 
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0060 900ATLANTIC ISLANDS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN THE ATLANTIC ISLANDS                 
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0061 900AUSTRALIA              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN AUSTRALIA                            
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0062 900AUSTRIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN AUSTRIA                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0063 900BELGIUM                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN BELGIUM                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0064 900BOHEMIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN BOHEMIA                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0065 900CANADA (ENGLISH)       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN CANADA (ENGLISH)                     
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0066 900CANADA (FRENCH)        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN CANADA (FRENCH)                      
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0067 900CENTRAL AMERICA        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN CENTRAL AMERICA                      
+          (COUNTRY UNSPECIFIED)                                                 
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0068 900CHINA                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN CHINA                                
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0069 900CUBA                   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN CUBA                                 
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0070 900DENMARK                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN DENMARK                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0071 900ENGLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN ENGLAND                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0072 900EUROPE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN EUROPE                               
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0073 900FINLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN FINLAND                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0074 900FRANCE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN FRANCE                               
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0075 900GERMANY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN GERMANY                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0076 900GREECE                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN GREECE                               
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0077 900HOLLAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN HOLLAND                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0078 900HUNGARY                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN HUNGARY                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0079 900IRELAND                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN IRELAND                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0080 900ITALY                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN ITALY                                
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0081 900JAPAN                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN JAPAN                                
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0082 900LUXEMBURG              WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN LUXEMBURG                            
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0083 900MEXICO                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN MEXICO                               
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0084 900NORWAY                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN NORWAY                               
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0085 900NORWAY & DENMARK       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN NORWAY AND DENMARK                   
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0086 900PACIFIC ISLANDS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN THE PACIFIC ISLANDS                  
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0087 900POLAND                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN POLAND                               
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0088 900POLAND (AUSTRIAN)      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN POLAND (AUSTRIAN)                    
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0089 900POLAND (GERMAN)        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN POLAND (GERMAN)                      
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0090 900POLAND (OTHER)         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN POLAND (OTHER)                       
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0091 900POLAND (RUSSIAN)       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN POLAND (RUSSIAN)                     
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0092 900POLAND (UNKNOWN)       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN POLAND (UNKNOWN)                     
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0093 900PORTUGAL               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN PORTUGAL                             
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0094 900RUMANIA                WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN RUMANIA                              
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0095 900RUSSIA                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN RUSSIA                               
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0096 900SCOTLAND               WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN SCOTLAND                             
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0097 900SOUTH AMERICA          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN SOUTH AMERICA                        
+          (COUNTRY UNSPECIFIED)                                                 
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0098 900SPAIN                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN SPAIN                                
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0099 900SWEDEN                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN SWEDEN                               
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0100 900SWITZERLAND            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN SWITZERLAND                          
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0101 900TURKEY                 WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN TURKEY                               
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0102 900WALES                  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN WALES                                
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0103 900WEST INDIES            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN THE WEST INDIES                      
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0104 900BORN AT SEA            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN AT SEA                                  
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0105 900OTHER COUNTRIES        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN OTHER COUNTRIES                      
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0106 900ASIA XCT CHINA         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PERSONS (1900) BORN IN ASIA EXCEPT CHINA                    
+          SOURCE: DUB. 252, TABLE 34                                            
+                                                                                
+                                                                                
+VAR # 0107 900NMBR STBLSHTS MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF MANUFACTURING ESTABLISHMENTS                                
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0108 900TTL CPTL MFGN          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL CAPITAL INVESTED IN MANUFACTURING                               
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0109 900CPTL LND MFGN          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          CAPITAL INVESTED IN LAND USED IN MANUFACTURING                        
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0110 900CPTL BLDGS MFGN        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          CAPITAL INVESTED IN BUILDINGS USED IN MANUFACTURING                   
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0111 900CPTL MCHNRY MFGN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          CAPITAL INVESTED IN MACHINERY, TOOLS, AND IMPLEMENTS USED IN          
+              MANUFACTURING                                                     
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0112 900CPTL CASH MFGN         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          CAPITAL INVESTED IN THE FORM OF CASH AND SUNDRIES IN                  
+              MANUFACTURING                                                     
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0113 900PROPRIETORS MFGN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF PROPRIETORS AND FIRM MEMBERS OF MANUFACTURING               
+              ESTABLISHMENTS                                                    
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0114 900NMBR SLRYD OFCLS MFGN  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF SALARIED OFFICIALS, CLERKS, ETC. IN MANUFACTURING           
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0115 900SLRY OF OFCLS MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          SALARIES OF SALARIED OFFICIALS, CLERKS, ETC. IN MANUFACTUR-           
+              ING                                                               
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0116 900TTL WG ERNR MFGN       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF WAGE EARNERS IN MANUFACTURING                       
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0117 900TTL WG MFGN            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL WAGES OF WAGE EARNERS IN MANUFACTURING                          
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0118 900M WG ERNR MFGN         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF MEN WAGE EARNERS 16 YEARS OF AGE AND OVER           
+              EMPLOYED IN MANUFACTURING                                         
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0119 900WGS M WG ERNR MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL WAGES OF MEN WAGE EARNERS 16 YEARS OF AGE AND OVER              
+              EMPLOYED IN MANUFACTURING                                         
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0120 900F WG ERNR MFGN         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF WOMEN WAGE EARNERS 16 YEARS OF AGE AND              
+              OVER EMPLOYED IN MANUFACTURING                                    
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0121 900WGS F WG ERNR MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL WAGES OF WOMEN WAGE EARNERS 16 YEARS YEARS OF AGE AND           
+              OVER EMPLOYED IN MANUFACTURING                                    
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0122 900CHLDN WG ERNR MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE NUMBER OF CHILD WAGE EARNERS UNDER 16 YEARS OF AGE            
+              EMPLOYED IN MANUFACTURING                                         
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0123 900WG CHLDN WG ERNR MFGN  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL WAGES OF CHILD WAGE EARNERS UNDER 16 YEARS OF AGE               
+              EMPLOYED IN  MANUFACTURING                                        
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0124 900TTL MISC XPNS MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL MISCELLANEOUS EXPENSES IN MANUFACTURING                         
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0125 900RENT OF WORKS MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          RENT OF WORKS IN MANUFACTURING                                        
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0126 900TAXES MFGN             WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TAXES, EXCLUDING INTERNAL REVENUE, IN MANUFACTURING                   
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0127 900RENT OFCS MFGN         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          RENT OF OFFICES, INTEREST, ETC. IN MANUFACTURING                      
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0128 900CONTRACT WORK MFGN     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          COST OF CONTRACT WORK IN MANUFACTURING                                
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0129 900TTL CST MTRL MFGN      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL COST OF MATERIALS USED IN MANUFACTURING                         
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0130 900CST PRNCPL MTRL MFGN   WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          COST OF PRINCIPAL MATERIALS USED IN MANUFACTURING                     
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0131 900CST FUEL PWR MFGN      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          COST OF FUEL AND RENT OF POWER AND HEAT IN MANUFACTURING              
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0132 900VAL PRDTS MFGN         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF PRODUCTS OF ALL MANUFACTURING ESTABLISHMENTS                 
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1900) SOURCE: DUB. 263, TABLE 6                                      
+                                                                                
+                                                                                
+VAR # 0133 900NMBR OF FARMS          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS                                                       
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0134 900AV SIZE OF FM IN ACR   WIDTH =0009                                
+                        #D  =  1       MD1 =-000001        MD2 =-000002         
+                                                                                
+          AVERAGE SIZE OF FARMS IN ACRES (TO ONE DECIMAL PLACE)                 
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0135 900NMBR FM 1-2 ACR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 1-2 ACRES                                          
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0136 900NMBR FM 3-9 ACR        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 3-9 ACRES                                          
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0137 900NMBR FM 10-19 ACR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS 10-19 ACRES                                           
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0138 900NMBR FM 20-49 ACR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 20-49 ACRES                                        
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0139 900NMBR FM 50-99 ACR      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 50-99 ACRES                                        
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0140 900NMBR FM 100-174 ACR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS "100-174 ACRES                                        
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0141 900NMBR FM 175-259 ACR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 175-259 ACRES                                      
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0142 900NMBR FM 260-499 ACR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 260-499 ACRES                                      
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0143 900NMBR FM 500-999 ACR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 500-999 ACRES                                      
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0144 900NMBR FM OVR 999 ACR    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF 1,000 OR MORE ACRES                                
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0145 900NMBR FM OF WHT FMR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF WHITE FARMERS                                      
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0146 900FM WHT FM ONRS         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF WHITE FARM OWNERS                                  
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0147 900FM WHT PRT ONRS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF WHITE PART OWNERS OF FARMS                         
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0148 900FM WHT ONR & TNT       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF WHITE OWNERS AND TENANTS OF FARMS                  
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0149 900FM WHT FM MANAGER      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF WHITE FARM MANAGERS                                
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0150 900FM WHT CASH TNT        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF WHITE CASH TENANTS                                 
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0151 900FM WHT SHR TNT         WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF WHITE SHARE TENANTS                                
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0152 900FM CLRD FMR            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS OF COLORED FARMERS                              
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0153 900FM CLRD FM ONRS        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF COLORED FARM OWNERS                                
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0154 900FM CLRD PRT ONRS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF COLORED PART OWNERS OF FARMERS                     
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0155 900FM CLRD ONR & TNT      WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF COLORED OWNERS AND TENANTS OF FARMS                
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0156 900FM CLRD FM MANAGER     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF COLORED FARM MANAGERS                              
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0157 900FM CLRD CASH TNT       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF COLORED CASH TENANTS                               
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0158 900FM CLRD SHR TNT        WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS OF COLORED SHARE TENANTS                              
+          (1900) SOURCE: DUB. 259, TABLE 10                                     
+                                                                                
+                                                                                
+VAR # 0159 900TTL NMBR FMS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF FARMS                                                 
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0160 900NMBR FMS W BLDGS       WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF FARMS WITH BUILDINGS                                        
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0161 900TTL NMBR ACR FM LND    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          TOTAL NUMBER OF ACRES OF LAND IN FARMS                                
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0162 900NMBR ACR I.L IN FM     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          NUMBER OF ACRES OF IMPROVED LAND IN FARMS                             
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0163 900VAL FM LND & IMPRVT    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FARM LAND AND IMPROVEMENTS (EXCEPT BUILDINGS)                
+          (COUNTY TOTALS IN DOLLARS, STATE TOTALS IN THOUSANDS OF               
+          DOLLARS)                                                              
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0164 900VAL FM BLDGS           WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FARM BUILDINGS                                               
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0165 900VAL FM IMPLMNT MCHNRY  WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FARM IMPLEMENTS AND MACHINERY                                
+          NUMBER                                                                
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0166 900VAL LIVESTOCK          WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF LIVESTOCK                                                    
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0167 900VAL FM PRDT            WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          VALUE OF FARM PRODUCTS NOT FED TO LIVESTOCK                           
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0168 900EXPNDTR FOR FM LBR     WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          EXPENDITURES FOR FARM LABOR                                           
+          (1900) SOURCE: DUB. 259, TABLE 19                                     
+                                                                                
+                                                                                
+VAR # 0169 900LAND SUR AREA SQ MI    WIDTH =0009                                
+                        #D  =          MD1 =-000001        MD2 =-000002         
+                                                                                
+          LAND SURFACE AREA IN SQUARE MILES, 1900                               
+          (1900) SOURCE: DUB. 276, TABLE 92                                     
